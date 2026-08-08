@@ -1,0 +1,19 @@
+{
+  "1:82822": {"scene_type": "hook", "layout": "headline + media-slots", "notes": "캘리그래피 헤드라인 3연작(아삭한 식감/시원하고 깔끔한 마무리/칼국수 맛집에서 먹던 열무김치) + 'GIF: 김치 클로즈업' 플레이스홀더 3개. ⭐실무 파일에는 움짤(GIF) 슬롯이 존재 — asset 리스트에 영상/GIF 항목 대비 필요. 한지 질감 배경(컨셉 '한국적인' 구현)"},
+  "1:82923": {"scene_type": "trust-cert", "layout": "laurel-badges", "bg_override": "D", "notes": "다크 스포트라이트 + 월계수 수상 배지 3단(캐치테이블 1위/지도앱 후기 1,000개/방송 출연). 성과를 신뢰 배지로 전면 배치"},
+  "1:83106": {"scene_type": "trust-cert", "layout": "laurel-badges + photo-proof", "bg_override": "D", "notes": "'일 평균 600명 웨이팅, 24년 맛집 선정' + CCTV 실황 2컷(실재 증명) + 금박 축하 그래픽 '밀밭명가 또 한번 일냈다'"},
+  "1:83266": {"scene_type": "product-reveal", "layout": "product-beauty", "bg_override": "D", "notes": "옹기 항아리 + 완성 접시 연출컷(텍스트 없음) — 전통 무드로 제품 첫 등장"},
+  "1:83268": {"scene_type": "solution-frame", "layout": "bridge-strip", "notes": "'지금부터 어디서, 어떻게 만들어지는지부터 자세히 보여드릴게요' — 이후 Point 연작 예고. 하이라이트 박스 강조"},
+  "1:83277": {"scene_type": "problem", "layout": "headline + circle-photos + callout-box", "bg_override": "L+D", "notes": "'시판 열무 김치는 정통 레시피 7원칙을 못 지킵니다' + 흑백 원형 사진 3개(공장 라인) + 다크 콜아웃('양념이 두터울수록 풋내가 올라오고…') — 경쟁사 문제 제기"},
+  "1:83314": {"scene_type": "usp", "layout": "numbered-point", "notes": "Point 01 '외주 공장 NO! 매일 손수 담급니다' — 한국풍 넘버 헤더(가는 획 + 붉은 강조 배지)"},
+  "1:83333": {"scene_type": "transition", "layout": "bridge-strip", "notes": "'잘 손질한 열무가 준비됐다면, 다음은 양념입니다' — Point 사이 연결"},
+  "1:83343": {"scene_type": "usp", "layout": "numbered-point + photo-card-stack", "bg_override": "L+D", "notes": "Point 02 전라도 방식 + '24년 매장 양념의 첫 두 원칙' — 다크 사진 카드 2연작(경매 재료/물고추 비법, 각 카드에 캡션 박스) + '+' 손 버무림 사진. 5,430px 최장 블록"},
+  "1:83447": {"scene_type": "transition", "layout": "bridge-strip", "notes": "'그리고 이 과정을 매일 반복합니다' — 반복 강조 브릿지"},
+  "1:83457": {"scene_type": "usp", "layout": "numbered-point + callout-box", "notes": "Point 03 '절대 미리 만들어두지 않습니다' — 대량생산 비판 + 당일 제조 선언. 붉은 배지 강조"},
+  "1:83489": {"scene_type": "usage-guide", "layout": "timeline-plan + photo-card-stack", "notes": "맛있게 먹는 방법 — 숙성 타임라인 3단(~5일 생김치/5~12일/12~20일, 각 단계 박스 사진+용도) + '같이 먹으면 더 맛있어요' 페어링 3연작(비빔국수/고기/한 끼). 식품 특화 usage 패턴"},
+  "1:83753": {"scene_type": "tip", "layout": "caption-strip", "notes": "Tip 한 줄 카드 — '입 맛에 따라 며칠 더 두셨다가…' 보충 팁"},
+  "1:83590": {"scene_type": "target-audience", "layout": "icon-checklist", "notes": "'이런 분께 추천드려요!' 체크 리스트 5행(체크박스형) — 시판 김치 불신/MSG 회피/번거로움/어머니 손맛/여름 열무김치"},
+  "1:83641": {"scene_type": "faq", "layout": "faq-list", "notes": "Q&A 3쌍 — 바로 먹어도 되나/보관/양. 숙성 단계 정보를 FAQ에서 재활용"},
+  "1:83678": {"scene_type": "notice", "layout": "spec-table", "notes": "정보고시 표 — 제품명/원재료(비율 명기)/보관방법/고객센터. 12px"},
+  "1:83688": {"scene_type": "brand-story", "layout": "story-text + photo-proof", "bg_override": "L+D", "notes": "'왜 이렇게까지 하는 걸까요' → 다크 제품 씬 → 24년 전 칼국수 가게 흑백 사진 → 신념 서사 → 캘리그래피 클로징. 5,633px. 정보고시 뒤 맨 끝 배치가 특이(감성 여운으로 종료)"}
+}

@@ -1,5 +1,389 @@
 [
  {
+  "block_id": "1:84518",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 1,
+  "parent_frame": "1:84533",
+  "name": "image 7",
+  "y": 270,
+  "height": 2738,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "hook",
+  "layout": "fullbleed-product + numbered-list",
+  "notes": "⚠️래스터 페이지(전 블록 image, 텍스트 노드 없음). 보라 풀블리드 + 제품 보틀 + 과일 연출 → JUST 2DAYS 배지 → POINT 01~04 요약 표(목차 역할). 훅과 제품 소개, 목차가 한 블록에 결합",
+  "bg_override": "M"
+ },
+ {
+  "block_id": "1:84519",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 2,
+  "parent_frame": "1:84533",
+  "name": "image 6",
+  "y": 3008,
+  "height": 2867,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "problem",
+  "layout": "hero-question + compare-2up + callout-box",
+  "notes": "Check yourself '당신은 어떤 식습관을 갖고 계신가요?' + 치킨(X) vs 샐러드(V) 원형 대비 → '클렌즈란?' 정의 + NYT 인용 카드. 문제 제기와 개념 교육 결합",
+  "bg_override": "D+L"
+ },
+ {
+  "block_id": "1:84520",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 3,
+  "parent_frame": "1:84533",
+  "name": "image 5",
+  "y": 5875,
+  "height": 1739,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "target-audience",
+  "layout": "photo-caption + icon-checklist",
+  "notes": "모델 사진 + 손글씨 카피('하나라도 해당된다면…') + CHECK LIST 5행. ⭐타 제품과 달리 페이지 앞부분(3번째)에 배치 — 셀프 진단으로 몰입 유도"
+ },
+ {
+  "block_id": "1:84521",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 4,
+  "parent_frame": "1:84533",
+  "name": "image 4",
+  "y": 7614,
+  "height": 2733,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + step-list + stat-pills",
+  "notes": "POINT 01 단 2일 48시간 — 유리잔에 따르는 연출 + 스탯 필(하루 4번/2일/1L) + '이렇게 섭취하세요' STEP 1·2 카드",
+  "bg_override": "M"
+ },
+ {
+  "block_id": "1:84522",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 5,
+  "parent_frame": "1:84533",
+  "name": "image 3",
+  "y": 10347,
+  "height": 4398,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "usage-guide",
+  "layout": "schedule-table + numbered-list",
+  "notes": "추천 프로그램 — EASY/BASIC 모드 시간표 2개(오전8시~오후8시 아이콘 행) + 클렌즈 루틴 가이드 01~03 카드 + TIP 4개 행. 스케줄 표 패턴의 모범"
+ },
+ {
+  "block_id": "1:84523",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 6,
+  "parent_frame": "1:84533",
+  "name": "image 2",
+  "y": 14745,
+  "height": 3488,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + ingredient-list",
+  "notes": "POINT 02 ABC클렌즈 — 원물 세로 스택 사진 + A/B/C 및 부재료 필 라벨 8개(리더선 연결) + 제품 물샷 + Recipe 배지"
+ },
+ {
+  "block_id": "1:84524",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 7,
+  "parent_frame": "1:84533",
+  "name": "image 1",
+  "y": 18233,
+  "height": 5226,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "tip",
+  "layout": "photo-card-stack + icon-checklist",
+  "notes": "DO YOU KNOW ABC? — 마젠타 풀블리드 위 사과/비트/당근 영수증형(지그재그 엣지) 카드 3연작: 사진+체크 4개+설명+출처. 교육 콘텐츠를 카드 연작으로",
+  "bg_override": "D"
+ },
+ {
+  "block_id": "1:84525",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 8,
+  "parent_frame": "1:84533",
+  "name": "image 10",
+  "y": 23459,
+  "height": 4623,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + evidence-chart + radial-diagram",
+  "notes": "POINT 03 푸룬 — 식이섬유 막대 차트(푸룬 7.1g 강조, 출처 USDA 각주) + SORBITOL/LACTULOSE 2원 벤 + 원물 사진"
+ },
+ {
+  "block_id": "1:84526",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 9,
+  "parent_frame": "1:84533",
+  "name": "image 11",
+  "y": 28082,
+  "height": 2943,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "usp",
+  "layout": "radial-diagram + badge-cloud",
+  "notes": "POINT 04 11종 영양소 — 과일 채운 유리잔 + 궤도형 영양소 라벨 11개(리더선) → ZERO 선언부(다크): 대형 ZERO 타이포 + X 배지 6개(콜레스테롤~착색료)",
+  "bg_override": "M+D"
+ },
+ {
+  "block_id": "1:84527",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 10,
+  "parent_frame": "1:84533",
+  "name": "image 12",
+  "y": 31025,
+  "height": 1491,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "comparison",
+  "layout": "vs-table",
+  "notes": "'톡스 PRO와 헷갈리신다구요?' — 자사 두 제품 구분 비교 2열 카드(사진+행별 필 배지). 경쟁사가 아닌 자사 라인업 혼동 방지용 비교라는 특이 사례"
+ },
+ {
+  "block_id": "1:84528",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 11,
+  "parent_frame": "1:84533",
+  "name": "image 13",
+  "y": 32516,
+  "height": 1309,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "trust-cert",
+  "layout": "photo-proof",
+  "notes": "OFFLINE STORE — 전국 트레이더스 입점 + 매장 외관 사진. 오프라인 실재로 신뢰 구축(올리빗과 동일 전략)",
+  "bg_override": "D+L"
+ },
+ {
+  "block_id": "1:84529",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 12,
+  "parent_frame": "1:84533",
+  "name": "image 14",
+  "y": 33825,
+  "height": 1424,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "faq",
+  "layout": "faq-list",
+  "notes": "Q&A 4쌍(임산부/카페인 음료/보관/2일 이상) + 연속 진행 방식 각주 — 사용 맥락 FAQ"
+ },
+ {
+  "block_id": "1:84530",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 13,
+  "parent_frame": "1:84533",
+  "name": "image 15",
+  "y": 35249,
+  "height": 755,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "notice",
+  "layout": "spec-table",
+  "notes": "영양정보 표 — 125ml당 칼로리/나트륨/탄수화물 등 % 기준치 명기"
+ },
+ {
+  "block_id": "1:84531",
+  "product": "cleanse",
+  "label": "클렌즈",
+  "quality": "good",
+  "seq": 14,
+  "parent_frame": "1:84533",
+  "name": "image 16",
+  "y": 36004,
+  "height": 1712,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "notice",
+  "layout": "spec-table",
+  "notes": "제품 정보 고시 — 원재료 전체 함량 명기 포함 대형 표. 페이지 종료"
+ },
+ {
   "block_id": "1:84755",
   "product": "fileconv",
   "label": "파일변환",
@@ -2668,5 +3052,6142 @@
   "scene_type": "faq",
   "layout": "faq-list",
   "notes": "Q1~Q6 질문-답변 리스트. Q 볼드 + A 본문, 행 구분선. 마지막 블록"
+ },
+ {
+  "block_id": "1:541",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 1,
+  "parent_frame": "1:540",
+  "name": "오프닝",
+  "y": 203,
+  "height": 1626,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:546",
+    "chars": "야근",
+    "size": 48.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:548",
+    "chars": "교대",
+    "size": 48.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:550",
+    "chars": "스트레스",
+    "size": 48.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:551",
+    "chars": "침대에 누우니,\n새벽 1시",
+    "size": 90.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:557",
+    "chars": "각성상태가 지속되어\n일찍 누워도 못 자면, 마찬가지",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 90.0,
+  "char_total": 50,
+  "images": {
+   "count": 1,
+   "coverage": 0.63
+  },
+  "scene_type": "hook",
+  "layout": "hero-question + pill-badges",
+  "notes": "다크 야경 + 배지 3개(야근/교대/스트레스) + '침대에 누우니, 새벽 1시' + 시계 사진. 문제 상황 묘사로 시작",
+  "bg_override": "D"
+ },
+ {
+  "block_id": "1:558",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 2,
+  "parent_frame": "1:540",
+  "name": "오프닝",
+  "y": 1829,
+  "height": 808,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:562",
+    "chars": "밤새 뒤적여서",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:564",
+    "chars": "아침에",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:567",
+    "chars": "피곤",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:568",
+    "chars": "하다면",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:572",
+    "chars": "수면시간을",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:576",
+    "chars": "늘릴 수 ",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:577",
+    "chars": "없다면",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 60.0,
+  "char_total": 28,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "problem",
+  "layout": "speech-bubbles",
+  "notes": "각성상태 설명 + 말풍선 카드 2개('밤새 뒤적여서…', '수면시간을 늘릴 수 없다면') — 공감 문답",
+  "bg_override": "D"
+ },
+ {
+  "block_id": "1:578",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 3,
+  "parent_frame": "1:540",
+  "name": "Frame 1707481837",
+  "y": 2637,
+  "height": 1464,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:580",
+    "chars": "꿀잠모드로",
+    "size": 124.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:582",
+    "chars": "잠을 더 - 깊게",
+    "size": 99.0,
+    "family": "Hakgyoansim Allimjang TTF",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:583",
+    "chars": "밤을 더 - 길게",
+    "size": 99.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 124.0,
+  "char_total": 23,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "product-reveal",
+  "layout": "fullbleed-product",
+  "notes": "'꿀잠모드로 잠을 더-깊게 밤을 더-길게' 124px 대형 타이포 + 패키지/스틱 첫 등장. 다크 유지",
+  "bg_override": "D"
+ },
+ {
+  "block_id": "1:584",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 4,
+  "parent_frame": "1:540",
+  "name": "리프레임,예고",
+  "y": 4101,
+  "height": 873,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "product-reveal",
+  "layout": "product-beauty",
+  "notes": "패키지 연출컷 반복(텍스트 없음) — 리프레임/예고",
+  "bg_override": "D"
+ },
+ {
+  "block_id": "1:585",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 5,
+  "parent_frame": "1:540",
+  "name": "Frame 1707481718",
+  "y": 4974,
+  "height": 302,
+  "bg": {
+   "hex": "#040A19",
+   "lum": 0.003,
+   "class": "D",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:586",
+    "chars": "* 본 이미지는 제품 이해를 돕기 위한\n연출 컷으로 실제 와 다를 수 있습니다.",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   }
+  ],
+  "max_font": 32.0,
+  "char_total": 44,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "notice",
+  "layout": "caption-strip",
+  "notes": "32px 회색 각주 '본 이미지는 제품 이해를 돕기 위한 연출 컷' — 법적 고지 스트립"
+ },
+ {
+  "block_id": "1:588",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 6,
+  "parent_frame": "1:587",
+  "name": "Frame 1707481719",
+  "y": 5276,
+  "height": 430,
+  "bg": {
+   "hex": "#040A19",
+   "lum": 0.003,
+   "class": "D",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:591",
+    "chars": "조기취침",
+    "size": 48.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:593",
+    "chars": "운동",
+    "size": 48.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:595",
+    "chars": "카페인",
+    "size": 48.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:597",
+    "chars": "휴대폰 휴식",
+    "size": 48.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 48.0,
+  "char_total": 15,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "problem",
+  "layout": "pill-cloud",
+  "notes": "다크 돔 위 알려진 해법 배지 5개(조기취침/운동/카페인/휴대폰휴식) — 다음 블록 '다 알지만 지키기 어렵죠'의 셋업"
+ },
+ {
+  "block_id": "1:598",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 7,
+  "parent_frame": "1:587",
+  "name": "브릿지 1",
+  "y": 5706,
+  "height": 406,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:599",
+    "chars": "다 알지만\n지키기 어렵죠",
+    "size": 110.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   }
+  ],
+  "max_font": 110.0,
+  "char_total": 13,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "transition",
+  "layout": "bridge-strip",
+  "notes": "'다 알지만 지키기 어렵죠' 110px + 생각 이모지 — 문제→해결 전환"
+ },
+ {
+  "block_id": "1:600",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 8,
+  "parent_frame": "1:587",
+  "name": "브릿지 2",
+  "y": 6112,
+  "height": 769,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:610",
+    "chars": "이제부터 수면 고민은",
+    "size": 70.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:611",
+    "chars": "침대에서 끝내세요",
+    "size": 90.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   }
+  ],
+  "max_font": 90.0,
+  "char_total": 20,
+  "images": {
+   "count": 1,
+   "coverage": 0.06
+  },
+  "scene_type": "solution-frame",
+  "layout": "bridge-strip",
+  "notes": "'이제부터 수면 고민은 침대에서 끝내세요' — 해결 선언"
+ },
+ {
+  "block_id": "1:613",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 9,
+  "parent_frame": "1:612",
+  "name": "포인트1",
+  "y": 6881,
+  "height": 1893,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:626",
+    "chars": "POINT",
+    "size": 40.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:628",
+    "chars": "1",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:630",
+    "chars": "수면에 도움주는",
+    "size": 80.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#040A19"
+   },
+   {
+    "id": "1:631",
+    "chars": "라임과피\n300mg 함유",
+    "size": 110.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:636",
+    "chars": "핵심은 식약처 개별인정형  기능성 원료",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:638",
+    "chars": "라임과피추출물 (BENESOMNO™) 300mg ",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:639",
+    "chars": "수면의 질 개선에 도움 을 줄 수 있음",
+    "size": 40.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:641",
+    "chars": "만 19-65세, 평소 수면의 질이 낮은 성인 80명 대상\n2주, 무작위·이중맹검·대조군 (300mg/일 vs 대조군)",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#071028"
+   },
+   {
+    "id": "1:643",
+    "chars": "[출처] 국제 학술지 Phytomedicine (2025)",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#071028"
+   },
+   {
+    "id": "1:644",
+    "chars": "※ 인체적용시험 결과이며 개인차가 있을 수 있습니다.",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   }
+  ],
+  "max_font": 110.0,
+  "char_total": 223,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + evidence-callout",
+  "notes": "POINT 1 라임과피 300mg. 상단 라임/우유 사진 + 파란 하이라이트 바 + 임상 인용(80명, 무작위·이중맹검, 출처 Phytomedicine 2025)"
+ },
+ {
+  "block_id": "1:645",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 10,
+  "parent_frame": "1:612",
+  "name": "포인트1",
+  "y": 8774,
+  "height": 2234,
+  "bg": {
+   "hex": "#F7F8F9",
+   "lum": 0.937,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:649",
+    "chars": "다같은",
+    "size": 80.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#040A19"
+   },
+   {
+    "id": "1:650",
+    "chars": "라임과피가 아니에요",
+    "size": 90.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:654",
+    "chars": "개별인정형 인정 · 국내 특허 등록\n인체적용시험 성적까지!",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:655",
+    "chars": "VERB의 차별화 된 연구 개발력",
+    "size": 40.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#000102"
+   },
+   {
+    "id": "1:661",
+    "chars": "국내 특허(제10-2569228호)",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#000102"
+   },
+   {
+    "id": "1:666",
+    "chars": "라임 과피 추출물을 유효성분으로 포함하는\n수면장애 또는 불면증의 예방,\n개선 또는 치료용 조성물",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#000102"
+   },
+   {
+    "id": "1:671",
+    "chars": "일정한 품질을 위한 지표성분\n비세닌-2 0.648mg/포로 함량 관리",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#000102"
+   }
+  ],
+  "max_font": 90.0,
+  "char_total": 173,
+  "images": {
+   "count": 3,
+   "coverage": 0.79
+  },
+  "scene_type": "usp",
+  "layout": "document-proof + icon-checklist",
+  "notes": "'다같은 라임과피가 아니에요' — 특허증 실물 이미지 + 체크리스트 3행(국내 특허 번호 명기). 문서 증빙 패턴"
+ },
+ {
+  "block_id": "1:673",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 11,
+  "parent_frame": "1:672",
+  "name": "포인트2",
+  "y": 11008,
+  "height": 1759,
+  "bg": {
+   "hex": "#F7F8F9",
+   "lum": 0.937,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:685",
+    "chars": "POINT",
+    "size": 40.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:687",
+    "chars": "2",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:689",
+    "chars": "잠들기까지",
+    "size": 90.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#040A19"
+   },
+   {
+    "id": "1:690",
+    "chars": "시간을 줄여줄게요",
+    "size": 100.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:694",
+    "chars": "P < 0.01 *개인차",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:698",
+    "chars": "40",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:701",
+    "chars": "20",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:704",
+    "chars": "0",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:707",
+    "chars": "-20",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:710",
+    "chars": "-40",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:713",
+    "chars": "-60",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:726",
+    "chars": "입면시간 감소",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#040A19"
+   },
+   {
+    "id": "1:728",
+    "chars": "-15.93분",
+    "size": 48.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:730",
+    "chars": "대조군",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:731",
+    "chars": "섭취군",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:734",
+    "chars": "변화량 : 대조군 +1.80분 / 섭취군 -15.93분\n변화율 : 대조군 +15.20% / 섭취군 -64.13%",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:735",
+    "chars": "※ 인체적용시험 결과이며 개인차가 있을 수 있습니다.",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   }
+  ],
+  "max_font": 100.0,
+  "char_total": 158,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + evidence-chart",
+  "notes": "POINT 2 입면시간 감소 — 막대 차트(-15.93분) + 변화량 표 + 개인차 각주"
+ },
+ {
+  "block_id": "1:736",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 12,
+  "parent_frame": "1:672",
+  "name": "포인트2 - 팁",
+  "y": 12768,
+  "height": 1676,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:740",
+    "chars": "!",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:742",
+    "chars": "Tip",
+    "size": 40.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:743",
+    "chars": "건강정보",
+    "size": 56.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:746",
+    "chars": "우리 몸은 ",
+    "size": 80.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:747",
+    "chars": "오래 자는 것보다 \n깊게 잘 때 회복된다",
+    "size": 90.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#2BDAD1"
+   },
+   {
+    "id": "1:748",
+    "chars": "※본 아티클은 제품과 무관한 정보입니다.",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:750",
+    "chars": "수면은 비렘수면(NREM, 1~3단계)과\n렘수면(REM)이 약 90분 주기로 4~6회 반복됩니다.\r",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:751",
+    "chars": "우리 몸은 깊은 비렘 단계까지\n내려가야 몸이 제대로 회복됩니다. ",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:753",
+    "chars": "자주 깨면 그 흐름이 끊기죠",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:755",
+    "chars": "중요한 건 비렘수면을 줄이는 것",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:756",
+    "chars": "출처: 식약처 건강기능식품 기능성 평가 가이드\n수면건강 / Sleep Foundation / Bonnet, 2003",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   }
+  ],
+  "max_font": 90.0,
+  "char_total": 245,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "tip",
+  "layout": "callout-box",
+  "notes": "'Tip 건강정보' 다크 블록 — 비렘수면 교육 콘텐츠. '본 아티클은 제품과 무관한 정보입니다' 명시 + 출처. 전문성 신호용 삽입",
+  "bg_override": "D"
+ },
+ {
+  "block_id": "1:821",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 13,
+  "parent_frame": "1:820",
+  "name": "포인트3",
+  "y": 14444,
+  "height": 1951,
+  "bg": {
+   "hex": "#F7F8F9",
+   "lum": 0.937,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:833",
+    "chars": "POINT",
+    "size": 40.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:835",
+    "chars": "3",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:837",
+    "chars": "꿀잠모드로",
+    "size": 100.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#040A19"
+   },
+   {
+    "id": "1:838",
+    "chars": "수면효율 개선",
+    "size": 100.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#0FC2B9"
+   },
+   {
+    "id": "1:842",
+    "chars": "수요 수면 지표 변화",
+    "size": 40.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#040A19"
+   },
+   {
+    "id": "1:848",
+    "chars": "총 수면시간",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:849",
+    "chars": "(분)",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:852",
+    "chars": "-12.9분",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:858",
+    "chars": "+33.1분",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:861",
+    "chars": "총 각성시간",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:862",
+    "chars": "(분)",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:865",
+    "chars": "-33.1분",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:871",
+    "chars": "+12.8분",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:874",
+    "chars": "입면 후 각성 시간",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:875",
+    "chars": "(분)",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:878",
+    "chars": "-17.2분",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:884",
+    "chars": "+11.1분",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:887",
+    "chars": "입면시간",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:888",
+    "chars": "(분)",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:891",
+    "chars": "-15.9분",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:897",
+    "chars": "+1.8분",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:900",
+    "chars": "수면효율",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:901",
+    "chars": "(%)",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:904",
+    "chars": "-3.77%",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:910",
+    "chars": "+10.66%",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:913",
+    "chars": "비렘 2단계 수면",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:914",
+    "chars": "(%)",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:917",
+    "chars": "-12.0분",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   },
+   {
+    "id": "1:923",
+    "chars": "+20.7분",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:925",
+    "chars": "P < 0.01 *개인차",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:933",
+    "chars": "자다 깬 시간",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#F7F8F9"
+   },
+   {
+    "id": "1:934",
+    "chars": "-33분",
+    "size": 34.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFE344"
+   },
+   {
+    "id": "1:940",
+    "chars": "총 수면",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#F7F8F9"
+   },
+   {
+    "id": "1:941",
+    "chars": "+33분",
+    "size": 34.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFE344"
+   },
+   {
+    "id": "1:948",
+    "chars": "비렘2",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#F7F8F9"
+   },
+   {
+    "id": "1:949",
+    "chars": "+8.7%",
+    "size": 34.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFE344"
+   },
+   {
+    "id": "1:955",
+    "chars": "수면효율",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#F7F8F9"
+   },
+   {
+    "id": "1:956",
+    "chars": "+10.7%",
+    "size": 34.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFE344"
+   },
+   {
+    "id": "1:958",
+    "chars": "[출처] 국제 학술지 Phytomedicine (2025)",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#071028"
+   },
+   {
+    "id": "1:959",
+    "chars": "※ 인체적용시험 결과이며 개인차가 있을 수 있습니다.",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#576078"
+   }
+  ],
+  "max_font": 100.0,
+  "char_total": 269,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + evidence-chart + stat-pills",
+  "notes": "POINT 3 수면효율 개선 — 수평 바 차트(지표 6종) + 스탯 필 4개(자다깬시간 -33분 등) + 출처"
+ },
+ {
+  "block_id": "1:960",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 14,
+  "parent_frame": "1:820",
+  "name": "포인트3 :브릿지",
+  "y": 16395,
+  "height": 1355,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:964",
+    "chars": "꿀잠모드로",
+    "size": 80.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#040A19"
+   },
+   {
+    "id": "1:965",
+    "chars": "상쾌한 아침을",
+    "size": 100.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:966",
+    "chars": "맞이해 보세요 ",
+    "size": 100.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#040A19"
+   }
+  ],
+  "max_font": 100.0,
+  "char_total": 20,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "benefit-recap",
+  "layout": "photo-caption",
+  "notes": "커튼 여는 아침 사진 + '상쾌한 아침을 맞이해 보세요' — 감성 브릿지",
+  "bg_override": "L"
+ },
+ {
+  "block_id": "1:967",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 15,
+  "parent_frame": "1:820",
+  "name": "포인트 3 : 부원료",
+  "y": 17750,
+  "height": 2841,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "child:1:994"
+  },
+  "texts": [
+   {
+    "id": "1:974",
+    "chars": "수면에 도움을 주는 부원료",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#040A19"
+   },
+   {
+    "id": "1:975",
+    "chars": "※ 위 원료들은 제품 구성 요소이며,\n나열은 효능 ∙ 효과를 의미하지 않습니다.",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#576078"
+   },
+   {
+    "id": "1:979",
+    "chars": "캐모마일",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:981",
+    "chars": "레몬밤",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#0FB1A8"
+   },
+   {
+    "id": "1:983",
+    "chars": "상추",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:985",
+    "chars": "시계꽃",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#0FB1A8"
+   },
+   {
+    "id": "1:988",
+    "chars": "테아닌",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#0FB1A8"
+   },
+   {
+    "id": "1:990",
+    "chars": "GABA",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:992",
+    "chars": "타트체리",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#0FB1A8"
+   },
+   {
+    "id": "1:1002",
+    "chars": "캐모마일",
+    "size": 44.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:1004",
+    "chars": "아피게닌 성분이 이완•진정과 연관돼\n연구돼 왔고, 전통적으로 잠들기 전\n긴장을 누그러뜨리는 차로 곁에 둬 옴.",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1009",
+    "chars": "레몬밤",
+    "size": 44.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#0FB1A8"
+   },
+   {
+    "id": "1:1010",
+    "chars": "전통적으로 초조•긴장을 달래는 허브.\n편안한 이완감과 연관돼 알려짐.",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1020",
+    "chars": "상추",
+    "size": 44.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:1022",
+    "chars": "락투신 등 성분이 진정과 연관,\n예부터 \"먹으면 나른하다\"며\n잠•이완과 엮여 온 채소.",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1027",
+    "chars": "시계꽃",
+    "size": 44.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#0FB1A8"
+   },
+   {
+    "id": "1:1028",
+    "chars": " 유럽 전통에서 불안•긴장 완화 허브로,\n신경 안정과 연관돼 사용.",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1038",
+    "chars": "테아닌",
+    "size": 44.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:1040",
+    "chars": "녹차 아미노산. 알파파·이완과 연관돼\n연구되며, 카페인의 각성을 누그러뜨리는 차분함으로 알려짐.\r",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1045",
+    "chars": "GABA",
+    "size": 44.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#0FB1A8"
+   },
+   {
+    "id": "1:1046",
+    "chars": "흥분을 가라앉히는 억제성 신경전달물질.\n몸의 '브레이크'로서 긴장 완화와 연관.",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1056",
+    "chars": "타트체리",
+    "size": 44.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:1058",
+    "chars": "천연 멜라토닌을 품어, \n수면 리듬과 연관돼 주목받아 온 식품.",
+    "size": 28.0,
+    "family": "NanumSquare Neo",
+    "weight": 400,
+    "color": "#000102"
+   }
+  ],
+  "max_font": 60.0,
+  "char_total": 421,
+  "images": {
+   "count": 7,
+   "coverage": 0.11
+  },
+  "scene_type": "ingredient-spec",
+  "layout": "pill-badges + ingredient-list",
+  "notes": "수면 부원료 7종 — 배지 나열 후 원형 이미지+설명 행 반복(캐모마일~타트체리). '효능 의미 아님' 각주"
+ },
+ {
+  "block_id": "1:1067",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 16,
+  "parent_frame": "1:1066",
+  "name": "Frame 1707481812",
+  "y": 20591,
+  "height": 631,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "transition",
+  "layout": "photo-caption",
+  "notes": "스틱을 물에 따르는 사진 — POINT 4 도입 비주얼 (텍스트 없음)",
+  "bg_override": "L"
+ },
+ {
+  "block_id": "1:1068",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 17,
+  "parent_frame": "1:1066",
+  "name": "포인트1",
+  "y": 21222,
+  "height": 1625,
+  "bg": {
+   "hex": "#F7F8F9",
+   "lum": 0.937,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:1071",
+    "chars": "POINT",
+    "size": 40.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1073",
+    "chars": "4",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:1074",
+    "chars": "빠른 흡수력",
+    "size": 100.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:1076",
+    "chars": "분말제형으로 흡수는 ",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1078",
+    "chars": "빠르게 보관은 더 쉽게",
+    "size": 60.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1082",
+    "chars": "액상 드링크",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#ACACAC"
+   },
+   {
+    "id": "1:1086",
+    "chars": "방부제∙보존제 필요",
+    "size": 30.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#8E8E8E"
+   },
+   {
+    "id": "1:1089",
+    "chars": "즉시",
+    "size": 30.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#8E8E8E"
+   },
+   {
+    "id": "1:1092",
+    "chars": "부피 큼",
+    "size": 30.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#8E8E8E"
+   },
+   {
+    "id": "1:1095",
+    "chars": "고원가",
+    "size": 30.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#8E8E8E"
+   },
+   {
+    "id": "1:1098",
+    "chars": "짧은 유통기한",
+    "size": 30.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#8E8E8E"
+   },
+   {
+    "id": "1:1101",
+    "chars": "VERV 분말",
+    "size": 44.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1105",
+    "chars": "방부제 불필요\n(7무첨가∙클린라벨)",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:1108",
+    "chars": "    물에 타면\n액상과 동등",
+    "size": 32.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#000000"
+   },
+   {
+    "id": "1:1111",
+    "chars": "스틱 한 포",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#000000"
+   },
+   {
+    "id": "1:1114",
+    "chars": "저원가",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#000000"
+   },
+   {
+    "id": "1:1117",
+    "chars": "긴 유통기한",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#000000"
+   },
+   {
+    "id": "1:1120",
+    "chars": "보존",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1123",
+    "chars": "흡수",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1126",
+    "chars": "휴대",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1129",
+    "chars": "가격",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1132",
+    "chars": "보관",
+    "size": 24.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 100.0,
+  "char_total": 134,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + vs-table",
+  "notes": "POINT 4 빠른 흡수력 — 액상 드링크 vs VERV 분말 5행 비교 표(자사 열 파랑 강조)"
+ },
+ {
+  "block_id": "1:1134",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 18,
+  "parent_frame": "1:1133",
+  "name": "포인트1",
+  "y": 22847,
+  "height": 674,
+  "bg": {
+   "hex": "#030A1E",
+   "lum": 0.003,
+   "class": "D",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:1137",
+    "chars": "POINT",
+    "size": 40.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1139",
+    "chars": "5",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:1141",
+    "chars": "만드는 곳부터",
+    "size": 100.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1142",
+    "chars": "깐깐하게",
+    "size": 100.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 100.0,
+  "char_total": 17,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "trust-cert",
+  "layout": "numbered-point + package-trust",
+  "notes": "POINT 5 '만드는 곳부터 깐깐하게' — 다크 밤하늘 + 패키지 + GMP/건기식 배지 2개. usp 넘버링과 인증 결합"
+ },
+ {
+  "block_id": "1:1143",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 19,
+  "parent_frame": "1:1133",
+  "name": "Frame 1707481812",
+  "y": 23521,
+  "height": 1155,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 3,
+   "coverage": 1.0
+  },
+  "scene_type": "transition",
+  "layout": "photo-caption",
+  "notes": "스틱+라임+체리 원물 연출 사진 — POINT 6 도입 (텍스트 없음)",
+  "bg_override": "L"
+ },
+ {
+  "block_id": "1:1148",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 20,
+  "parent_frame": "1:1147",
+  "name": "Frame 1707481812",
+  "y": 24676,
+  "height": 631,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "transition",
+  "layout": "photo-caption",
+  "notes": "제품 연출 사진 (텍스트 없음)",
+  "bg_override": "L"
+ },
+ {
+  "block_id": "1:1149",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 21,
+  "parent_frame": "1:1147",
+  "name": "포인트1",
+  "y": 25307,
+  "height": 1363,
+  "bg": {
+   "hex": "#F7F8F9",
+   "lum": 0.937,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:1153",
+    "chars": "POINT",
+    "size": 40.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1155",
+    "chars": "6",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:1157",
+    "chars": "클린라벨,",
+    "size": 100.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#040A19"
+   },
+   {
+    "id": "1:1158",
+    "chars": "7무첨가 ",
+    "size": 100.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   },
+   {
+    "id": "1:1160",
+    "chars": "매일 먹어도 안심할 수 있도록,",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1162",
+    "chars": "불필요한 보조 첨가물을 과감히 제거했습니다.",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:1167",
+    "chars": "착색료",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#333333"
+   },
+   {
+    "id": "1:1169",
+    "chars": "이산화규소(Si0:)",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#333333"
+   },
+   {
+    "id": "1:1171",
+    "chars": "고결방지제",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#333333"
+   },
+   {
+    "id": "1:1173",
+    "chars": "카복시메틸셀룰로스칼슘(CMC-Ca)",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#333333"
+   },
+   {
+    "id": "1:1176",
+    "chars": "HPMC",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#333333"
+   },
+   {
+    "id": "1:1178",
+    "chars": "결정셀룰로스(MCC)",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#333333"
+   },
+   {
+    "id": "1:1180",
+    "chars": "스테아린산마그네슘",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#333333"
+   }
+  ],
+  "max_font": 100.0,
+  "char_total": 119,
+  "images": {
+   "count": 1,
+   "coverage": 0.26
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + pill-badges",
+  "notes": "POINT 6 클린라벨 7무첨가 — 제거 성분 배지 7개 나열"
+ },
+ {
+  "block_id": "1:1182",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 22,
+  "parent_frame": "1:1181",
+  "name": "Frame 1707481727",
+  "y": 26830,
+  "height": 324,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:1187",
+    "chars": "꿀잠모두,",
+    "size": 80.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#040A19"
+   },
+   {
+    "id": "1:1188",
+    "chars": "이런분께 추천드립니다",
+    "size": 80.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#3959CD"
+   }
+  ],
+  "max_font": 80.0,
+  "char_total": 16,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "target-audience",
+  "layout": "headline",
+  "notes": "'꿀잠모두, 이런분께 추천드립니다' 헤더 스트립"
+ },
+ {
+  "block_id": "1:1189",
+  "product": "kkuljam",
+  "label": "꿀잠모드",
+  "quality": "good",
+  "seq": 23,
+  "parent_frame": "1:1181",
+  "name": "Frame 1707481816",
+  "y": 27214,
+  "height": 1020,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:1193",
+    "chars": "1",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#F7F8F9"
+   },
+   {
+    "id": "1:1194",
+    "chars": "야근 ∙ 교대로\n수면 패턴이 불규칙한 분",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1199",
+    "chars": "2",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#F7F8F9"
+   },
+   {
+    "id": "1:1200",
+    "chars": "잠들기 전\n오래 뒤척이시는 분",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1205",
+    "chars": "3",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#F7F8F9"
+   },
+   {
+    "id": "1:1206",
+    "chars": "자다 자주 깨거나,\n자도 개운하지 않은 분",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1211",
+    "chars": "4",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#F7F8F9"
+   },
+   {
+    "id": "1:1212",
+    "chars": "약 말고 식품으로\n가볍게 챙기고 싶은 분",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   },
+   {
+    "id": "1:1217",
+    "chars": "5",
+    "size": 26.0,
+    "family": "NanumSquare Neo",
+    "weight": 900,
+    "color": "#F7F8F9"
+   },
+   {
+    "id": "1:1218",
+    "chars": "피로하지만\n수면 시간을 늘릴 수 없는 분",
+    "size": 36.0,
+    "family": "NanumSquare Neo",
+    "weight": 700,
+    "color": "#000102"
+   }
+  ],
+  "max_font": 36.0,
+  "char_total": 110,
+  "images": {
+   "count": 1,
+   "coverage": 0.31
+  },
+  "scene_type": "target-audience",
+  "layout": "icon-checklist + product-side",
+  "notes": "넘버 체크리스트 5행 + 우측 스틱 제품 세로 배치. FAQ 없이 여기서 페이지 종료 — FAQ가 필수는 아님을 보여주는 사례"
+ },
+ {
+  "block_id": "1:82822",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 1,
+  "parent_frame": "1:83824",
+  "name": "32",
+  "y": 200,
+  "height": 3086,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:82853",
+    "chars": "아-삭한 식감",
+    "size": 130.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:82856",
+    "chars": "GIF: 김치 클로즈업",
+    "size": 60.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#AAAAAA"
+   },
+   {
+    "id": "1:82887",
+    "chars": "시원하고\n깔끔한 마무리",
+    "size": 130.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:82889",
+    "chars": "GIF: 김치 클로즈업",
+    "size": 60.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#AAAAAA"
+   },
+   {
+    "id": "1:82919",
+    "chars": "칼국수 맛집에서 먹던",
+    "size": 72.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:82920",
+    "chars": "열무 김치",
+    "size": 130.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:82922",
+    "chars": "GIF: 김치 클로즈업",
+    "size": 60.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#AAAAAA"
+   }
+  ],
+  "max_font": 130.0,
+  "char_total": 71,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "hook",
+  "layout": "headline + media-slots",
+  "notes": "캘리그래피 헤드라인 3연작(아삭한 식감/시원하고 깔끔한 마무리/칼국수 맛집에서 먹던 열무김치) + 'GIF: 김치 클로즈업' 플레이스홀더 3개. ⭐실무 파일에는 움짤(GIF) 슬롯이 존재 — asset 리스트에 영상/GIF 항목 대비 필요. 한지 질감 배경(컨셉 '한국적인' 구현)"
+ },
+ {
+  "block_id": "1:82923",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 2,
+  "parent_frame": "1:83824",
+  "name": "33",
+  "y": 3286,
+  "height": 800,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:82932",
+    "chars": "캐치테이블 경기 북부",
+    "size": 32.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:82934",
+    "chars": "1위",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:82939",
+    "chars": "지도앱 후기",
+    "size": 25.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:82941",
+    "chars": " 1,000개 이상",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:82946",
+    "chars": "다수 방송 출연",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:82975",
+    "chars": "일 평균 600명 웨이팅",
+    "size": 32.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:82976",
+    "chars": "24년 맛집 선정",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83082",
+    "chars": "밀밭명가",
+    "size": 130.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": null
+   },
+   {
+    "id": "1:83083",
+    "chars": "에서",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83105",
+    "chars": "또 한번\n일냈다",
+    "size": 90.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 130.0,
+  "char_total": 73,
+  "images": {
+   "count": 5,
+   "coverage": 1.0
+  },
+  "scene_type": "trust-cert",
+  "layout": "laurel-badges",
+  "notes": "다크 스포트라이트 + 월계수 수상 배지 3단(캐치테이블 1위/지도앱 후기 1,000개/방송 출연). 성과를 신뢰 배지로 전면 배치",
+  "bg_override": "D"
+ },
+ {
+  "block_id": "1:83106",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 3,
+  "parent_frame": "1:83824",
+  "name": "34",
+  "y": 4086,
+  "height": 1420,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:83136",
+    "chars": "일 평균 600명 웨이팅",
+    "size": 32.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83137",
+    "chars": "24년 맛집 선정",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83243",
+    "chars": "밀밭명가",
+    "size": 130.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": null
+   },
+   {
+    "id": "1:83265",
+    "chars": "또 한번\n일냈다",
+    "size": 90.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 130.0,
+  "char_total": 34,
+  "images": {
+   "count": 5,
+   "coverage": 1.0
+  },
+  "scene_type": "trust-cert",
+  "layout": "laurel-badges + photo-proof",
+  "notes": "'일 평균 600명 웨이팅, 24년 맛집 선정' + CCTV 실황 2컷(실재 증명) + 금박 축하 그래픽 '밀밭명가 또 한번 일냈다'",
+  "bg_override": "D"
+ },
+ {
+  "block_id": "1:83266",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 4,
+  "parent_frame": "1:83824",
+  "name": "35",
+  "y": 5506,
+  "height": 860,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "product-reveal",
+  "layout": "product-beauty",
+  "notes": "옹기 항아리 + 완성 접시 연출컷(텍스트 없음) — 전통 무드로 제품 첫 등장",
+  "bg_override": "D"
+ },
+ {
+  "block_id": "1:83268",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 5,
+  "parent_frame": "1:83824",
+  "name": "36",
+  "y": 6366,
+  "height": 619,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:83272",
+    "chars": "지금부터",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83274",
+    "chars": "어디서, 어떻게",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83275",
+    "chars": "만들어지는지부터\n자세히 보여드릴게요.",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   }
+  ],
+  "max_font": 70.0,
+  "char_total": 32,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "solution-frame",
+  "layout": "bridge-strip",
+  "notes": "'지금부터 어디서, 어떻게 만들어지는지부터 자세히 보여드릴게요' — 이후 Point 연작 예고. 하이라이트 박스 강조"
+ },
+ {
+  "block_id": "1:83277",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 6,
+  "parent_frame": "1:83824",
+  "name": "37",
+  "y": 6984,
+  "height": 2136,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:83303",
+    "chars": "시판 열무 김치는\n정통 레시피 7원칙을",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83304",
+    "chars": "못 지킵니다",
+    "size": 110.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#991101"
+   },
+   {
+    "id": "1:83305",
+    "chars": "공장 라인에서는 열무를 일일히 손으로\n살살 흔들어 씻을 수 없고,\n비법 레시피를 연구개발할 리소스도 부족하죠.",
+    "size": 36.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83311",
+    "chars": "그래서 시판의 해법은\n단순해집니다\n\n양념을 두텁게 덮어 풋내를 가리는 것.",
+    "size": 36.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83313",
+    "chars": "하지만 양념이 두터울수록\n\n풋내가 올라오고,\n열무는 무르고,\n마무리는 짠맛만 남죠.",
+    "size": 40.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 110.0,
+  "char_total": 175,
+  "images": {
+   "count": 5,
+   "coverage": 1.0
+  },
+  "scene_type": "problem",
+  "layout": "headline + circle-photos + callout-box",
+  "notes": "'시판 열무 김치는 정통 레시피 7원칙을 못 지킵니다' + 흑백 원형 사진 3개(공장 라인) + 다크 콜아웃('양념이 두터울수록 풋내가 올라오고…') — 경쟁사 문제 제기",
+  "bg_override": "L+D"
+ },
+ {
+  "block_id": "1:83314",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 7,
+  "parent_frame": "1:83824",
+  "name": "13",
+  "y": 9120,
+  "height": 949,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:83321",
+    "chars": "Point",
+    "size": 30.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#BDB3A5"
+   },
+   {
+    "id": "1:83323",
+    "chars": "01",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83328",
+    "chars": "외주 공장",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83330",
+    "chars": "NO!",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83331",
+    "chars": "매일 손수 담급니다.",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": null
+   },
+   {
+    "id": "1:83332",
+    "chars": "열무의 풋내는 줄이고\n식감을 끌어올리는 24년 노하우\n그대로 담아 보내드립니다.",
+    "size": 40.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#3D352C"
+   }
+  ],
+  "max_font": 90.0,
+  "char_total": 70,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point",
+  "notes": "Point 01 '외주 공장 NO! 매일 손수 담급니다' — 한국풍 넘버 헤더(가는 획 + 붉은 강조 배지)"
+ },
+ {
+  "block_id": "1:83333",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 8,
+  "parent_frame": "1:83824",
+  "name": "38",
+  "y": 10069,
+  "height": 518,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:83335",
+    "chars": "잘 손질한 열무가 준비됐다면,",
+    "size": 60.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83337",
+    "chars": "다음은",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83339",
+    "chars": "양념",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83340",
+    "chars": "입니다.",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   }
+  ],
+  "max_font": 70.0,
+  "char_total": 25,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "transition",
+  "layout": "bridge-strip",
+  "notes": "'잘 손질한 열무가 준비됐다면, 다음은 양념입니다' — Point 사이 연결"
+ },
+ {
+  "block_id": "1:83343",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 9,
+  "parent_frame": "1:83824",
+  "name": "39",
+  "y": 10587,
+  "height": 5430,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:83351",
+    "chars": "Point",
+    "size": 30.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#BDB3A5"
+   },
+   {
+    "id": "1:83353",
+    "chars": "02",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83356",
+    "chars": "전라도 방식의",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83357",
+    "chars": "깔끔하고 시원한 맛",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": null
+   },
+   {
+    "id": "1:83362",
+    "chars": "24년 매장 양념의",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83364",
+    "chars": "첫 두 원칙",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83393",
+    "chars": "경매를 통해 엄선한\n최상급 재료만 만듭니다.",
+    "size": 48.0,
+    "family": "NanumMyeongjo",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83423",
+    "chars": "물고추 (생홍고추 갈기) - 전라도식 비법\n고춧가루만 쓰면 텁텁해지기 쉬워서,\n빨간 홍고추를 갈아 함께 넣어\n깔끔하고 시원한 맛을 살려요.\r",
+    "size": 36.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83428",
+    "chars": "+",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83429",
+    "chars": "열무가 상하지 않게",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83444",
+    "chars": "직접 손으로 버무립니다",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#991101"
+   },
+   {
+    "id": "1:83446",
+    "chars": "기계가 아닌 사람의 힘으로 하기에\n아삭한 식감을 살릴 수 있습니다.",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#3D352C"
+   }
+  ],
+  "max_font": 90.0,
+  "char_total": 202,
+  "images": {
+   "count": 5,
+   "coverage": 1.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + photo-card-stack",
+  "notes": "Point 02 전라도 방식 + '24년 매장 양념의 첫 두 원칙' — 다크 사진 카드 2연작(경매 재료/물고추 비법, 각 카드에 캡션 박스) + '+' 손 버무림 사진. 5,430px 최장 블록",
+  "bg_override": "L+D"
+ },
+ {
+  "block_id": "1:83447",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 10,
+  "parent_frame": "1:83824",
+  "name": "40",
+  "y": 16017,
+  "height": 543,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:83450",
+    "chars": "그리고 이 과정을",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83453",
+    "chars": "매일",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83454",
+    "chars": "반복합니다.",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#3D352C"
+   }
+  ],
+  "max_font": 80.0,
+  "char_total": 17,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "transition",
+  "layout": "bridge-strip",
+  "notes": "'그리고 이 과정을 매일 반복합니다' — 반복 강조 브릿지"
+ },
+ {
+  "block_id": "1:83457",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 11,
+  "parent_frame": "1:83824",
+  "name": "41",
+  "y": 16560,
+  "height": 1850,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:83464",
+    "chars": "Point",
+    "size": 30.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#BDB3A5"
+   },
+   {
+    "id": "1:83466",
+    "chars": "03",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83468",
+    "chars": "시중 김치는 대량생산해\n보관하며 익어버립니다.",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83470",
+    "chars": "우리는",
+    "size": 110.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#991101"
+   },
+   {
+    "id": "1:83476",
+    "chars": "반대",
+    "size": 110.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#991101"
+   },
+   {
+    "id": "1:83477",
+    "chars": "예요",
+    "size": 110.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#991101"
+   },
+   {
+    "id": "1:83479",
+    "chars": "밀밭명가는 ",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83482",
+    "chars": "절대",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83483",
+    "chars": "미리",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83484",
+    "chars": "만들어두지 않습니다",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#991101"
+   },
+   {
+    "id": "1:83487",
+    "chars": "당일 제조 후\n가장 신선한 상태로\n보내드립니다.",
+    "size": 50.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#3D352C"
+   }
+  ],
+  "max_font": 110.0,
+  "char_total": 85,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + callout-box",
+  "notes": "Point 03 '절대 미리 만들어두지 않습니다' — 대량생산 비판 + 당일 제조 선언. 붉은 배지 강조"
+ },
+ {
+  "block_id": "1:83489",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 12,
+  "parent_frame": "1:83824",
+  "name": "21",
+  "y": 18410,
+  "height": 3395,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:83519",
+    "chars": "맛있게 먹는 방법",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83524",
+    "chars": "갓 담궈 아삭함이\n살아있는 시점",
+    "size": 26.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83528",
+    "chars": "발효가 진행돼\n시원한 맛",
+    "size": 26.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83532",
+    "chars": "깊은 감칠맛이\n자리잡는 시점",
+    "size": 26.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83537",
+    "chars": "~5일",
+    "size": 30.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#991101"
+   },
+   {
+    "id": "1:83538",
+    "chars": "5~12일",
+    "size": 30.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#991101"
+   },
+   {
+    "id": "1:83539",
+    "chars": "12~20일",
+    "size": 30.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#991101"
+   },
+   {
+    "id": "1:83552",
+    "chars": "생김치",
+    "size": 24.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83553",
+    "chars": "국수 ∙ 비빔밥\n여름보리밥과\n환상의 조합",
+    "size": 30.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83558",
+    "chars": "적당히 익은 김치",
+    "size": 24.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83559",
+    "chars": "수육 ∙ 삼겹살\n잔치국수에\n곁들인 한상",
+    "size": 30.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83564",
+    "chars": "잘 익은 김치",
+    "size": 24.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83565",
+    "chars": "국 ∙ 찌개\n볶음밥 재료로\n깊은 감칠맛",
+    "size": 30.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83568",
+    "chars": "같이 먹으면 ",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83570",
+    "chars": "더 맛있어요!",
+    "size": 70.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83575",
+    "chars": "1",
+    "size": 29.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83576",
+    "chars": "비빔국수에 넣어서",
+    "size": 50.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83581",
+    "chars": "2",
+    "size": 29.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83582",
+    "chars": "기름진 고기먹을 때",
+    "size": 50.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83587",
+    "chars": "2",
+    "size": 29.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83588",
+    "chars": "간편하게 한 끼 식사로",
+    "size": 50.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#991101"
+   }
+  ],
+  "max_font": 90.0,
+  "char_total": 199,
+  "images": {
+   "count": 7,
+   "coverage": 1.0
+  },
+  "scene_type": "usage-guide",
+  "layout": "timeline-plan + photo-card-stack",
+  "notes": "맛있게 먹는 방법 — 숙성 타임라인 3단(~5일 생김치/5~12일/12~20일, 각 단계 박스 사진+용도) + '같이 먹으면 더 맛있어요' 페어링 3연작(비빔국수/고기/한 끼). 식품 특화 usage 패턴"
+ },
+ {
+  "block_id": "1:83753",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 13,
+  "parent_frame": "1:83824",
+  "name": "Frame 26114680",
+  "y": 21132,
+  "height": 152,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:83754",
+    "chars": "* 입 맛에 따라 며칠 더 두셨다가 드시면\n또 다른 매력을 만나실 수 있어요.",
+    "size": 26.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#333333"
+   },
+   {
+    "id": "1:83756",
+    "chars": "Tip",
+    "size": 28.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 28.0,
+  "char_total": 46,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "tip",
+  "layout": "caption-strip",
+  "notes": "Tip 한 줄 카드 — '입 맛에 따라 며칠 더 두셨다가…' 보충 팁"
+ },
+ {
+  "block_id": "1:83590",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 14,
+  "parent_frame": "1:83824",
+  "name": "22",
+  "y": 21805,
+  "height": 1093,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:83619",
+    "chars": "이런 분께 추천드려요!",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83623",
+    "chars": "시판 김치는 매번 텁텁해서 손이 안 가셨던 분\r",
+    "size": 32.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83626",
+    "chars": "MSG·방부제가 꺼려져 시판을 피해오셨던 분 \r",
+    "size": 32.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83629",
+    "chars": "김치 직접 담그긴 너무 번거로우셨던 분\r",
+    "size": 32.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83632",
+    "chars": "어머니 손맛이 그리우셨던 분\r",
+    "size": 32.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83635",
+    "chars": "여름에 시원한 열무김치 찾으셨던 분",
+    "size": 32.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83640",
+    "chars": "체크 리스트",
+    "size": 32.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 90.0,
+  "char_total": 127,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "target-audience",
+  "layout": "icon-checklist",
+  "notes": "'이런 분께 추천드려요!' 체크 리스트 5행(체크박스형) — 시판 김치 불신/MSG 회피/번거로움/어머니 손맛/여름 열무김치"
+ },
+ {
+  "block_id": "1:83641",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 15,
+  "parent_frame": "1:83824",
+  "name": "23",
+  "y": 22898,
+  "height": 1576,
+  "bg": {
+   "hex": "#F3F0EB",
+   "lum": 0.874,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:83645",
+    "chars": "Q&A",
+    "size": 40.0,
+    "family": "Pretendard Variable",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83646",
+    "chars": "자주 묻는 질문",
+    "size": 80.0,
+    "family": "Pretendard Variable",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83653;60:903",
+    "chars": "Q",
+    "size": 36.0,
+    "family": "Pretendard Variable",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83654",
+    "chars": "바로 먹어도 되나요??",
+    "size": 30.0,
+    "family": "Pretendard Variable",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83656;60:906",
+    "chars": "A",
+    "size": 36.0,
+    "family": "Pretendard Variable",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83657",
+    "chars": "네 배송 받은 후 바로 드셔도 됩니다. \n김치는 발효 식품이라 상한다기보다 숙성이 진행됩니다. 0~5일은 생김치, 5~12일은 적당히 익은 김치, 12~20일 이상은 완전히 익은(묵은지에 가까운) 김치로 변하며, 어",
+    "size": 28.0,
+    "family": "Pretendard Variable",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83663;60:903",
+    "chars": "Q",
+    "size": 36.0,
+    "family": "Pretendard Variable",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83664",
+    "chars": "어떻게 보관해야 할까요?",
+    "size": 30.0,
+    "family": "Pretendard Variable",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83666;60:906",
+    "chars": "A",
+    "size": 36.0,
+    "family": "Pretendard Variable",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83667",
+    "chars": "받으시면 곧바로 0~10℃ 냉장에 보관하는 것을 추천드립니다. 더하여 김치는 숨을 쉬는 것이 중요해 김치통을 활용하시는 것이 좋습니다.",
+    "size": 28.0,
+    "family": "Pretendard Variable",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83673;60:903",
+    "chars": "Q",
+    "size": 36.0,
+    "family": "Pretendard Variable",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83674",
+    "chars": "1kg가 양이 너무 많거나 적지 않을까요?",
+    "size": 30.0,
+    "family": "Pretendard Variable",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83676;60:906",
+    "chars": "A",
+    "size": 36.0,
+    "family": "Pretendard Variable",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83677",
+    "chars": "1~2인 가구라면 한 종류 1kg를 약 2~3주 내 드시기 좋고, \n4인 가구라면 1주 내외에 드시기 좋습니다. ",
+    "size": 28.0,
+    "family": "Pretendard Variable",
+    "weight": 400,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 80.0,
+  "char_total": 323,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "faq",
+  "layout": "faq-list",
+  "notes": "Q&A 3쌍 — 바로 먹어도 되나/보관/양. 숙성 단계 정보를 FAQ에서 재활용"
+ },
+ {
+  "block_id": "1:83678",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 16,
+  "parent_frame": "1:83824",
+  "name": "24",
+  "y": 24474,
+  "height": 474,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "I1:83681;2263:2953",
+    "chars": "제품명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83681;2263:2955",
+    "chars": "열무 김치",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83681;2263:2958",
+    "chars": "소비기한",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83681;2263:2960",
+    "chars": "제조일로부터 3일",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83682;2263:2953",
+    "chars": "식품유형",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83682;2263:2955",
+    "chars": "즉석조리식품",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83682;2263:2958",
+    "chars": "포장재질",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83682;2263:2960",
+    "chars": "PP/PE/PET",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83683;2263:2828",
+    "chars": "영업주소 및\n소재지",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83683;2263:2829",
+    "chars": "밀밭칼국수 (경기도 양주시 고암동 342-3 B동)",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83684;2263:2877",
+    "chars": "품목보고번호 및 원재료명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83684;2263:2884",
+    "chars": "원재료명: 배추(국내산) 80%, 고추가루(국내산 70%, 중국산 30%), 까나리액젓(국내산), 마늘, 생강, 새우젓, 물엿, 설탕, 양파, 대파, L-글루타민산나트륨(향미증진제)",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83684;2263:2899",
+    "chars": "닭목살구이 매운맛 원재료명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83684;2263:2900",
+    "chars": "[품목보고번호: 2024065850917] \n닭목 88%, 고춧가루 6%, 간장 3%, 설탕 2%, 마늘 1%",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83684;2263:3075",
+    "chars": "닭목살구이 덜매운맛 원재료명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83684;2263:3076",
+    "chars": "[품목보고번호: 2024065850918] \n닭목 90%, 고춧가루 4%, 간장 3%, 설탕 2%, 마늘 1%",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83684;2263:3123",
+    "chars": "닭목살구이 소금맛 원재료명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83684;2263:3124",
+    "chars": "[품목보고번호: 2024065850919]\n닭목 96.5%, 정제소금 2%, 설탕 1%, 후추가루 0.5%",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83684;2263:2906",
+    "chars": "대두, 새우 함유",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:83685;2263:2828",
+    "chars": "보관방법",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83685;2263:2829",
+    "chars": "냉장보관 (0-10℃이하)",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83686;2263:2953",
+    "chars": "반품 및 교환",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83686;2263:2955",
+    "chars": "구입처",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83686;2263:2958",
+    "chars": "고객센터",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83686;2263:2960",
+    "chars": "031-864-2726",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83687;2263:2828",
+    "chars": "비고",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:83687;2263:2829",
+    "chars": "본 제품은 공정거래위원회 고시 소비자 분쟁 해결 기준에 의거 교환 또는 보상받을 수 있습니다. \n부정·불량식품 신고는 국번없이 1399\n본 제품은 알류, 메밀, 땅콩, 고등어, 게, 돼지고기, 복숭아, 아황산류, 호",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 12.0,
+  "char_total": 595,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "notice",
+  "layout": "spec-table",
+  "notes": "정보고시 표 — 제품명/원재료(비율 명기)/보관방법/고객센터. 12px"
+ },
+ {
+  "block_id": "1:83688",
+  "product": "milbat",
+  "label": "밀밭명가",
+  "quality": "good",
+  "seq": 17,
+  "parent_frame": "1:83824",
+  "name": "Frame 8175778",
+  "y": 24948,
+  "height": 5633,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:83691",
+    "chars": "손질도, 양념도",
+    "size": 60.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83694",
+    "chars": "왜?",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83695",
+    "chars": "이렇게까지 하는 걸까요.",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83700",
+    "chars": "매장에서 600명을",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83701",
+    "chars": "매일 줄 서게 한\n그 손 맛이,",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83702",
+    "chars": "거리에 막혀 받지 못하시는 분들\n식탁에도 닿을 수 있도록.",
+    "size": 50.0,
+    "family": "NanumMyeongjo",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83734",
+    "chars": "24년, 매일 600명",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:83735",
+    "chars": "을",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83736",
+    "chars": "만들어온\n그 손 맛으로",
+    "size": 90.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83739",
+    "chars": "24년 전, 양주에서\n작은 칼국수 가게로\n시작했습니다.",
+    "size": 80.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83741",
+    "chars": "그때부터 매일 모든 식자재를\n직접 준비했습니다",
+    "size": 60.0,
+    "family": "NanumMyeongjo",
+    "weight": 800,
+    "color": "#3D352C"
+   },
+   {
+    "id": "1:83746",
+    "chars": "음식은 만드는 이가",
+    "size": 60.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83749",
+    "chars": "번거로워야 한다는 신념에 따라,",
+    "size": 60.0,
+    "family": "NanumMyeongjo",
+    "weight": 700,
+    "color": "#5F3C32"
+   },
+   {
+    "id": "1:83752",
+    "chars": "밀밭명가는\n더 부지런히\n움직이겠습니다.",
+    "size": 80.0,
+    "family": "Solmoe KimDaeGeonOTF",
+    "weight": 400,
+    "color": "#991101"
+   }
+  ],
+  "max_font": 90.0,
+  "char_total": 210,
+  "images": {
+   "count": 5,
+   "coverage": 1.0
+  },
+  "scene_type": "brand-story",
+  "layout": "story-text + photo-proof",
+  "notes": "'왜 이렇게까지 하는 걸까요' → 다크 제품 씬 → 24년 전 칼국수 가게 흑백 사진 → 신념 서사 → 캘리그래피 클로징. 5,633px. 정보고시 뒤 맨 끝 배치가 특이(감성 여운으로 종료)",
+  "bg_override": "L+D"
+ },
+ {
+  "block_id": "1:31207",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 1,
+  "parent_frame": "1:57167",
+  "name": "109",
+  "y": 100,
+  "height": 1497,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "I1:31207;19:7983",
+    "chars": "01",
+    "size": 48.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:31207;19:7985",
+    "chars": "처음 만나는 진짜 올리브",
+    "size": 48.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:31207;19:7986",
+    "chars": "사실 저는 올리브를 좋아하지 않았습니다. \n특유의 짠맛이 부담스러웠거든요. 그러다 좋은 올리브를 \n만나고 수많은 테스트 끝에 올리브의 매력을 발견했어요. \n이 맛을 더 많은 분과 나누고 싶어 올리빗을 시작했습니다.",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31207;19:7989",
+    "chars": "02",
+    "size": 48.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:31207;19:7991",
+    "chars": "한 알 한 알, 꼼꼼한 재료관리",
+    "size": 48.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:31207;19:7992",
+    "chars": "원물을 직접 손질하는 브랜드는 생각보다 많지 않아요. 올리빗은 올리브를 한 알씩 직접 확인하고 다듬습니다.",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31207;19:7995",
+    "chars": "03",
+    "size": 48.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:31207;19:7997",
+    "chars": "주문 제작 신선 배송",
+    "size": 48.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:31207;19:7998",
+    "chars": "올리빗은 오프라인 매장을 둔 올리브 전문 브랜드로,\n허가받은 시설에서 제조하고 있습니다. 주문 후 제조하며\n신선도 유지를 위해 주 2회 배송제를 운영합니다. ",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530B"
+   }
+  ],
+  "max_font": 48.0,
+  "char_total": 313,
+  "images": {
+   "count": 2,
+   "coverage": 0.39
+  },
+  "scene_type": "brand-story",
+  "layout": "numbered-list + arch-frame",
+  "notes": "브랜드 원칙 3개(01 진짜 올리브/02 재료관리/03 신선 배송)를 아치 프레임 안에 요약 — 페이지 전체의 목차 역할. 유럽풍 보태니컬 일러스트 배경(컨셉 '유럽풍' 구현)"
+ },
+ {
+  "block_id": "1:31210",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 2,
+  "parent_frame": "1:57167",
+  "name": "2-1",
+  "y": 1597,
+  "height": 1875,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "I1:31210;1:3307",
+    "chars": "좋은 올리브는\n짜지 않습니다",
+    "size": 84.0,
+    "family": "Ownglyph corncorn",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31210;19:12",
+    "chars": "와인엔 올리브라는데,\n정작 손이 안가던 올리브",
+    "size": 54.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#9F9972"
+   },
+   {
+    "id": "I1:31210;19:13",
+    "chars": "올리브가 짜기만 하고\n무슨 맛인지 모르겠던 기억",
+    "size": 54.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#9F9972"
+   },
+   {
+    "id": "I1:31210;19:16",
+    "chars": "문제는 올리브가 아니라",
+    "size": 54.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:31210;19:17",
+    "chars": "그동안 먹은 올리브의 염도입니다.",
+    "size": 54.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#758409"
+   }
+  ],
+  "max_font": 84.0,
+  "char_total": 96,
+  "images": {
+   "count": 2,
+   "coverage": 0.42
+  },
+  "scene_type": "problem",
+  "layout": "quote-hero",
+  "notes": "인용 부호 스타일 '좋은 올리브는 짜지 않습니다' + 공감 서사 3단(와인엔 올리브라는데…) + 수채 올리브 일러스트. 질문형이 아닌 선언형 훅"
+ },
+ {
+  "block_id": "1:37386",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 3,
+  "parent_frame": "1:57167",
+  "name": "2-2",
+  "y": 3472,
+  "height": 518,
+  "bg": {
+   "hex": "#586235",
+   "lum": 0.111,
+   "class": "D",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "I1:37386;1:5991",
+    "chars": "짠 맛은 덜고, 풍미는 살렸어요",
+    "size": 64.0,
+    "family": "Ownglyph corncorn",
+    "weight": 400,
+    "color": "#EBF7CF"
+   },
+   {
+    "id": "I1:37386;1:5993",
+    "chars": "처음 만나는 진짜 올리브",
+    "size": 84.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#F6FFDE"
+   }
+  ],
+  "max_font": 84.0,
+  "char_total": 30,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "transition",
+  "layout": "bridge-strip",
+  "notes": "다크 그린 질감 스트립 '짠 맛은 덜고, 풍미는 살렸어요' — 문제→해결 전환. 컨셉의 패브릭 텍스타일 질감"
+ },
+ {
+  "block_id": "1:29635",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 4,
+  "parent_frame": "1:57167",
+  "name": "3-1",
+  "y": 3990,
+  "height": 1733,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:29640",
+    "chars": "No.3 ",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#7D6813"
+   },
+   {
+    "id": "1:29641",
+    "chars": "타프나드",
+    "size": 128.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7D6813"
+   },
+   {
+    "id": "1:29644",
+    "chars": "블랙 올리브에 엔초비·케이퍼·다양한 재료를 올리빗만의 배합으로 갈아 새콤하고 감칠맛이 진하게 올라와요. \n\n담백한 빵을 구워 타프나드를 바르고 선드라이 토마토나 시그니처를 얹어서 즐겨보세요.",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530B"
+   }
+  ],
+  "max_font": 128.0,
+  "char_total": 115,
+  "images": {
+   "count": 2,
+   "coverage": 0.62
+  },
+  "scene_type": "product-lineup",
+  "layout": "product-beauty + copy",
+  "notes": "No.3 타프나드 각론 — 제품명 대형 + 설명 2문단 + 우드보드 연출컷. 라인업 각 제품을 순서대로 소개하는 유형"
+ },
+ {
+  "block_id": "1:31211",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 5,
+  "parent_frame": "1:57167",
+  "name": "3-2",
+  "y": 5723,
+  "height": 1554,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "I1:31211;36:35916",
+    "chars": "No.4",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#7D6813"
+   },
+   {
+    "id": "I1:31211;36:35917",
+    "chars": "레드 마리네이드",
+    "size": 96.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#7D6813"
+   },
+   {
+    "id": "I1:31211;36:35921",
+    "chars": "국산 토마토를 직접 말려 올리브오일에 담갔어요. \n\n말린 토마토는 맛이 응축되어 아무것도 더하지 않아도 그 자체로 진하고 산뜻합니다. 어디에 올려도 한 끗을 더해주는, 올리빗의 숨은 킥입니다.",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31211;36:35926",
+    "chars": "해당 상품은 수작업 건조로 생산량이 한정된 제품입니다. \n신선도 관리를 위해 추가 옵션으로만 판매됩니다.",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#FFFFEA"
+   }
+  ],
+  "max_font": 96.0,
+  "char_total": 177,
+  "images": {
+   "count": 2,
+   "coverage": 0.6
+  },
+  "scene_type": "product-lineup",
+  "layout": "product-beauty + copy + callout-box",
+  "notes": "No.4 레드 마리네이드 각론 + 하단 '수작업 건조로 생산량 한정' 콜아웃 — 희소성 소구"
+ },
+ {
+  "block_id": "1:24920",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 6,
+  "parent_frame": "1:57167",
+  "name": "3-3",
+  "y": 7277,
+  "height": 1407,
+  "bg": {
+   "hex": "#F5F5EB",
+   "lum": 0.904,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:26461",
+    "chars": "Pricing Guide",
+    "size": 50.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:26462",
+    "chars": "옵션 안내",
+    "size": 80.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "1:26468",
+    "chars": "No.3",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#6A760F"
+   },
+   {
+    "id": "1:26470",
+    "chars": "타프나드 (220g)",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#6A760F"
+   },
+   {
+    "id": "1:26473",
+    "chars": "16,900",
+    "size": 64.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530A"
+   },
+   {
+    "id": "1:26474",
+    "chars": "원",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "1:26480",
+    "chars": "No.4",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#6A760F"
+   },
+   {
+    "id": "1:26481",
+    "chars": "레드 마리네이드 (140g)",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#6A760F"
+   },
+   {
+    "id": "1:26484",
+    "chars": "12,900",
+    "size": 64.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530A"
+   },
+   {
+    "id": "1:26485",
+    "chars": "원",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "1:26486",
+    "chars": "주문 시 옵션을 선택해 주세요.",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#363F12"
+   }
+  ],
+  "max_font": 80.0,
+  "char_total": 83,
+  "images": {
+   "count": 2,
+   "coverage": 0.08
+  },
+  "scene_type": "cta-offer",
+  "layout": "price-cards",
+  "notes": "Pricing Guide 옵션 안내 — 제품 카드 2장(썸네일+이름+용량+가격 16,900/12,900원 대형 표기)"
+ },
+ {
+  "block_id": "1:31206",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 7,
+  "parent_frame": "1:57167",
+  "name": "108",
+  "y": 8684,
+  "height": 1738,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "I1:31206;22:20220",
+    "chars": "1",
+    "size": 60.0,
+    "family": "Helvetica",
+    "weight": 400,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:31206;22:20223",
+    "chars": "좋은 올리브는",
+    "size": 60.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#EBF7CF"
+   },
+   {
+    "id": "I1:31206;22:20224",
+    "chars": "풍미로 기억됩니다",
+    "size": 100.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:31206;22:20227",
+    "chars": "  짠맛이 아닌 올리브 본연의 깊은 맛",
+    "size": 48.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:31206;22:20228",
+    "chars": " 올리빗은 원재료와 레시피의 균형을 통해  누구나 부담없이 즐길 수 있는\n올리브 마리네이드를 완성했습니다.",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#F6FFDE"
+   }
+  ],
+  "max_font": 100.0,
+  "char_total": 97,
+  "images": {
+   "count": 2,
+   "coverage": 1.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + photo-caption",
+  "notes": "check point 1 '풍미로 기억됩니다' — 다크 그린 상단(넘버+헤드라인+본문) + 하단 음식 스타일링 사진. POINT 대신 check point 명명",
+  "bg_override": "D+L"
+ },
+ {
+  "block_id": "1:21813",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 8,
+  "parent_frame": "1:57167",
+  "name": "97",
+  "y": 10422,
+  "height": 1861,
+  "bg": {
+   "hex": "#F5F5EB",
+   "lum": 0.907,
+   "class": "L",
+   "src": "child:I1:21813;12:34086"
+  },
+  "texts": [
+   {
+    "id": "I1:21813;12:34093",
+    "chars": "올리브의\n염도를 덜어내고 여러 재료를 더해",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:21813;12:34091",
+    "chars": "풍미 UP 감칠맛 UP",
+    "size": 64.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFEA"
+   },
+   {
+    "id": "I1:21813;12:34097",
+    "chars": "일반적인 올리브",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:21813;12:34101",
+    "chars": "강한 짠 맛",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:21813;12:34104",
+    "chars": "올리브 맛과 향이\n부담스러울 수 있음",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:21813;12:34107",
+    "chars": "입문자에게\n호불호 있음",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:21813;12:34110",
+    "chars": "단독 섭취 위주",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:21813;12:34114",
+    "chars": "올리빗",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21813;12:34118",
+    "chars": "풍미와\n감칠 맛의 균형",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21813;12:34121",
+    "chars": "마늘과 허브로\n풍미를 더함",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21813;12:34124",
+    "chars": "남녀노소 누구나\n즐길 수 있음",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21813;12:34127",
+    "chars": "빵, 크래커 등\n활용도 높음",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21813;12:34130",
+    "chars": "염도",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21813;12:34132",
+    "chars": "풍미",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21813;12:34134",
+    "chars": "호불호",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21813;12:34136",
+    "chars": "활용도",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 64.0,
+  "char_total": 159,
+  "images": {
+   "count": 2,
+   "coverage": 0.19
+  },
+  "scene_type": "comparison",
+  "layout": "vs-table",
+  "notes": "일반적인 올리브 vs 올리빗 — 2열 헤더(자사 열 다크 강조) + 4행 비교(염도/풍미/호불호/활용도), 행 사이 필 배지. 텍스트 비교표의 모범"
+ },
+ {
+  "block_id": "1:21814",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 9,
+  "parent_frame": "1:57167",
+  "name": "98",
+  "y": 12283,
+  "height": 3140,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "I1:21814;19:47",
+    "chars": "처음 만나는 진짜 올리브",
+    "size": 88.0,
+    "family": "Ownglyph corncorn",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21814;19:49",
+    "chars": "사실\n저는 올리브를 좋아하지 않은 사람입니다. 그런데 여행지에서 먹어본 올리브는\n생각보다 짜지 않았고, 깔끔했습니다.",
+    "size": 50.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21814;19:33",
+    "chars": "그 맛이 잊히지 않아\n수 없이 만들고 맛보며\n지금의 레시피를 완성했습니다.",
+    "size": 50.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21814;28:17074",
+    "chars": "올리브를 어려워했던 사람도",
+    "size": 50.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21814;19:35",
+    "chars": "올리브가 이런 맛이구나!",
+    "size": 70.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:21814;19:39",
+    "chars": "올리브 본연의 맛과 풍미를 만나면\n어느새 한 병을 비우게 될지도 모릅니다.\n제가 그랬던 것처럼요.",
+    "size": 50.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   }
+  ],
+  "max_font": 88.0,
+  "char_total": 200,
+  "images": {
+   "count": 3,
+   "coverage": 0.86
+  },
+  "scene_type": "brand-story",
+  "layout": "story-text + callout-box",
+  "notes": "창업자 1인칭 서사('사실 저는 올리브를 좋아하지 않은…') + '올리브가 이런 맛이구나!' 보더 콜아웃 + 선물 패키지 사진. 감성 신뢰 구축"
+ },
+ {
+  "block_id": "1:21815",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 10,
+  "parent_frame": "1:57167",
+  "name": "99",
+  "y": 15424,
+  "height": 2999,
+  "bg": {
+   "hex": "#EEEFDD",
+   "lum": 0.854,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "I1:21815;1:10560",
+    "chars": "2",
+    "size": 60.0,
+    "family": "Helvetica",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21815;12:34157",
+    "chars": "시그니처",
+    "size": 50.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:21815;12:34159",
+    "chars": "지중해식",
+    "size": 50.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#9E892C"
+   },
+   {
+    "id": "I1:21815;12:34161",
+    "chars": "타프나드",
+    "size": 50.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D6813"
+   },
+   {
+    "id": "I1:21815;12:34162",
+    "chars": "빵 위에 가볍게\n올리빗 한 스푼",
+    "size": 100.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#302E06"
+   },
+   {
+    "id": "I1:21815;1:10574",
+    "chars": "복잡한 요리보다\n가볍게 즐기는 한 스푼으로 더 즐겁게!",
+    "size": 44.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:21815;42:43280",
+    "chars": "먼저\n올리브 그대로\n즐겨보세요!",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:43614",
+    "chars": "샐러드를\n더 풍성하게",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:43948",
+    "chars": "파스타를\n색다르게",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:65074",
+    "chars": "감바스 풍미를\n풍성하게",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:44283",
+    "chars": "치즈 플래터에\n포인트로",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:48639",
+    "chars": "먼저\n올리브 그대로\n즐겨보세요!",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:48973",
+    "chars": "파스타를\n색다르게",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:49307",
+    "chars": "빵, 크래커에\n가볍게",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:49642",
+    "chars": "치즈 플래터에\n포인트로",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;7:24972",
+    "chars": "본 상품에는 분쇄 페퍼론치노가 들어 있습니다. \n매운맛이 부담스러우신 분은 주문 시 요청 메시지에 \n'페퍼론치노 제외'를 반드시 기재해 주세요.",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#FFFFEA"
+   },
+   {
+    "id": "I1:21815;31:23956",
+    "chars": "바게트 빵",
+    "size": 54.0,
+    "family": "Ownglyph corncorn",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21815;31:23960",
+    "chars": "비스킷",
+    "size": 54.0,
+    "family": "Ownglyph corncorn",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21815;31:23964",
+    "chars": "파스타",
+    "size": 54.0,
+    "family": "Ownglyph corncorn",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:21815;42:53995",
+    "chars": "먼저\n올리브 그대로\n즐겨보세요!",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:54329",
+    "chars": "오픈샌드위치로\n든든하게",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:54663",
+    "chars": "와인과\n곁들여서",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   },
+   {
+    "id": "I1:21815;42:54998",
+    "chars": "치즈 플래터에\n포인트로",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F6FFDE"
+   }
+  ],
+  "max_font": 100.0,
+  "char_total": 310,
+  "images": {
+   "count": 30,
+   "coverage": 1.0
+  },
+  "scene_type": "usage-guide",
+  "layout": "numbered-point + photo-card-stack",
+  "notes": "check point 2 '빵 위에 가볍게 한 스푼' — 좌 라벨(다크 그린 카드) + 우 사진의 4단 세로 스택(그대로/오픈샌드위치/와인/치즈플래터). 활용법을 사진 연작으로"
+ },
+ {
+  "block_id": "1:37381",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 11,
+  "parent_frame": "1:57167",
+  "name": "111",
+  "y": 18423,
+  "height": 1235,
+  "bg": {
+   "hex": "#F5F5EB",
+   "lum": 0.907,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:37384",
+    "chars": "매일 먹는 거라면",
+    "size": 80.0,
+    "family": "Ownglyph corncorn",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:37385",
+    "chars": "신선함이 제일 중요하겠죠.",
+    "size": 80.0,
+    "family": "Ownglyph corncorn",
+    "weight": 400,
+    "color": "#57530A"
+   }
+  ],
+  "max_font": 80.0,
+  "char_total": 23,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "transition",
+  "layout": "photo-caption",
+  "notes": "'매일 먹는 거라면 신선함이 제일 중요하겠죠' + 물에 떨어지는 올리브 사진 — 다음 usp 셋업"
+ },
+ {
+  "block_id": "1:21816",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 12,
+  "parent_frame": "1:57167",
+  "name": "100",
+  "y": 19658,
+  "height": 1622,
+  "bg": {
+   "hex": "#F5F5EB",
+   "lum": 0.907,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "I1:21816;22:6487",
+    "chars": "3",
+    "size": 60.0,
+    "family": "Helvetica",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21816;22:6490",
+    "chars": "올리빗이",
+    "size": 70.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:21816;22:6491",
+    "chars": "신선한 이유",
+    "size": 100.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21816;22:6494",
+    "chars": "올리빗은 주문 시 제작해",
+    "size": 48.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21816;22:6495",
+    "chars": "매주 월요일, 목요일\n주 2회 발송됩니다.",
+    "size": 48.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "I1:21816;22:6499",
+    "chars": "일",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21816;22:6502",
+    "chars": "월",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#F5F5EB"
+   },
+   {
+    "id": "I1:21816;22:6504",
+    "chars": "화",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21816;22:6506",
+    "chars": "수",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21816;22:6508",
+    "chars": "목",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#F5F5EB"
+   },
+   {
+    "id": "I1:21816;22:6510",
+    "chars": "금",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21816;22:6512",
+    "chars": "토",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   },
+   {
+    "id": "I1:21816;22:6517",
+    "chars": "월 ∙ 목 전날 오후 2시 마감",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#F5F5EB"
+   },
+   {
+    "id": "I1:21816;22:6519",
+    "chars": "일요일 오후 2시까지 주문은 월요일에 배송됩니다.\n수요일 오후 2시까지 주문은 목요일에 배송됩니다.",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530A"
+   }
+  ],
+  "max_font": 100.0,
+  "char_total": 126,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "usp",
+  "layout": "numbered-point + calendar-strip",
+  "notes": "check point 3 신선한 이유 — 주 2회 발송을 요일 캘린더 그래픽(월·목 하이라이트)으로 시각화 + 마감 규칙 각주 2줄"
+ },
+ {
+  "block_id": "1:21817",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 13,
+  "parent_frame": "1:57167",
+  "name": "101",
+  "y": 21280,
+  "height": 1776,
+  "bg": {
+   "hex": "#F5F5EB",
+   "lum": 0.904,
+   "class": "L",
+   "src": "child:1:21818"
+  },
+  "texts": [
+   {
+    "id": "1:23360",
+    "chars": "fresh ingredients",
+    "size": 36.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:23362",
+    "chars": "맛있는 음식은\n좋은 재료에서 시작됩니다",
+    "size": 74.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "1:23365",
+    "chars": "직접 비교하고 맛보고 선별해\n올리빗만의 균형잡힌 맛을 완성했습니다.",
+    "size": 48.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   }
+  ],
+  "max_font": 74.0,
+  "char_total": 75,
+  "images": {
+   "count": 1,
+   "coverage": 0.39
+  },
+  "scene_type": "ingredient-spec",
+  "layout": "photo-caption",
+  "notes": "fresh ingredients '맛있는 음식은 좋은 재료에서 시작됩니다' — 원물 플랫레이 연출 + 선별 과정 한 줄"
+ },
+ {
+  "block_id": "1:29649",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 14,
+  "parent_frame": "1:57167",
+  "name": "106",
+  "y": 23056,
+  "height": 2573,
+  "bg": {
+   "hex": "#F5F5EB",
+   "lum": 0.904,
+   "class": "L",
+   "src": "child:1:29657"
+  },
+  "texts": [
+   {
+    "id": "1:29653",
+    "chars": "그런데 이걸,",
+    "size": 70.0,
+    "family": "Ownglyph corncorn",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:29654",
+    "chars": "처음보는 온라인 브랜드에서\n사도 될까요?",
+    "size": 81.0,
+    "family": "Ownglyph corncorn",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:31199",
+    "chars": "offline store",
+    "size": 36.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:31201",
+    "chars": "올리빗은 매장이 있는\n올리브 전문 브랜드에요.",
+    "size": 74.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "1:31203",
+    "chars": "매장에서 사랑받던 올리브, 더 많은 분께\n전하기 위해 온라인 판매를 시작했어요.\n\n주문하시면 인증받은 시설에서\n제작하여 배송해 드립니다.",
+    "size": 48.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   }
+  ],
+  "max_font": 81.0,
+  "char_total": 143,
+  "images": {
+   "count": 1,
+   "coverage": 0.24
+  },
+  "scene_type": "trust-cert",
+  "layout": "hero-question + photo-proof",
+  "notes": "'처음보는 온라인 브랜드에서 사도 될까요?' 다크 훅 → offline store 실제 매장 외관 사진으로 답변. 인증서 대신 실재 증명",
+  "bg_override": "D+L"
+ },
+ {
+  "block_id": "1:26487",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 15,
+  "parent_frame": "1:57167",
+  "name": "103",
+  "y": 25629,
+  "height": 2093,
+  "bg": {
+   "hex": "#F5F5EB",
+   "lum": 0.904,
+   "class": "L",
+   "src": "child:1:26488"
+  },
+  "texts": [
+   {
+    "id": "1:28029",
+    "chars": "Recommended for",
+    "size": 50.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:28030",
+    "chars": "이런 분께 추천드립니다",
+    "size": 80.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "1:28034",
+    "chars": "01",
+    "size": 36.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:28036",
+    "chars": "와인 ∙ 홈파티를 즐기는데 올리브는 망설이던 분",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "1:28039",
+    "chars": "02",
+    "size": 36.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:28041",
+    "chars": "﻿﻿빵•브런치를 자주 즐기는 분",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "1:28044",
+    "chars": "03",
+    "size": 36.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:28046",
+    "chars": "﻿﻿치즈 플래터를 근사하게 올리고 싶은 분",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "1:28049",
+    "chars": "04",
+    "size": 36.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:28051",
+    "chars": "﻿﻿집들이•답례품을 찾는 분",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "1:28054",
+    "chars": "05",
+    "size": 36.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:28056",
+    "chars": "올리브 싫어하는 가족과 함께 드시고 싶은 분",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   }
+  ],
+  "max_font": 80.0,
+  "char_total": 142,
+  "images": {
+   "count": 1,
+   "coverage": 0.38
+  },
+  "scene_type": "target-audience",
+  "layout": "icon-checklist + photo-caption",
+  "notes": "Recommended for — 넘버 리스트 5행(구분선) + 하단 식탁 스타일링 사진"
+ },
+ {
+  "block_id": "1:23366",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 16,
+  "parent_frame": "1:57167",
+  "name": "102",
+  "y": 27722,
+  "height": 2168,
+  "bg": {
+   "hex": "#F5F5EB",
+   "lum": 0.907,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:24909",
+    "chars": "Recipe",
+    "size": 36.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:24911",
+    "chars": "오픈 샌드위치",
+    "size": 74.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "1:24915",
+    "chars": "조리시간 | 3~5분\n재료 (1인분)\n타프나드 1~2큰술, 바게트나 식빵,  NO.4 레드 마리네이드(선택) ",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530B"
+   },
+   {
+    "id": "1:24917",
+    "chars": "빵을 노릇하게 구워요.\n타프나드를 듬뿍 발라요.\n레드 마리네이드 등  취향에 따라 재료를  추가해 주세요.",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#57530A"
+   },
+   {
+    "id": "1:24919",
+    "chars": "엑스트라버진 올리브유는 냉장 보관하시면 하얗게 응고될 수 있습니다. 이는 낮은 온도에서\n나타나는 자연스러운 현상으로\n변질된 것이 아니니 안심하셔도 됩니다. ",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#FFFFEA"
+   }
+  ],
+  "max_font": 74.0,
+  "char_total": 220,
+  "images": {
+   "count": 1,
+   "coverage": 0.25
+  },
+  "scene_type": "tip",
+  "layout": "recipe-card",
+  "notes": "Recipe 오픈 샌드위치 — 완성 사진 + 조리시간/재료 정보 카드 + 1-2-3 단계 + 보관 주의 콜아웃(응고 현상 안내). 활용 콘텐츠로 가치 부가"
+ },
+ {
+  "block_id": "1:28058",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 17,
+  "parent_frame": "1:57167",
+  "name": "104",
+  "y": 29890,
+  "height": 1607,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:29600",
+    "chars": "fresh ingredients",
+    "size": 50.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#758409"
+   },
+   {
+    "id": "1:29601",
+    "chars": "알고 먹으면 더 맛있는\n올리브 이야기",
+    "size": 80.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#758409"
+   },
+   {
+    "id": "1:29609",
+    "chars": "심혈관 건강",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F5F5EB"
+   },
+   {
+    "id": "1:29610",
+    "chars": "단일불포화지방산 (올레산),LDL ↓,\n심장병•뇌졸중 위험 ↓",
+    "size": 28.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "1:29613",
+    "chars": "혈당 조절",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F5F5EB"
+   },
+   {
+    "id": "1:29614",
+    "chars": "혈당 안정화 도움",
+    "size": 28.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "1:29617",
+    "chars": "노화 지연",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F5F5EB"
+   },
+   {
+    "id": "1:29618",
+    "chars": "세포 손상 방어",
+    "size": 28.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "1:29621",
+    "chars": "항산화",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F5F5EB"
+   },
+   {
+    "id": "1:29622",
+    "chars": "폴리페놀, 비타민 E,\n활성산소 억제 ",
+    "size": 28.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530A"
+   },
+   {
+    "id": "1:29625",
+    "chars": "항염",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F5F5EB"
+   },
+   {
+    "id": "1:29626",
+    "chars": "체내 염증 완화",
+    "size": 28.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#57530A"
+   }
+  ],
+  "max_font": 80.0,
+  "char_total": 138,
+  "images": {
+   "count": 1,
+   "coverage": 0.12
+  },
+  "scene_type": "tip",
+  "layout": "ingredient-list",
+  "notes": "'알고 먹으면 더 맛있는 올리브 이야기' — 효능 배지 5개(심혈관/혈당/노화/항산화/항염) + 짧은 설명. 교육 콘텐츠"
+ },
+ {
+  "block_id": "1:29648",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 18,
+  "parent_frame": "1:57167",
+  "name": "105",
+  "y": 31497,
+  "height": 1266,
+  "bg": {
+   "hex": "#58623F",
+   "lum": 0.112,
+   "class": "D",
+   "src": "child:I1:29648;22:15656"
+  },
+  "texts": [
+   {
+    "id": "I1:29648;22:17067",
+    "chars": "Gift for you",
+    "size": 80.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#8C872E"
+   },
+   {
+    "id": "I1:29648;22:17069",
+    "chars": "식탁 위의 작은 올리브",
+    "size": 80.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#EBF7CF"
+   },
+   {
+    "id": "I1:29648;22:17070",
+    "chars": "음식에 한 끗을 더하다",
+    "size": 80.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FCFFF3"
+   },
+   {
+    "id": "I1:29648;22:17072",
+    "chars": "크래커 위에 가볍게 올리빗 한 스푼\n빵 위에 든든하게 올리빗 한 스푼\n샐러드를 풍성하게 올리빗 한 스푼",
+    "size": 48.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#F8FFE7"
+   },
+   {
+    "id": "I1:29648;22:17073",
+    "chars": "식탁의 작은 변화 올리빗으로 시작하세요.",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#F8FFE7"
+   }
+  ],
+  "max_font": 80.0,
+  "char_total": 115,
+  "images": {
+   "count": 2,
+   "coverage": 1.0
+  },
+  "scene_type": "benefit-recap",
+  "layout": "callout-box",
+  "notes": "다크 그린 패브릭 질감 'Gift for you — 음식에 한 끗을 더하다' + 사용 시나리오 3줄(크래커/빵/샐러드) — 감성 클로징",
+  "bg_override": "D"
+ },
+ {
+  "block_id": "1:31205",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 19,
+  "parent_frame": "1:57167",
+  "name": "107",
+  "y": 32763,
+  "height": 3689,
+  "bg": {
+   "hex": "#F1F1F1",
+   "lum": 0.878,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "I1:31205;22:18616",
+    "chars": "FAQ",
+    "size": 50.0,
+    "family": "Happy Time",
+    "weight": 400,
+    "color": "#DCE8C0"
+   },
+   {
+    "id": "I1:31205;22:18617",
+    "chars": "자주하는 질문",
+    "size": 80.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FCFFF3"
+   },
+   {
+    "id": "I1:31205;22:18624",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31205;22:18625",
+    "chars": "올리브가 짜거나 쓰지 않나요?",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31205;22:18627",
+    "chars": "올리브는 원래 풍미가 강한 식재료입니다. \n올리빗은 염도를 덜어내 짠맛의 균형을 맞추고\n올리브 본연의 풍미를 살리는 레시피를 개발했어요.",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7D7C68"
+   },
+   {
+    "id": "I1:31205;22:18632",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31205;22:18633",
+    "chars": "올리브가 처음인데 뭐부터 먹어보면 좋을까요?",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31205;22:18635",
+    "chars": "처음이라면 가장 친숙하게 즐길 수 있는 N02.지중해 마리네이드, 또는 No.1 시그니처 마리네이드를 \n추천드립니다. \n빵·크래커와 함께 즐기기 좋으며, 보다 진한 풍미를 \n원하신다면 No.3 타프나드를 추천드립니다",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7D7C68"
+   },
+   {
+    "id": "I1:31205;22:18640",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31205;22:18641",
+    "chars": "어떻게 먹나요?",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31205;22:18643",
+    "chars": "먼저 그대로 즐겨보세요!\n그 뒤에 빵·크래커·치즈 플래터에 곁들이거나, \n샐러드 파스타에 활용해 드셔보세요.\n한 스푼만 더해도 특별한 한 끼가 완성됩니다. \n상세페이지 하단 더 맛있게 먹는 팁도 참고해 주세요.",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7D7C68"
+   },
+   {
+    "id": "I1:31205;22:18648",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31205;22:18649",
+    "chars": "보관은 어떻게 하나요?",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31205;22:18651",
+    "chars": "냉장(0~10°C) 보관해 주세요. \n엑스트라버진 올리브유는 낮은 온도에서 하얗게 응고될 수 있습니다. 이는 제품의 자연스러운 특성으로  품질에는 이상이 없으니 안심하셔도 됩니다. 섭취 전 상온에 잠시 두시면 다시 ",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7D7C68"
+   },
+   {
+    "id": "I1:31205;22:18656",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31205;22:18657",
+    "chars": "소비기한이 얼마나 되나요?",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31205;22:18659",
+    "chars": "시그니처·지중해식•타프나드는 제조일로부터 15일, 레드 마리네이드는 20일입니다. \n주문제작 후 발송하는 제품으로 택배 수령 후 냉장\n보관 해주세요. 되도록 빨리 드시는 걸 권장합니다.",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7D7C68"
+   },
+   {
+    "id": "I1:31205;22:18664",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31205;22:18665",
+    "chars": "배송은 언제 오나요?",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31205;22:18667",
+    "chars": "주문 후 제조하여 발송합니다.\n신선도 유지를 위해 매주 2회(월·목) 발송합니다.\n주문 시점에 따라 발송까지 1~4일 정도\n소요될 수 있습니다. ",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7D7C68"
+   },
+   {
+    "id": "I1:31205;22:18672",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31205;22:18673",
+    "chars": "선물포장 되나요?",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31205;22:18675",
+    "chars": "네, 선물포장 가능합니다.(포장비 별도)\n특히 3구 세트는 선물포장이 무료라 집들이나\n지인 선물로 많이 선택해 주십니다. \n받는 분 취향을 모르신다면 다양한 맛을 즐길 수 있는세트 구성을 추천드립니다. ",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7D7C68"
+   },
+   {
+    "id": "I1:31205;22:18680",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31205;22:18681",
+    "chars": "올리브유가 하얗게 굳었는데 먹어도 되나요?",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31205;22:18683",
+    "chars": "네, 정상적인 현상입니다.\n엑스트라버진 올리브오일은 어는점이 낮아\n냉장 보관 시 하얗게 응고되거나 침전물이 생길 수 있습니다. 품질에 이상이 없으며, 실온에 10분~15분 정도 두면 원래 상태로 돌아옵니다. ",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7D7C68"
+   },
+   {
+    "id": "I1:31205;22:18688",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31205;22:18689",
+    "chars": "입맛에 안 맞으면 환불•교환 되나요?",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#57530B"
+   },
+   {
+    "id": "I1:31205;22:18691",
+    "chars": "신선식품 특성상 단순 변심에 의한 환불·교환은\n어려울 수 있습니다. \n다만 상품 오배송, 파손 또는 품질 이상이 확인될 경우 신속하게 교환 및 환불을 도와드립니다. \n이상이 있는 경우, 제품 및 배송박스 사진을 찍어",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7D7C68"
+   }
+  ],
+  "max_font": 80.0,
+  "char_total": 1122,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "faq",
+  "layout": "faq-list",
+  "notes": "Q 8개 — 짜지 않나/뭐부터 먹나/보관/소비기한/배송/선물포장/응고/환불. 실무형 FAQ의 모범(배송·환불까지)"
+ },
+ {
+  "block_id": "1:31208",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 20,
+  "parent_frame": "1:57167",
+  "name": "95",
+  "y": 36452,
+  "height": 416,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "I1:31208;42:35843;2263:2953",
+    "chars": "제품명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35843;2263:2955",
+    "chars": "올리빗 타프나드",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35843;2263:2958",
+    "chars": "내용량",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35843;2263:2960",
+    "chars": "220g",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35844;2263:2953",
+    "chars": "식품유형",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35844;2263:2955",
+    "chars": "기타 가공품",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35844;2263:2958",
+    "chars": "용기재질",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35844;2263:2960",
+    "chars": "유리(병), 철(뚜껑)",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35845;2263:2828",
+    "chars": "영업주소 및\n소재지",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35845;2263:2829",
+    "chars": "OLIVE IT (올리빗)/ 서울시 동작구 상도로30길 39, 120동 1층 상가 106-1호",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35846;2263:2877",
+    "chars": "원재료 및 함량",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35846;2263:2884",
+    "chars": "블랙올리브(스페인산), 케이퍼(스페인산), 발사믹 식초(이탈리아산), 레몬즙(미국산), 올리브오일(스페인산, 이탈리아산, 터키산 중 수급 상황에 따라 혼합 또는 교체 사용), 마늘(국산), 엔초비(멸치)(이탈리아산)",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35846;2263:2899",
+    "chars": "닭목살구이 매운맛 원재료명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35846;2263:2900",
+    "chars": "[품목보고번호: 2024065850917] \n닭목 88%, 고춧가루 6%, 간장 3%, 설탕 2%, 마늘 1%",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35846;2263:3075",
+    "chars": "닭목살구이 덜매운맛 원재료명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35846;2263:3076",
+    "chars": "[품목보고번호: 2024065850918] \n닭목 90%, 고춧가루 4%, 간장 3%, 설탕 2%, 마늘 1%",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35846;2263:3123",
+    "chars": "닭목살구이 소금맛 원재료명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35846;2263:3124",
+    "chars": "[품목보고번호: 2024065850919]\n닭목 96.5%, 정제소금 2%, 설탕 1%, 후추가루 0.5%",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35846;2263:2906",
+    "chars": "※ 알레르기 유발물질: 멸치 함유",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31208;42:35847;2263:2828",
+    "chars": "보관방법",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35847;2263:2829",
+    "chars": "냉장보관 (0~10°C)",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35848;2263:2828",
+    "chars": "주의사항",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31208;42:35848;2263:2829",
+    "chars": "개봉 후 가급적 빨리 드시기 바랍니다. 부정•불량식품 신고는 국번없이 1399",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 12.0,
+  "char_total": 540,
+  "images": {
+   "count": 1,
+   "coverage": 0.13
+  },
+  "scene_type": "notice",
+  "layout": "spec-table",
+  "notes": "정보고시 표(No.3) — 제품명/식품유형/생산자/보관방법/주의사항 2열 표 + 제품 썸네일. 12px 최소 폰트"
+ },
+ {
+  "block_id": "1:31209",
+  "product": "olivit",
+  "label": "올리빗",
+  "quality": "good",
+  "seq": 21,
+  "parent_frame": "1:57167",
+  "name": "96",
+  "y": 36868,
+  "height": 402,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "I1:31209;42:35897;2263:2953",
+    "chars": "제품명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35897;2263:2955",
+    "chars": "올리빗 레드 마리네이드",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35897;2263:2958",
+    "chars": "내용량",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35897;2263:2960",
+    "chars": "140g",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35898;2263:2953",
+    "chars": "식품유형",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35898;2263:2955",
+    "chars": "절임식품",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35898;2263:2958",
+    "chars": "용기재질",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35898;2263:2960",
+    "chars": "유리(병), 철(뚜껑)",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35899;2263:2828",
+    "chars": "영업주소 및\n소재지",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35899;2263:2829",
+    "chars": "OLIVE IT (올리빗)/ 서울시 동작구 상도로30길 39, 120동 1층 상가 106-1호",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35900;2263:2877",
+    "chars": "원재료 및 함량",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35900;2263:2884",
+    "chars": "토마토(국산), 올리브오일(스페인산, 이탈리아산 중 수급 상황에 따라 혼합 또는 교체 사용)",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35900;2263:2899",
+    "chars": "닭목살구이 매운맛 원재료명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35900;2263:2900",
+    "chars": "[품목보고번호: 2024065850917] \n닭목 88%, 고춧가루 6%, 간장 3%, 설탕 2%, 마늘 1%",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35900;2263:3075",
+    "chars": "닭목살구이 덜매운맛 원재료명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35900;2263:3076",
+    "chars": "[품목보고번호: 2024065850918] \n닭목 90%, 고춧가루 4%, 간장 3%, 설탕 2%, 마늘 1%",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35900;2263:3123",
+    "chars": "닭목살구이 소금맛 원재료명",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35900;2263:3124",
+    "chars": "[품목보고번호: 2024065850919]\n닭목 96.5%, 정제소금 2%, 설탕 1%, 후추가루 0.5%",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35900;2263:2906",
+    "chars": "※ 알레르기 유발물질: 토마토 함유",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:31209;42:35901;2263:2828",
+    "chars": "보관방법",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35901;2263:2829",
+    "chars": "냉장보관 (0~10°C)",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35902;2263:2828",
+    "chars": "주의사항",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:31209;42:35902;2263:2829",
+    "chars": "개봉 후 가급적 빨리 드시기 바랍니다. 부정•불량식품 신고는 국번없이 1399",
+    "size": 12.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 12.0,
+  "char_total": 474,
+  "images": {
+   "count": 1,
+   "coverage": 0.12
+  },
+  "scene_type": "notice",
+  "layout": "spec-table",
+  "notes": "정보고시 표(No.4) — 동일 구조 반복"
  }
 ]
