@@ -38,11 +38,24 @@ CERT_PATTERNS = [
 # 정보고시 성격 블록 (이름 기준)
 NOTICE_HINTS = ("고지", "표시사항", "정보고시", "notice")
 # 식품(즉석조리식품) 필수 표시항목 — 누락 검사용
+# (표준명, 동의어들) — 페이지 표기가 표준명과 다를 수 있다("보관방법" vs "보관")
 REQUIRED_FIELDS = [
-    "제품명", "식품유형", "내용량", "원재료명", "영양성분", "소비기한",
-    "보관방법", "제조원", "판매원", "원산지", "알레르기", "수입 여부",
-    "소비자상담 관련 전화번호",
+    ("제품명", ["제품명", "상품명"]),
+    ("식품유형", ["식품유형", "식품 유형"]),
+    ("내용량", ["내용량", "중량"]),
+    ("원재료명", ["원재료명", "원재료"]),
+    ("영양성분", ["영양성분", "영양정보", "kcal"]),
+    ("소비기한", ["소비기한", "유통기한"]),
+    ("보관방법", ["보관방법", "보관"]),
+    ("제조원", ["제조원", "제조사", "생산자"]),
+    ("판매원", ["판매원", "유통전문판매원", "판매자"]),
+    ("원산지", ["원산지"]),
+    ("알레르기", ["알레르기", "알러지"]),
+    ("수입 여부", ["수입식품", "수입 여부", "국내 제조", "국내산 여부", "수입원"]),
+    ("소비자상담 관련 전화번호", ["소비자상담", "고객센터", "문의"]),
 ]
+# 페이지가 "판매 등록 시 기재"로 명시 이연한 항목은 누락이 아니라 정책 준수다
+DEFER_RE = None
 
 
 def token():
@@ -126,7 +139,19 @@ def main():
 
     # 누락 검사
     body = "\n".join(sum((c for _, c in notices), []))
-    missing = [f for f in REQUIRED_FIELDS if f not in body]
+    import re as _re
+    deferred = set()
+    m = _re.search(r"※\s*([^\n]*?)(?:는|은)\s*판매\s*등록\s*시[^\n]*기재", body + "\n".join(s for _, s in footnotes))
+    if m:
+        for tok in _re.split(r"[·,/]", m.group(1)):
+            deferred.add(tok.strip())
+    missing = []
+    for std, alts in REQUIRED_FIELDS:
+        if any(a in body for a in alts):
+            continue
+        if any(std in d or d in std for d in deferred if d):
+            continue
+        missing.append(std)
     lines += ["## ⚠️ 누락 의심 항목", ""]
     if missing:
         lines.append("아래 항목이 페이지 텍스트에서 발견되지 않았습니다. "
