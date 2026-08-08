@@ -204,21 +204,160 @@ def analyze_block(blk):
     return rec
 
 
-def check(blocks, page_h):
+# ── 블록 역할별 규칙 예외 ────────────────────────────────────────────
+# 전환 스트립·띠배너·정보고시는 헤드라인/밀도 규칙의 명시적 예외다
+# (design-tokens §5: 전환 스트립 150~900px, 각주 12~28px)
+ROLE_EXEMPT = {
+    "띠_":    {"A-1", "A-2", "C-5"},
+    "브릿지_": {"A-1", "C-5"},
+    "하단고지": {"A-1", "A-2", "C-5"},
+    "옵션":    {"A-2"},          # 풀블리드 컬러 패널 — 레퍼런스도 낙차가 낮다
+    "FAQ":    {"C-5"},
+}
+
+
+def exempt(name, axiom):
+    for k, ax in ROLE_EXEMPT.items():
+        if k in name and axiom in ax:
+            return True
+    return False
+
+
+# ── compliance RED 토큰 (docs/compliance.md) ────────────────────────
+RED_TOKENS = [
+    "슈퍼푸드", "superfood", "슈퍼곡물", "슈퍼씨드", "당지수", "당부하지수",
+    "디톡스", "detox", "해독", "항암", "항염", "면역력 강화", "항산화",
+    "저속노화", "치료", "완치", "혈압", "혈당", "변비", "아토피", "관절염",
+    "치매", "건강기능식품", "영양제", "무MSG", "MSG 무첨가", "무방부제",
+    "방부제 무첨가", "무콜레스테롤", "환경호르몬", "이온수", "생명수", "약수",
+    "한방", "특수제법", "주문쇄도", "단체추천", "whitening", "slimming",
+]
+RED_RE = re.compile(r"(공진|공신|경옥)\s*(탕|전|주|고|산|환|단|차|정|액|원|초|즙|진액|술|보)")
+# 조건부 — 병기 문구가 없으면 위반
+COND_TOKENS = {"천연": "합성첨가물 무함유 입증", "100%": "단일 원재료 + 첨가물 병기",
+               "무설탕": "표시기준 무당류 충족", "무가당": "설탕무첨가 기준 충족"}
+NUM_NEAR = [
+    ("갈비살 함량(%)", re.compile(r"(?:갈비살|토핑)\s*(\d+(?:\.\d+)?)\s*%")),
+    ("곡물·씨드 종수", re.compile(r"(?:곡물[·・]?씨드|씨드)\s*(\d+)\s*(?:종|가지)")),
+    ("원재료 종수",   re.compile(r"(?:원재료|재료)\s*(\d+)\s*(?:종|가지)")),
+    ("뿌리채소 종수", re.compile(r"뿌리채소\s*(\d+)\s*(?:종|가지)")),
+]
+
+
+def check_compliance(blocks):
+    """법적 하드 게이트 — craft보다 상위. 결정론 영역이다."""
+    out = []
+    for b in blocks:
+        for t in b["texts"]:
+            s = t["text"]
+            low = s.lower()
+            for tok in RED_TOKENS:
+                if tok.lower() in low:
+                    out.append(("RED", b["name"], tok, s))
+            if RED_RE.search(s):
+                out.append(("RED", b["name"], "의약품 오인 조합", s))
+            for tok, need in COND_TOKENS.items():
+                if tok in s:
+                    out.append(("AMBER", b["name"], tok, f"조건부 — {need} 확인 필요"))
+    return out
+
+
+def check_numbers(blocks):
+    """§6.2 수치 정합 — 같은 지시대상에 다른 값이 공존하면 신뢰가 무너진다.
+
+    키워드 *바로 뒤* 값만 취한다. 문장 전체에서 숫자를 긁으면
+    "곡물·씨드 7종 + 뿌리채소 6종"이 한 그룹으로 묶여 오탐이 난다.
+    타사 비교값은 당연히 달라야 하므로 제외한다.
+    """
+    groups = {}
+    for b in blocks:
+        for t in b["texts"]:
+            s = t["text"]
+            if "타사" in s or "경쟁" in s:
+                continue
+            for key, rx in NUM_NEAR:
+                for m in rx.finditer(s):
+                    groups.setdefault(key, set()).add(m.group(1))
+    return {k: sorted(v) for k, v in groups.items() if len(v) > 1}
+
+
+def check_clip(node, out=None, clippers=()):
+    """클립 이탈 — 라운드2 최대 결함 2건이 전부 여기였다.
+
+    clipsContent=true 조상의 bbox 밖으로 자손이 나가면 그만큼 소실된다.
+    렌더에 '잘린 반원'이나 '사라진 배지'로 남는데 다른 어떤 검사로도 안 잡힌다.
+    """
+    out = [] if out is None else out
+    bb = node.get("absoluteBoundingBox")
+    if bb and clippers:
+        for cb, cname in clippers:
+            ix = max(0, min(bb["x"] + bb["width"], cb["x"] + cb["width"]) - max(bb["x"], cb["x"]))
+            iy = max(0, min(bb["y"] + bb["height"], cb["y"] + cb["height"]) - max(bb["y"], cb["y"]))
+            area = bb["width"] * bb["height"]
+            if area <= 0:
+                continue
+            loss = 1 - (ix * iy) / area
+            if loss > 0.05:
+                # 순수 장식 도형의 블리드는 의도된 연출이다 (§1.5)
+                decor = (node["type"] in ("ELLIPSE", "RECTANGLE", "VECTOR", "LINE")
+                         and not node.get("children"))
+                out.append({"node": node.get("name", node["id"]), "id": node["id"],
+                            "clipper": cname, "loss": round(loss, 3), "decor": decor})
+                break
+    nc = clippers
+    if node.get("clipsContent") and node.get("absoluteBoundingBox"):
+        nc = clippers + ((node["absoluteBoundingBox"], node.get("name", node["id"])),)
+    for c in node.get("children") or []:
+        check_clip(c, out, nc)
+    return out
+
+
+def check(blocks, page_h, root=None):
     """공리 판정. → (findings, stats)"""
     f = []           # (severity, axiom, where, message)
     seq = "".join(b["bg_class"] for b in blocks)
 
+    # ── 클립 이탈 (Q1) ──
+    if root is not None:
+        clipped = [c for c in check_clip(root)
+                   if not c["node"].startswith("IMG_") and not c.get("decor")]
+        if clipped:
+            hard = [c for c in clipped if c["loss"] > 0.5]
+            f.append(("FAIL" if hard else "WARN", "CLIP",
+                      ", ".join(f"{c['node']}({int(c['loss']*100)}% 소실)" for c in clipped[:6]),
+                      f"클립 이탈 {len(clipped)}건 — 렌더에 잘린 조각으로 남는다"))
+
+    # ── compliance RED (법적 게이트, craft보다 상위) ──
+    comp = check_compliance(blocks)
+    reds = [c for c in comp if c[0] == "RED"]
+    if reds:
+        f.append(("FAIL", "RED",
+                  ", ".join(f"{b}:{tok}" for _, b, tok, _ in reds[:6]),
+                  f"compliance RED {len(reds)}건 — 점수와 무관하게 폐기 대상"))
+    ambers = [c for c in comp if c[0] == "AMBER"]
+    if ambers:
+        f.append(("WARN", "AMBER",
+                  ", ".join(f"{b}:{tok}" for _, b, tok, _ in ambers[:4]),
+                  f"조건부 표현 {len(ambers)}건 — 병기 문구 확인"))
+
+    # ── 수치 정합 (Q4) ──
+    nums = check_numbers(blocks)
+    if nums:
+        f.append(("FAIL", "§6.2",
+                  "; ".join(f"{k}={'/'.join(v)}" for k, v in nums.items()),
+                  "같은 지시대상에 서로 다른 값이 공존 — 한 값으로 고정하라"))
+
     # ── A-1 헤드라인 하한 ──
     weak = [b for b in blocks if b["max_font"] and b["max_font"] < HEADLINE_MIN
-            and b["chars"] > 40]
+            and b["chars"] > 40 and not exempt(b["name"], "A-1")]
     if weak:
         f.append(("WARN", "A-1", ",".join(b["name"] for b in weak[:5]),
                   f"헤드라인 {HEADLINE_MIN}px 미만 블록 {len(weak)}개 "
                   f"(Good 실측 중앙값 80 / Bad 55)"))
 
     # ── A-2 위계비 ── ★ Bad를 가르는 진짜 신호
-    flat = [b for b in blocks if b["hier"] and b["hier"] < HIER_MIN and b["chars"] > 40]
+    flat = [b for b in blocks if b["hier"] and b["hier"] < HIER_MIN and b["chars"] > 40
+            and not exempt(b["name"], "A-2")]
     if flat:
         f.append(("FAIL" if len(flat) > len(blocks) * 0.3 else "WARN", "A-2",
                   ",".join(f"{b['name']}({b['hier']})" for b in flat[:5]),
@@ -310,7 +449,8 @@ def check(blocks, page_h):
         f.append(("WARN", "C-3", f"{page_h}px", "총 길이 실측 상한(37,400px) 초과"))
 
     # ── C-5 텍스트 밀도 ──
-    dense = [b for b in blocks if b["density"] > TEXT_DENSITY_MAX]
+    dense = [b for b in blocks if b["density"] > TEXT_DENSITY_MAX
+             and not exempt(b["name"], "C-5") and b["h"] > 400]
     if dense:
         f.append(("WARN", "C-5",
                   ",".join(f"{b['name']}({b['density']})" for b in dense[:4]),
@@ -352,7 +492,7 @@ def main():
     blocks = [analyze_block(c) for c in root.get("children") or []]
     page_h = round((root.get("absoluteBoundingBox") or {}).get("height", 0))
 
-    findings, stats = check(blocks, page_h)
+    findings, stats = check(blocks, page_h, root)
 
     if a.json:
         print(json.dumps({"stats": stats, "findings": findings,
