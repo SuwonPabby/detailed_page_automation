@@ -1,0 +1,11 @@
+{
+  "1:82355": {"scene_type": "hook", "layout": "mega-block", "bg_override": "D+L", "notes": "⚠️10,616px 메가 블록 — hook(Since 1996 다크 메탈 로고+직수입 3배지) → 해외 공장/물류 사진 그리드(photo-proof) → '최상의 제품을 합리적인 가격으로'+인증서류 → 스텐 직수입(메탈 질감 풀블리드, 컨셉 '메탈질감' 구현) → 화학성분 Q&A → SUS304 시험성적 표 → 15시 당일출고(다크) → 네이버 톡톡 → 스토어 캡처. 블록 분리가 안 된 작업 파일로, C항 '33과 13이 비슷함' 지적과 연결되는 반복 구조 존재. D/L 교차는 블록 내부에서 해결"},
+  "1:82515": {"scene_type": "usage-guide", "layout": "compare-2up + faq-list", "notes": "'구매 전, 확인해주세요!' — 버니어캘리퍼스 O/X 사진 비교 + Q1(몇미리 볼트?)/Q2(길이?) 설명 + 실제 직경 수치 목록(M4~M12). 구매 실수 예방 교육"},
+  "1:82589": {"scene_type": "usage-guide", "layout": "step-list + screenshot-guide", "bg_override": "L+D", "notes": "'주문 방법 안내' — 옵션 개수 규칙 예시 박스(M8 5개당 가격→5개 선택 시 25개 발송) + 모바일 구매 Step1/2 실제 앱 캡처(다크 카드). ⭐screenshot-guide 신규: UI 캡처로 주문법 안내"},
+  "1:82686": {"scene_type": "notice", "layout": "step-list", "bg_override": "D", "notes": "교환신청/반품신청 안내 — 절차 플로우(로그인▶페이 클릭▶…) + 배송비 정책 + CCTV 훼손 경고. 다크 블록"},
+  "1:82719": {"scene_type": "faq", "layout": "faq-list", "notes": "자주 묻는 질문 Q1~Q5 — 배송/사이즈 선택/개수 출고/현금영수증/방문 구매. 레드 Q 배지 행"},
+  "1:82764": {"scene_type": "faq", "layout": "faq-list", "notes": "'답변 불가능한 질문' Q1~Q3 — 사진 치수 문의/타제품 호환/용도 추천은 답변 불가 공지. ⭐응대 범위를 명시하는 B2B 특유 블록"},
+  "1:34096": {"scene_type": "transition", "layout": "fragment", "notes": "[오배치] 올리빗 보태니컬 일러스트 파편 — 일진와이어 섹션에 잘못 들어간 프레임(1:34095) 소속. 서사 제외"},
+  "1:37379": {"scene_type": "transition", "layout": "fragment", "notes": "[오배치] 올리빗 돔 도형 파편. 서사 제외"},
+  "1:37380": {"scene_type": "transition", "layout": "fragment", "notes": "[오배치] OLIVE IT 로고 파편. 서사 제외"}
+}
