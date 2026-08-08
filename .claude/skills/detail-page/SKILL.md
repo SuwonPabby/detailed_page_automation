@@ -60,8 +60,16 @@ python3 pipeline/parse_brief.py <기획안.xlsx> data/briefs/<product>.json
 ### 2-4. 검수 루프 ★
 
 ```
-빌드 → detail-page-reviewer 에이전트 호출 → 지적 반영 → 재검수 → PASS까지
+빌드 → qa_check.py(결정론) → export_text.py(법적 사이드카)
+     → detail-page-reviewer 에이전트 → 지적 반영 → 재검수 → PASS까지
 ```
+
+```bash
+python3 pipeline/qa_check.py   <fileKey> <rootNodeId>   # 공리 위반 + compliance 토큰 + 클립 이탈
+python3 pipeline/export_text.py <fileKey> <rootNodeId>  # 인증번호 텍스트 사이드카 + 필수항목 누락 검사
+```
+
+**`qa_check.py`가 척추다.** 대비비·명도 런·위계비·폰트 하한·클립 이탈·수치 정합·compliance 토큰은 전부 결정론적으로 계산된다. 에이전트는 그것이 못 보는 것(구성·질감·컨셉 일치·겹침의 질)만 판정한다.
 
 검수자 정의: `.claude/agents/detail-page-reviewer.md`. 통과 기준 **80/100 + 실격 0건**.
 검수자가 없는 세션이면 `general-purpose` 에이전트에 그 파일을 읽히고 역할을 위임한다.
