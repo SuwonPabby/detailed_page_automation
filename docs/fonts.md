@@ -50,6 +50,22 @@ const fonts = await figma.listAvailableFontsAsync();
 
 **기본값으로는 `Noto Sans KR`을 쓰세요.** 웨이트가 충분하고 한글·영문·숫자 균형이 가장 안정적입니다.
 
+## 레퍼런스 폰트 치환 정책 (2026-08-08 검증)
+
+레퍼런스 `Full_design`의 실제 사용 폰트를 쓰기 파일에서 `loadFontAsync`로 검증한 결과:
+
+| 레퍼런스 폰트 (사용 비중) | 로드 가능? | 치환 |
+|---|---|---|
+| **Pretendard(+Variable)** (70%) | ❌ FAIL | → **Noto Sans KR** (웨이트 매핑: 500→Medium, 600→Bold, 700→Bold, 800+→Black) |
+| NanumSquare Neo | ❌ FAIL | → Noto Sans KR 또는 Gothic A1 |
+| SUIT Variable | ❌ FAIL | → Noto Sans KR |
+| Cafe24 PRO Slim / Happy Time / Solmoe KimDaeGeonOTF (포인트) | ❌ FAIL | → 디스플레이 대체: Jua/Do Hyeon(친근), Song Myung(전통 세리프) |
+| NanumMyeongjo | ✅ 사용 가능 | 그대로 |
+
+레퍼런스 폰트들은 디자이너 로컬/팀 공유 폰트로, **우리 쓰기 환경에서는 로드가 불가능**합니다.
+
+**치환 원칙**: 패밀리보다 **위계(크기·웨이트 낙차)를 보존**한다 — [design-tokens.md §1](./analysis/design-tokens.md) 참조. `data/blocks.json`에는 원본 폰트명이 그대로 기록되어 있고, 치환은 생성 시점 정책이다.
+
 ## 주의사항
 
 - **스타일 이름을 추측하지 마세요.** 위 표의 문자열을 그대로 쓰거나 `listAvailableFontsAsync()`로 확인하세요. Inter의 `Semi Bold`(공백 있음) vs Gothic A1의 `SemiBold`(공백 없음)처럼 패밀리마다 표기가 다릅니다. 틀리면 폰트 로딩이 실패합니다.

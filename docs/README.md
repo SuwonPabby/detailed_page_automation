@@ -11,7 +11,11 @@ Claude 외 다른 에이전트도 이 폴더만 읽고 작업을 시작할 수 �
 | 2 | [project-overview.md](./project-overview.md) | 프로젝트 목표, 기존 워크플로우, Level 1/2 자동화 범위 | 맥락 파악 |
 | 3 | [figma-spaces.md](./figma-spaces.md) | 두 Figma 공간의 구조와 노드 ID 인벤토리 | Figma를 다룰 때 |
 | 4 | [design-principles.md](./design-principles.md) | Good/Bad 레퍼런스에서 추출한 디자인 판단 기준 | 페이지를 생성/평가할 때 |
-| 5 | [fonts.md](./fonts.md) | 검증된 한글 폰트 목록과 권장 조합 | 텍스트를 만들 때 |
+| 5 | [fonts.md](./fonts.md) | 검증된 한글 폰트 목록·권장 조합·레퍼런스 폰트 치환 정책 | 텍스트를 만들 때 |
+| 6 | [analysis/README.md](./analysis/README.md) | 분석 산출물 지도 + 생성 단계별 로드 규약 | **페이지를 생성할 때** |
+| 7 | [analysis/scene-taxonomy.md](./analysis/scene-taxonomy.md) | 장면 유형 어휘 + 서사 시퀀스 | 기획안을 장면으로 분해할 때 |
+| 8 | [analysis/layout-catalog.md](./analysis/layout-catalog.md) | 레이아웃 패턴 38종 + anti-pattern | 장면별 레이아웃 고를 때 |
+| 9 | [analysis/design-tokens.md](./analysis/design-tokens.md) | 실측 폰트 스케일·팔레트·배경 리듬 + 생성 규칙 | 스타일 적용할 때 |
 
 ## 한 줄 요약
 

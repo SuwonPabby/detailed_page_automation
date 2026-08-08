@@ -3,7 +3,7 @@
 레퍼런스 코퍼스 `Full_design`(Good 9종 + Bad 5종)을 블록 단위로 분석한 결과물.
 **소비자는 상세페이지 생성 에이전트**다. 디자이너 사고 순서의 각 단계에 문서가 1:1로 대응한다.
 
-> 진행 상태: **M1 완료** (파이프라인 + 파일럿 2제품 20블록). M2~M4에서 전수 확장 예정.
+> 진행 상태: **M4 완료 — 전수 분석 종료.** Good 9종 207블록 전수 라벨 + Bad 5종 선별 라벨(계 311 레코드), 교차 통계, anti-pattern 실측, 폰트 치환 정책까지 반영.
 
 ## 언제 무엇을 읽나 (progressive disclosure)
 
@@ -13,8 +13,8 @@
 | 1. 기획안을 장면으로 분해 | [scene-taxonomy.md](./scene-taxonomy.md) |
 | 2. 장면별 레이아웃 선택 | [layout-catalog.md](./layout-catalog.md) → 후보 패턴의 예시 노드를 **그 자리에서 스크린샷** |
 | 3. 정보 배치 | 카탈로그의 결합 규칙 + 예시 스크린샷 |
-| 4. 디자인 시스템 적용 | design-tokens.md *(M3 예정)* + ../fonts.md |
-| 특정 제품 통째로 참고 | products/*.md *(M4 예정)*, ../../data/blocks.json |
+| 4. 디자인 시스템 적용 | [design-tokens.md](./design-tokens.md) + ../fonts.md (치환 정책 포함) |
+| 특정 제품 통째로 참고 | [products/](./products/) (14제품 블록 표), ../../data/blocks.json |
 
 ## 온디맨드 스크린샷 규약
 
@@ -32,7 +32,7 @@ mcp__figma__get_screenshot(fileKey="jjgud5OkeXKA4weyP3FEND", nodeId="1:58")
 |---|---|
 | `data/blocks.json` | 블록 레코드 전체 — 구조 필드(스크립트 산출) + 라벨(scene_type/layout/notes, Claude 판정). 이미지 배경 블록은 `bg_override`가 SOLID 기반 `bg.class`보다 우선 |
 | `data/labels/*.json` | 제품별 라벨 원천 (apply_labels.py로 blocks.json에 병합) |
-| `data/layout-catalog.json` | *(M4 예정)* 패턴 ID → 예시 노드 기계용 인덱스 |
+| `data/layout-catalog.json` | 패턴 ID → 예시 노드 4개 + 적합 scene 기계용 인덱스 (재생성: `gen_product_docs.py`와 동일 세션의 인라인 스크립트) |
 | `data/raw/` | 원본 캐시 (.gitignore — `scripts/fetch_figma.py`로 재취득) |
 
 ## 파이프라인 재실행

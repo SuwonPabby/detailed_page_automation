@@ -1,0 +1,528 @@
+{
+ "fileKey": "jjgud5OkeXKA4weyP3FEND",
+ "patterns": {
+  "arch-frame": {
+   "examples": [
+    "1:31207"
+   ],
+   "scenes": [
+    "brand-story"
+   ]
+  },
+  "badge-cloud": {
+   "examples": [
+    "1:84526",
+    "1:84055",
+    "1:84107",
+    "1:1385"
+   ],
+   "scenes": [
+    "ingredient-spec",
+    "problem",
+    "usp"
+   ]
+  },
+  "badge-title": {
+   "examples": [
+    "1:84713",
+    "1:84662",
+    "1:84621"
+   ],
+   "scenes": [
+    "usp"
+   ]
+  },
+  "bridge-strip": {
+   "examples": [
+    "1:90",
+    "1:1705",
+    "1:1703",
+    "1:1707"
+   ],
+   "scenes": [
+    "solution-frame",
+    "transition"
+   ]
+  },
+  "calendar-strip": {
+   "examples": [
+    "1:21816"
+   ],
+   "scenes": [
+    "usp"
+   ]
+  },
+  "callout-box": {
+   "examples": [
+    "1:84519",
+    "1:84755",
+    "1:84662",
+    "1:4"
+   ],
+   "scenes": [
+    "benefit-recap",
+    "brand-story",
+    "hook",
+    "problem",
+    "product-lineup",
+    "tip",
+    "usp"
+   ]
+  },
+  "caption-strip": {
+   "examples": [
+    "1:1898",
+    "1:2020",
+    "1:1679",
+    "1:1746"
+   ],
+   "scenes": [
+    "notice",
+    "tip"
+   ]
+  },
+  "circle-photos": {
+   "examples": [
+    "1:83277"
+   ],
+   "scenes": [
+    "problem"
+   ]
+  },
+  "compare-2up": {
+   "examples": [
+    "1:84519",
+    "1:83985",
+    "1:84107",
+    "1:84713"
+   ],
+   "scenes": [
+    "problem",
+    "usage-guide",
+    "usp"
+   ]
+  },
+  "coupon-banner": {
+   "examples": [
+    "1:1461",
+    "1:1470"
+   ],
+   "scenes": [
+    "cta-offer"
+   ]
+  },
+  "document-proof": {
+   "examples": [
+    "1:1647",
+    "1:645"
+   ],
+   "scenes": [
+    "usp"
+   ]
+  },
+  "evidence-callout": {
+   "examples": [
+    "1:58",
+    "1:613"
+   ],
+   "scenes": [
+    "usp"
+   ]
+  },
+  "evidence-chart": {
+   "examples": [
+    "1:84525",
+    "1:83985",
+    "1:97",
+    "1:251"
+   ],
+   "scenes": [
+    "usp"
+   ]
+  },
+  "faq-list": {
+   "examples": [
+    "1:84529",
+    "1:84160",
+    "1:84546",
+    "1:487"
+   ],
+   "scenes": [
+    "faq",
+    "usage-guide"
+   ]
+  },
+  "flow-compare": {
+   "examples": [
+    "1:84223"
+   ],
+   "scenes": [
+    "usp"
+   ]
+  },
+  "fullbleed-product": {
+   "examples": [
+    "1:84518",
+    "1:84026",
+    "1:46",
+    "1:578"
+   ],
+   "scenes": [
+    "hook",
+    "product-reveal"
+   ]
+  },
+  "hero-question": {
+   "examples": [
+    "1:84519",
+    "1:84055",
+    "1:84755",
+    "1:4"
+   ],
+   "scenes": [
+    "hook",
+    "problem",
+    "trust-cert"
+   ]
+  },
+  "icon-checklist": {
+   "examples": [
+    "1:84520",
+    "1:84524",
+    "1:84173",
+    "1:84662"
+   ],
+   "scenes": [
+    "target-audience",
+    "tip",
+    "usp"
+   ]
+  },
+  "icon-row": {
+   "examples": [
+    "1:84755"
+   ],
+   "scenes": [
+    "hook"
+   ]
+  },
+  "ingredient-list": {
+   "examples": [
+    "1:84523",
+    "1:967",
+    "1:28058"
+   ],
+   "scenes": [
+    "ingredient-spec",
+    "tip",
+    "usp"
+   ]
+  },
+  "laurel-badges": {
+   "examples": [
+    "1:82923",
+    "1:83106"
+   ],
+   "scenes": [
+    "trust-cert"
+   ]
+  },
+  "media-slots": {
+   "examples": [
+    "1:82822"
+   ],
+   "scenes": [
+    "hook"
+   ]
+  },
+  "numbered-list": {
+   "examples": [
+    "1:84518",
+    "1:84522",
+    "1:1307",
+    "1:31207"
+   ],
+   "scenes": [
+    "brand-story",
+    "hook",
+    "usage-guide"
+   ]
+  },
+  "numbered-point": {
+   "examples": [
+    "1:84521",
+    "1:84523",
+    "1:84525",
+    "1:83985"
+   ],
+   "scenes": [
+    "trust-cert",
+    "usage-guide",
+    "usp"
+   ]
+  },
+  "option-cards": {
+   "examples": [
+    "1:84257",
+    "1:1905"
+   ],
+   "scenes": [
+    "cta-offer"
+   ]
+  },
+  "package-trust": {
+   "examples": [
+    "1:356",
+    "1:1134"
+   ],
+   "scenes": [
+    "trust-cert"
+   ]
+  },
+  "photo-caption": {
+   "examples": [
+    "1:84520",
+    "1:84255",
+    "1:1347",
+    "1:1363"
+   ],
+   "scenes": [
+    "benefit-recap",
+    "cta-offer",
+    "hook",
+    "ingredient-spec",
+    "target-audience",
+    "transition",
+    "usp"
+   ]
+  },
+  "photo-card-stack": {
+   "examples": [
+    "1:84524",
+    "1:83901",
+    "1:1752",
+    "1:83343"
+   ],
+   "scenes": [
+    "tip",
+    "usage-guide",
+    "usp"
+   ]
+  },
+  "photo-proof": {
+   "examples": [
+    "1:84528",
+    "1:83106",
+    "1:83688",
+    "1:29649"
+   ],
+   "scenes": [
+    "brand-story",
+    "trust-cert"
+   ]
+  },
+  "pill-badges": {
+   "examples": [
+    "1:541",
+    "1:967",
+    "1:1149"
+   ],
+   "scenes": [
+    "hook",
+    "ingredient-spec",
+    "usp"
+   ]
+  },
+  "pill-cloud": {
+   "examples": [
+    "1:588"
+   ],
+   "scenes": [
+    "problem"
+   ]
+  },
+  "price-cards": {
+   "examples": [
+    "1:24920"
+   ],
+   "scenes": [
+    "cta-offer"
+   ]
+  },
+  "price-table": {
+   "examples": [
+    "1:84621"
+   ],
+   "scenes": [
+    "usp"
+   ]
+  },
+  "process-seq": {
+   "examples": [
+    "1:211",
+    "1:1690"
+   ],
+   "scenes": [
+    "usp"
+   ]
+  },
+  "product-beauty": {
+   "examples": [
+    "1:371",
+    "1:584",
+    "1:83266",
+    "1:29635"
+   ],
+   "scenes": [
+    "benefit-recap",
+    "product-lineup",
+    "product-reveal"
+   ]
+  },
+  "product-side": {
+   "examples": [
+    "1:1189"
+   ],
+   "scenes": [
+    "target-audience"
+   ]
+  },
+  "quote-hero": {
+   "examples": [
+    "1:31210"
+   ],
+   "scenes": [
+    "problem"
+   ]
+  },
+  "radial-diagram": {
+   "examples": [
+    "1:84525",
+    "1:84526",
+    "1:251",
+    "1:320"
+   ],
+   "scenes": [
+    "ingredient-spec",
+    "usp"
+   ]
+  },
+  "recipe-card": {
+   "examples": [
+    "1:23366"
+   ],
+   "scenes": [
+    "tip"
+   ]
+  },
+  "review-cards": {
+   "examples": [
+    "1:1939"
+   ],
+   "scenes": [
+    "review"
+   ]
+  },
+  "schedule-table": {
+   "examples": [
+    "1:84522"
+   ],
+   "scenes": [
+    "usage-guide"
+   ]
+  },
+  "screenshot-guide": {
+   "examples": [
+    "1:82589"
+   ],
+   "scenes": [
+    "usage-guide"
+   ]
+  },
+  "shipping-banner": {
+   "examples": [
+    "1:1486"
+   ],
+   "scenes": [
+    "cta-offer"
+   ]
+  },
+  "spec-table": {
+   "examples": [
+    "1:84530",
+    "1:84531",
+    "1:84151",
+    "1:1809"
+   ],
+   "scenes": [
+    "notice"
+   ]
+  },
+  "speech-bubbles": {
+   "examples": [
+    "1:84191",
+    "1:558"
+   ],
+   "scenes": [
+    "problem",
+    "solution-frame"
+   ]
+  },
+  "stat-pills": {
+   "examples": [
+    "1:84521",
+    "1:84026",
+    "1:1533",
+    "1:1713"
+   ],
+   "scenes": [
+    "hook",
+    "usp"
+   ]
+  },
+  "step-list": {
+   "examples": [
+    "1:84521",
+    "1:84605",
+    "1:25",
+    "1:1424"
+   ],
+   "scenes": [
+    "notice",
+    "solution-frame",
+    "usage-guide",
+    "usp"
+   ]
+  },
+  "story-text": {
+   "examples": [
+    "1:83688",
+    "1:21814"
+   ],
+   "scenes": [
+    "brand-story"
+   ]
+  },
+  "timeline-plan": {
+   "examples": [
+    "1:427",
+    "1:83489"
+   ],
+   "scenes": [
+    "usage-guide"
+   ]
+  },
+  "vs-table": {
+   "examples": [
+    "1:84527",
+    "1:84621",
+    "1:1575",
+    "1:1504"
+   ],
+   "scenes": [
+    "comparison",
+    "usp"
+   ]
+  }
+ }
+}

@@ -1,5 +1,5655 @@
 [
  {
+  "block_id": "1:85346",
+  "product": "block-soup",
+  "label": "간편블럭국",
+  "quality": "bad",
+  "seq": 1,
+  "parent_frame": "1:85418",
+  "name": "1. 메인",
+  "y": 200,
+  "height": 1536,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85348",
+    "chars": "이델리쿡 간편블럭국",
+    "size": 88.0,
+    "family": "Gumi Industry TTF",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85349",
+    "chars": "바쁜 일상 속 따뜻한 한 끼",
+    "size": 45.0,
+    "family": "LeeSeoyun",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85353",
+    "chars": "육개장",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85355",
+    "chars": "우거지 된장국",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85357",
+    "chars": "계란국 ",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85360",
+    "chars": "미소 된장국 ",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85362",
+    "chars": "사골 미역국 ",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 88.0,
+  "char_total": 53,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "hook",
+  "layout": "fullbleed-product",
+  "notes": "[간편블럭국] 훅 — 제품/브랜드 소개"
+ },
+ {
+  "block_id": "1:85310",
+  "product": "block-soup",
+  "label": "간편블럭국",
+  "quality": "bad",
+  "seq": 2,
+  "parent_frame": "1:85418",
+  "name": "2. 리뷰 및 추천 구성 페이지_18",
+  "y": 1736,
+  "height": 2022,
+  "bg": {
+   "hex": "#EDECE8",
+   "lum": 0.838,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85312",
+    "chars": "수많은 후기로 검증된\n이델리 간편블럭국",
+    "size": 65.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85317",
+    "chars": "★★★★★",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:85319",
+    "chars": "\"아침에 늦게 일어나서 애들 밥해주기 시간 빠듯할 때\n뜨거운 물에 이거 한 팩 넣고 밥까지 말아주면 완전 간편.\n솔직히 맛도 좋아요 건더기도 딱 적당히 들어있고”",
+    "size": 30.0,
+    "family": "Paperlogy",
+    "weight": 400,
+    "color": "#2C1E00"
+   },
+   {
+    "id": "1:85320",
+    "chars": "출처: 쿠팡판매 2024년 - 2025년",
+    "size": 20.0,
+    "family": "Paperlogy",
+    "weight": 400,
+    "color": "#ACA093"
+   },
+   {
+    "id": "1:85325",
+    "chars": "★★★★★",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:85328",
+    "chars": "사무실 서랍에 두고 점심에 간단하게\n컵밥이랑 같이 챙겨 먹고 있어요.",
+    "size": 30.0,
+    "family": "Paperlogy",
+    "weight": 700,
+    "color": "#2C1E00"
+   },
+   {
+    "id": "1:85333",
+    "chars": "★★★★★",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:85335",
+    "chars": "\"처음엔 출장가서만 먹다가 요즘엔 요리하기 귀찮을 때\n한 개씩 간편하게 상에 올립니다. 집에서 끓여 먹는\n된장국 느낌. 이젠 주식이 되어버렸네요.\"",
+    "size": 30.0,
+    "family": "Paperlogy",
+    "weight": 400,
+    "color": "#2C1E00"
+   },
+   {
+    "id": "1:85340",
+    "chars": "★★★★★",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:85341",
+    "chars": "조미료나 msg가 거의 안들어간 맛이 생각보다 좋았어요.\n가성비도 충분하고, 재구매 의사도 있습니다.",
+    "size": 30.0,
+    "family": "Paperlogy",
+    "weight": 400,
+    "color": "#2C1E00"
+   },
+   {
+    "id": "1:85342",
+    "chars": "”",
+    "size": 100.0,
+    "family": "Ghanachocolate",
+    "weight": 400,
+    "color": "#404040"
+   },
+   {
+    "id": "1:85343",
+    "chars": "“",
+    "size": 100.0,
+    "family": "Ghanachocolate",
+    "weight": 400,
+    "color": "#404040"
+   },
+   {
+    "id": "1:85345",
+    "chars": "Review",
+    "size": 30.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 100.0,
+  "char_total": 337,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "review",
+  "layout": "review-cards",
+  "notes": "[간편블럭국] 후기 카드 4개 — 키 문구 볼드는 하나뿐이고 나머지는 5줄 전문에 가까움. 출처 각주 있음"
+ },
+ {
+  "block_id": "1:85259",
+  "product": "block-soup",
+  "label": "간편블럭국",
+  "quality": "bad",
+  "seq": 3,
+  "parent_frame": "1:85418",
+  "name": "3. 내용 전개 구성 페이지_4",
+  "y": 3758,
+  "height": 3118,
+  "bg": {
+   "hex": "#F7F7F7",
+   "lum": 0.928,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85268",
+    "chars": "2",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:85269",
+    "chars": "mins",
+    "size": 24.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:85271",
+    "chars": "뜯고, 붓고, 완성",
+    "size": 64.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:85272",
+    "chars": "초간단 조리법",
+    "size": 85.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85282",
+    "chars": "2",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85285",
+    "chars": "붓고",
+    "size": 80.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85286",
+    "chars": "뜨거운 물 170 ~ 200m를 부어\n 짠맛을 조절해 주세요.",
+    "size": 40.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#3C3A38"
+   },
+   {
+    "id": "1:85292",
+    "chars": "1",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85295",
+    "chars": "뜯고",
+    "size": 80.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85296",
+    "chars": "블럭을 그릇에 넣어주세요",
+    "size": 40.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#3C3A38"
+   },
+   {
+    "id": "1:85306",
+    "chars": "3",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85308",
+    "chars": "조리 완성",
+    "size": 84.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85309",
+    "chars": "숟가락으로 저어주세요",
+    "size": 40.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#3C3A38"
+   }
+  ],
+  "max_font": 85.0,
+  "char_total": 92,
+  "images": {
+   "count": 3,
+   "coverage": 0.92
+  },
+  "scene_type": "usage-guide",
+  "layout": "process-seq",
+  "notes": "[간편블럭국] 초간단 조리법 1·2·3 — 동일한 '중앙 타이포+그릇 사진' 프레임 3연속. 같은 그릇/같은 구도 반복 → 단조로움 지적의 실체. 코멘트의 '수상부분 겹침' 블록은 4~6(CHECK 연작) 중으로 추정되나 특정 미확정"
+ },
+ {
+  "block_id": "1:85228",
+  "product": "block-soup",
+  "label": "간편블럭국",
+  "quality": "bad",
+  "seq": 4,
+  "parent_frame": "1:85418",
+  "name": "5",
+  "y": 6876,
+  "height": 2479,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85232",
+    "chars": "CHECK",
+    "size": 30.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85234",
+    "chars": "이런 분들에게 추천드려요!",
+    "size": 64.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:85236;58:191",
+    "chars": "숙취해장",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:85236;55:226",
+    "chars": "아침에 일어나자마자\n물 끓여서 바로",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:85237;58:191",
+    "chars": "출장/여행",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:85237;55:226",
+    "chars": "호텔 전기포트로\n물 끓여서 간편하게",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:85238;58:191",
+    "chars": "바쁜 아침",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:85238;55:226",
+    "chars": "출근 준비하면서 물 붓고,\n나가기 전에 후루룩",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:85239;58:191",
+    "chars": "캠핑/낙시/등산",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:85239;55:226",
+    "chars": "버너로 물 끓여서\n자연 속에서 따뜻하게",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85242",
+    "chars": "맛에 따라 추가 재료를 넣어보세요",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#232222"
+   },
+   {
+    "id": "1:85246",
+    "chars": "밥을 말아 든든하게",
+    "size": 32.0,
+    "family": "Press Start K",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85249",
+    "chars": "라면 사리를 넣어 색다르게",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85252",
+    "chars": "계란을 풀어 넣어 더 알차게",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85258",
+    "chars": "더 맛있게 먹는 방법",
+    "size": 64.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#232222"
+   }
+  ],
+  "max_font": 64.0,
+  "char_total": 193,
+  "images": {
+   "count": 5,
+   "coverage": 0.15
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85220",
+  "product": "block-soup",
+  "label": "간편블럭국",
+  "quality": "bad",
+  "seq": 5,
+  "parent_frame": "1:85418",
+  "name": "6",
+  "y": 9355,
+  "height": 1311,
+  "bg": {
+   "hex": "#EDECE8",
+   "lum": 0.838,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85225",
+    "chars": "CHECK",
+    "size": 30.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85226",
+    "chars": "개별 포장으로 \n어디서나 간편하게",
+    "size": 64.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85227",
+    "chars": "10g 개별 포장으로 \n가볍게, 필요한 양 만큼 사용해 보세요.",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#3C3A38"
+   }
+  ],
+  "max_font": 64.0,
+  "char_total": 58,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:84912",
+  "product": "block-soup",
+  "label": "간편블럭국",
+  "quality": "bad",
+  "seq": 6,
+  "parent_frame": "1:85418",
+  "name": "7",
+  "y": 10666,
+  "height": 2468,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:84917",
+    "chars": "CHECK",
+    "size": 30.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:84919",
+    "chars": "맛의 비법",
+    "size": 65.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:84920",
+    "chars": "이델리쿡 간판 블럭국",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#2A2A2A"
+   },
+   {
+    "id": "1:84925",
+    "chars": "급속 동결로 \n국물 본연의 맛 그대로",
+    "size": 65.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:84926",
+    "chars": "원료를 -40도 이하의 온도에서\n낮은 압력으로 얼렸어요. \n국물 본연의 맛과 살아있는 식감을 느껴보세요. ",
+    "size": 35.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:84928",
+    "chars": "우수함을 인정받은\n동결건조 기술 및 제조 시설",
+    "size": 44.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": null
+   }
+  ],
+  "max_font": 65.0,
+  "char_total": 125,
+  "images": {
+   "count": 5,
+   "coverage": 0.57
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:84837",
+  "product": "block-soup",
+  "label": "간편블럭국",
+  "quality": "bad",
+  "seq": 7,
+  "parent_frame": "1:85418",
+  "name": "8",
+  "y": 13134,
+  "height": 2110,
+  "bg": {
+   "hex": "#EDECE8",
+   "lum": 0.838,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:84848",
+    "chars": "육개장",
+    "size": 23.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:84849",
+    "chars": "얼큰한 국물의 정석",
+    "size": 40.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:84850",
+    "chars": "푸짐한 쇠고기(7.46% 함유)",
+    "size": 20.0,
+    "family": "Inter",
+    "weight": 400,
+    "color": "#AAAAAA"
+   },
+   {
+    "id": "1:84854",
+    "chars": "미소 된장국 ",
+    "size": 23.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:84855",
+    "chars": "국내산 재료로 든든하게",
+    "size": 40.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:84856",
+    "chars": "5개 중 단백질 최고(9g)",
+    "size": 20.0,
+    "family": "Inter",
+    "weight": 400,
+    "color": "#AAAAAA"
+   },
+   {
+    "id": "1:84860",
+    "chars": "계란국 ",
+    "size": 23.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:84861",
+    "chars": "전란액을 듬뿍, 더 건강하게",
+    "size": 40.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:84862",
+    "chars": "칼로리 최저(37kcal)",
+    "size": 20.0,
+    "family": "Inter",
+    "weight": 400,
+    "color": "#AAAAAA"
+   },
+   {
+    "id": "1:84866",
+    "chars": "우거지 된장국",
+    "size": 23.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:84867",
+    "chars": "국내산 배추로 담백하게",
+    "size": 36.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:84868",
+    "chars": "5개 중 나트륨 최저(464mg)",
+    "size": 20.0,
+    "family": "Inter",
+    "weight": 400,
+    "color": "#AAAAAA"
+   },
+   {
+    "id": "1:84872",
+    "chars": "사골 미역국 ",
+    "size": 23.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:84873",
+    "chars": "진한 사골, 미역국의 정석",
+    "size": 40.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:84874",
+    "chars": "국내산 미역(52.73%), 사골농축액 함유",
+    "size": 20.0,
+    "family": "Inter",
+    "weight": 400,
+    "color": "#AAAAAA"
+   },
+   {
+    "id": "1:84882",
+    "chars": "CHECK",
+    "size": 30.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:84884",
+    "chars": "다양한 블럭 시리즈",
+    "size": 65.0,
+    "family": "GimpoTitle",
+    "weight": 400,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 65.0,
+  "char_total": 194,
+  "images": {
+   "count": 5,
+   "coverage": 0.15
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:84885",
+  "product": "block-soup",
+  "label": "간편블럭국",
+  "quality": "bad",
+  "seq": 8,
+  "parent_frame": "1:85418",
+  "name": "9. FAQ 문의 구성 페이지_3",
+  "y": 15244,
+  "height": 2631,
+  "bg": {
+   "hex": "#F1F1F1",
+   "lum": 0.878,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:84886",
+    "chars": "Q&A",
+    "size": 60.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "I1:84888;55:140",
+    "chars": "Q.",
+    "size": 20.0,
+    "family": "Inter",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:84888;55:141",
+    "chars": "물 온도가 중요한가요?",
+    "size": 24.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#AF7322"
+   },
+   {
+    "id": "I1:84888;55:142",
+    "chars": "네, 90도 이상의 뜨거운 물을 사용해주세요.  정수기 온수나 전기포트 물이면 충분합니다. 미지근한 물을 사용하면 블럭이 완전히 풀리지 않을 수 있어요.를 보호하고 간 기능을 개선하는 데\n도움을 줄 수 있는 것으로 ",
+    "size": 20.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#202020"
+   },
+   {
+    "id": "I1:84889;55:140",
+    "chars": "Q.",
+    "size": 20.0,
+    "family": "Inter",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:84889;55:141",
+    "chars": "맛이 밍밍하지 않나요?",
+    "size": 24.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#AF7322"
+   },
+   {
+    "id": "I1:84889;55:142",
+    "chars": "동결건조 공법으로 국물 본연의 맛을 그대로 살렸습니다.\n직접 끓인 것처럼 깊은 맛이 나고, 건더기도 푸짐해서\n\"진짜 이게 즉석국이야?\"라는 반응이 많아요.",
+    "size": 20.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#202020"
+   },
+   {
+    "id": "I1:84890;55:140",
+    "chars": "Q.",
+    "size": 20.0,
+    "family": "Inter",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:84890;55:141",
+    "chars": "보관은 어떻게 하나요?",
+    "size": 24.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#AF7322"
+   },
+   {
+    "id": "I1:84890;55:142",
+    "chars": "실온 보관이 가능합니다. 직사광선만 피해서 서늘한 곳에 두시면 됩니다.\n냉장고 자리 걱정 없이 서랍장이나 찬장에 보관하세요.",
+    "size": 20.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#202020"
+   },
+   {
+    "id": "I1:84891;55:140",
+    "chars": "Q.",
+    "size": 20.0,
+    "family": "Inter",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:84891;55:141",
+    "chars": "유통기한은 얼마나 되나요?",
+    "size": 24.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#AF7322"
+   },
+   {
+    "id": "I1:84891;55:142",
+    "chars": "유통기한은 제조일로부터 1년입니다. 상온에 오래 보관할 수 있어서 비상식량으로도 추천드립니다.",
+    "size": 20.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#202020"
+   },
+   {
+    "id": "I1:84892;55:140",
+    "chars": "Q.",
+    "size": 20.0,
+    "family": "Inter",
+    "weight": 500,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "I1:84892;55:141",
+    "chars": "나트륨이 많지 않나요?",
+    "size": 24.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#AF7322"
+   },
+   {
+    "id": "I1:84892;55:142",
+    "chars": "나트륨은 하루 섭취 적정량을 지키고 있습니다.  자세한 영양정보는 상품상세정보에서 확인해주세요.",
+    "size": 20.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#202020"
+   },
+   {
+    "id": "1:84895",
+    "chars": "고객센터 안내",
+    "size": 32.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:84898",
+    "chars": "고객센터",
+    "size": 26.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:84899",
+    "chars": "031-791-0512",
+    "size": 26.0,
+    "family": "Inter",
+    "weight": 400,
+    "color": "#1F1F1F"
+   },
+   {
+    "id": "1:84901",
+    "chars": "운영시간",
+    "size": 26.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:84902",
+    "chars": "10:00~17:00 (월~금) / 점심시간: 12:30~13:30\n토요일/일요일/공휴일 휴무",
+    "size": 26.0,
+    "family": "Inter",
+    "weight": 400,
+    "color": "#1F1F1F"
+   },
+   {
+    "id": "1:84904",
+    "chars": "주문 및 배송안내",
+    "size": 26.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:84905",
+    "chars": "주문 후 주문상품, 주소지를 한번 더 확인해 주세요! (문의글 상으로 주소 변경은 어려울 수 있습니다.) 주문불명과 연락처, 전화번호를 잘못 기재한 경우 반송 제품의 왕복 택배비는 구매자 부담이오니\n정확한 주소 및 ",
+    "size": 20.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#1F1F1F"
+   },
+   {
+    "id": "1:84907",
+    "chars": "교환 및 반품 안내",
+    "size": 26.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#AF7322"
+   },
+   {
+    "id": "1:84908",
+    "chars": "상품을 받으시면 운송장에 쓰여진 상품명과 수량이 배송된 물품과 일치하는지 반드시 확인해 주시고\n이상이 있을 경우 포장을 뜯거나 버리지 마시고 받으신 그대로 카메라 촬영 후 문의 주시기 바랍니다.\n(파손 및 오배송일 ",
+    "size": 20.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#1F1F1F"
+   },
+   {
+    "id": "1:84911",
+    "chars": "이델리쿡은 항상 고객님의 만족을 생각합니다",
+    "size": 26.0,
+    "family": "Inter",
+    "weight": 700,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 60.0,
+  "char_total": 816,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "10:86217",
+  "product": "potato",
+  "label": "감자",
+  "quality": "bad",
+  "seq": 1,
+  "parent_frame": "10:86224",
+  "name": "01 1",
+  "y": 589,
+  "height": 1371,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "10:86218",
+  "product": "potato",
+  "label": "감자",
+  "quality": "bad",
+  "seq": 2,
+  "parent_frame": "10:86224",
+  "name": "02 1",
+  "y": 1960,
+  "height": 3120,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "brand-story",
+  "layout": "story-text + photo-caption",
+  "notes": "[감자] 인사말+밭 사진+손 사진+문단 — 본문 폰트 작고 행간 좁음(지적 사항). 사진과 텍스트의 단순 세로 나열"
+ },
+ {
+  "block_id": "10:86219",
+  "product": "potato",
+  "label": "감자",
+  "quality": "bad",
+  "seq": 3,
+  "parent_frame": "10:86224",
+  "name": "03 2",
+  "y": 5080,
+  "height": 7258,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "usp",
+  "layout": "photo-caption 반복",
+  "notes": "[감자] '첫번째/두번째/세번째 이유' — 완전히 동일한 골격(원형 사진→캡션 박스→풀폭 사진→문단)을 3연속 반복, 7,258px. '단조로운 레이아웃'의 전형. 넘버링 배지만 있고 레이아웃 변주 없음"
+ },
+ {
+  "block_id": "10:86220",
+  "product": "potato",
+  "label": "감자",
+  "quality": "bad",
+  "seq": 4,
+  "parent_frame": "10:86224",
+  "name": "04 1",
+  "y": 12338,
+  "height": 3458,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "10:86221",
+  "product": "potato",
+  "label": "감자",
+  "quality": "bad",
+  "seq": 5,
+  "parent_frame": "10:86224",
+  "name": "05 1",
+  "y": 15796,
+  "height": 1400,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "10:86222",
+  "product": "potato",
+  "label": "감자",
+  "quality": "bad",
+  "seq": 6,
+  "parent_frame": "10:86224",
+  "name": "06 1",
+  "y": 17196,
+  "height": 745,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "10:86223",
+  "product": "potato",
+  "label": "감자",
+  "quality": "bad",
+  "seq": 7,
+  "parent_frame": "10:86224",
+  "name": "07 1",
+  "y": 17941,
+  "height": 953,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:84812",
+  "product": "sangha-soup",
+  "label": "상하키친 스프",
+  "quality": "bad",
+  "seq": 1,
+  "parent_frame": "1:84821",
+  "name": "image 4",
+  "y": 200,
+  "height": 2913,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "hook",
+  "layout": "fullbleed-product + review-cards",
+  "notes": "[상하키친] 훅(3종 라인업+원물 플랫레이) + '고객 후기로 검증된' 말풍선 리뷰 4개 — ⭐칭찬 지점: 리뷰 키포인트만 볼드('빵과 함께 아침대용으로 딱', '토핑이 큼직하고 많은 편') + 마스킹 닉네임 + 출처 각주. 다만 배경·카드 모두 베이지로 대비 낮음"
+ },
+ {
+  "block_id": "1:84818",
+  "product": "sangha-soup",
+  "label": "상하키친 스프",
+  "quality": "bad",
+  "seq": 2,
+  "parent_frame": "1:84821",
+  "name": "image 7",
+  "y": 3113,
+  "height": 6880,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": "product-lineup",
+  "layout": "photo-card-stack",
+  "notes": "[상하키친] Point.4 무첨가 + 취향껏 골라먹는 3종(양송이/감자/콘) 각론 — 전 블록이 같은 베이지 톤, 같은 중앙정렬 사진+텍스트 반복 → '단조로운 레이아웃' 지적의 실체"
+ },
+ {
+  "block_id": "1:84813",
+  "product": "sangha-soup",
+  "label": "상하키친 스프",
+  "quality": "bad",
+  "seq": 3,
+  "parent_frame": "1:84821",
+  "name": "image 5",
+  "y": 9993,
+  "height": 382,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:84814",
+  "product": "sangha-soup",
+  "label": "상하키친 스프",
+  "quality": "bad",
+  "seq": 4,
+  "parent_frame": "1:84821",
+  "name": "image 6",
+  "y": 10375,
+  "height": 4886,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:84815",
+  "product": "sangha-soup",
+  "label": "상하키친 스프",
+  "quality": "bad",
+  "seq": 5,
+  "parent_frame": "1:84821",
+  "name": "image 8",
+  "y": 15261,
+  "height": 4322,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:84816",
+  "product": "sangha-soup",
+  "label": "상하키친 스프",
+  "quality": "bad",
+  "seq": 6,
+  "parent_frame": "1:84821",
+  "name": "image 9",
+  "y": 19583,
+  "height": 1268,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:84817",
+  "product": "sangha-soup",
+  "label": "상하키친 스프",
+  "quality": "bad",
+  "seq": 7,
+  "parent_frame": "1:84821",
+  "name": "image 10",
+  "y": 20851,
+  "height": 1281,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85855",
+  "product": "section4",
+  "label": "Section 4",
+  "quality": "bad",
+  "seq": 1,
+  "parent_frame": "1:86194",
+  "name": "영유아_섹션1",
+  "y": 200,
+  "height": 3337,
+  "bg": {
+   "hex": "#F4ECE5",
+   "lum": 0.849,
+   "class": "L",
+   "src": "child:1:85856"
+  },
+  "texts": [
+   {
+    "id": "1:85860",
+    "chars": "FOR MY BABY",
+    "size": 72.60001373291016,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85861",
+    "chars": "아기 피부에 닿는 첫 번째 이불,",
+    "size": 42.35000228881836,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85864",
+    "chars": "1프로 유아이불",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85865",
+    "chars": "화학 없이, 무게 없이, 자극 없이\n100수 순면으로 완성된 포근한 하루의 시작",
+    "size": 38.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:85867",
+    "chars": "1PRO baby blanket",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85870",
+    "chars": "Check Point",
+    "size": 35.66704559326172,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85877",
+    "chars": "100수 순면 원단으로",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#2F2B27"
+   },
+   {
+    "id": "1:85878",
+    "chars": "맨살에도 자극 없는 부드러운 촉감",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:85882",
+    "chars": "마이크로 솜 충전재로",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#2F2B27"
+   },
+   {
+    "id": "1:85883",
+    "chars": "가볍지만 포근한 이불 무게감",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:85887",
+    "chars": "세탁기 사용 가능한 실용성",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#2F2B27"
+   },
+   {
+    "id": "1:85888",
+    "chars": "빠르게 건조돼 매일 덮어도 부담 없이",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:85892",
+    "chars": "KC 인증 완료된 안심 소재",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#2F2B27"
+   },
+   {
+    "id": "1:85893",
+    "chars": "형광증백제 NO, 무자극 소재 사용",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:85897",
+    "chars": "국내 제작으로 완성도 높은 봉제",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#2F2B27"
+   },
+   {
+    "id": "1:85898",
+    "chars": "처음부터 끝까지 정성껏 만든 퀄리티",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   }
+  ],
+  "max_font": 72.60001373291016,
+  "char_total": 269,
+  "images": {
+   "count": 7,
+   "coverage": 1.0
+  },
+  "scene_type": "hook",
+  "layout": "fullbleed-product",
+  "notes": "[아기 이불] FOR MY BABY 훅. ⭐Section 4의 제품 정체 = 유아 침구(아기 이불) — rules.md 미확정 해소"
+ },
+ {
+  "block_id": "1:86156",
+  "product": "section4",
+  "label": "Section 4",
+  "quality": "bad",
+  "seq": 2,
+  "parent_frame": "1:86194",
+  "name": "영유아_섹션2",
+  "y": 3537,
+  "height": 1261,
+  "bg": {
+   "hex": "#F4ECE5",
+   "lum": 0.849,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:86178",
+    "chars": "낮잠 시간엔\n아기 이불",
+    "size": 38.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86179",
+    "chars": "집, 어린이집에서\n포근하게",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86181",
+    "chars": "외출할 땐\n유모차 담요",
+    "size": 38.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86182",
+    "chars": "쌀쌀한 바람에도\n가볍고 따뜻하게",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86184",
+    "chars": "엄마는 집에서\n무릎 담요",
+    "size": 38.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86185",
+    "chars": "소파에서 덮기\n딱 좋은 사이즈",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86190",
+    "chars": "다양하게 사용하기 좋은",
+    "size": 44.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86191",
+    "chars": "1프로 유아이불",
+    "size": 66.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86192",
+    "chars": "1PRO baby blanket",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   }
+  ],
+  "max_font": 66.0,
+  "char_total": 121,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:86047",
+  "product": "section4",
+  "label": "Section 4",
+  "quality": "bad",
+  "seq": 3,
+  "parent_frame": "1:86194",
+  "name": "영유아_섹션3",
+  "y": 4798,
+  "height": 3991,
+  "bg": {
+   "hex": "#FFFDF3",
+   "lum": 0.98,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:86050",
+    "chars": "REVEIW",
+    "size": 72.60001373291016,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86051",
+    "chars": "꼼꼼한 엄마들이 먼저 사용해봤어요",
+    "size": 42.35000228881836,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86063",
+    "chars": "아이가 잠투정하다가도\n이불 덮고는 바로 잠들어요.",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86064",
+    "chars": "우리 애가 원래 잠귀가 밝고 이불 하나만 바뀌어도 민감한 편인데요, 1프로 이불은 덮어주면 스르륵 잠들더라고요. 진짜 촉감이 너무 좋아서 얼굴에 비비작거리는 모습 보면 '아 이게 진짜 잘 만든 거구나' 싶어요.",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86065",
+    "chars": "꿀잠 유발템 인증!",
+    "size": 55.0,
+    "family": "Cafe24 Shiningstar",
+    "weight": 400,
+    "color": "#EEBC88"
+   },
+   {
+    "id": "1:86073",
+    "chars": "한 번 세탁하고 나서\n더 좋아졌어요.",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86074",
+    "chars": "처음에는 만졌을 때도 부드러웠는데, 세탁 한 번 하고 나니까 더 포근해졌어요. 보풀도 없고, 금방 말라서 아이 외출할 때마다 챙기게 되네요. 건조기 돌려도 처음 그대로라서 엄마로서 이건 진짜 믿음 갑니다.",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86075",
+    "chars": "관리 스트레스 ‘0’",
+    "size": 55.0,
+    "family": "Cafe24 Shiningstar",
+    "weight": 400,
+    "color": "#EEBC88"
+   },
+   {
+    "id": "1:86083",
+    "chars": "엄마가 더 탐나요.\n무릎담요로 찜!",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86084",
+    "chars": "솔직히 사이즈가 딱이라서 저도 밤에 소파에서 덮어요ㅋㅋ 촉감이 너무 좋아서 자꾸 만지게 돼요. 아기용으로 샀는데 저희 부부가 더 좋아함… 다음엔 성인용도 만들어주세요 제발…",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86085",
+    "chars": "엄마 아빠까지 반한 촉감",
+    "size": 55.0,
+    "family": "Cafe24 Shiningstar",
+    "weight": 400,
+    "color": "#EEBC88"
+   },
+   {
+    "id": "1:86093",
+    "chars": "두 개 사길 잘했어요.\n집 하나, 어린이집 하나!",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86094",
+    "chars": "이불 너무 잘 써서 결국 똑같은 거 하나 더 샀어요. 어린이집에서 낮잠 잘 때도 꼭 이거 덮게 하려고요. 아이 피부에 직접 닿는 거니까 아무거나 못 쓰겠더라고요. 순면 100수, 국내 제작이라 마음이 놓여요.",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86095",
+    "chars": "믿고 덮이는 프리미엄 이불",
+    "size": 55.0,
+    "family": "Cafe24 Shiningstar",
+    "weight": 400,
+    "color": "#EEBC88"
+   },
+   {
+    "id": "1:86097",
+    "chars": "1PRO baby blanket",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   }
+  ],
+  "max_font": 72.60001373291016,
+  "char_total": 625,
+  "images": {
+   "count": 1,
+   "coverage": 0.12
+  },
+  "scene_type": "review",
+  "layout": "review-cards",
+  "notes": "[아기 이불] 'REVEIW'(오타) — 리뷰 4개를 제목+5~6줄 전문으로 나열, 3,991px. '구매후기는 전문을 쓰기보다 더 작게 효율적으로' 지적의 실체. 손글씨 캡션은 통일성 있음(코멘트의 칭찬 지점)"
+ },
+ {
+  "block_id": "1:85970",
+  "product": "section4",
+  "label": "Section 4",
+  "quality": "bad",
+  "seq": 4,
+  "parent_frame": "1:86194",
+  "name": "영유아_섹션4",
+  "y": 8789,
+  "height": 5774,
+  "bg": {
+   "hex": "#F4ECE5",
+   "lum": 0.849,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85978",
+    "chars": "01",
+    "size": 44.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85984",
+    "chars": "실크처럼 부드러운 100수 고밀도 면",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85985",
+    "chars": "high-density cotton",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#EEBC88"
+   },
+   {
+    "id": "1:85986",
+    "chars": "100수 순면에 마이크로 솜을 더해,\n촉감은 더 부드럽고 무게는 더 가볍게\n완성했습니다.",
+    "size": 38.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:85993",
+    "chars": "02",
+    "size": 44.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85999",
+    "chars": "디자인부터 봉제까지,\n100% 국내 생산",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86000",
+    "chars": "domestic production",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#EEBC88"
+   },
+   {
+    "id": "1:86001",
+    "chars": "봉제 라인 하나까지 세심하게 완성한 고퀄리티.\n아이를 위한 이불,\n처음부터 끝까지 제대로 만들었습니다.",
+    "size": 38.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86008",
+    "chars": "03",
+    "size": 44.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86014",
+    "chars": "덮였을 때 편안한 무게감 설계",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86015",
+    "chars": "a comfortable weight",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#EEBC88"
+   },
+   {
+    "id": "1:86016",
+    "chars": "너무 가볍지도, 너무 무겁지도 않게.\n몸을 따라 부드럽게\n안착되는 안정적인 포근함이에요.",
+    "size": 38.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86023",
+    "chars": "04",
+    "size": 44.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86029",
+    "chars": "민감한 피부도 안심하고\n덮을 수 있도록",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86030",
+    "chars": "sensitive skin is safe",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#EEBC88"
+   },
+   {
+    "id": "1:86031",
+    "chars": "무형광, 무자극 100수 순면 원단을 사용해\n연약한 아기 피부에 자극 없이 부드럽게 닿습니다.",
+    "size": 38.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86038",
+    "chars": "05",
+    "size": 44.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86044",
+    "chars": "세탁부터 보관까지, 엄마 손 덜 가게",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86045",
+    "chars": "easy to manage",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#EEBC88"
+   },
+   {
+    "id": "1:86046",
+    "chars": "세탁기 사용 가능하고 건조도 빨라\n매일 덮어도, 매일 돌려도 부담 없어요.",
+    "size": 38.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   }
+  ],
+  "max_font": 47.0,
+  "char_total": 451,
+  "images": {
+   "count": 5,
+   "coverage": 0.37
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85940",
+  "product": "section4",
+  "label": "Section 4",
+  "quality": "bad",
+  "seq": 5,
+  "parent_frame": "1:86194",
+  "name": "영유아_섹션5",
+  "y": 14563,
+  "height": 2765,
+  "bg": {
+   "hex": "#FFFDF3",
+   "lum": 0.98,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85946",
+    "chars": "oz",
+    "size": 72.60001373291016,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85947",
+    "chars": "솜 두께를 결정짓는 온스(oz),\n이렇게 이해하면 쉬워요",
+    "size": 42.35000228881836,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85949",
+    "chars": "아이의 꿀잠을 위해\n딱! 맞는 두께를 찾았어요",
+    "size": 65.79999542236328,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85950",
+    "chars": "너무 얇으면 바닥이 느껴지고,\n너무 두꺼우면 답답해서 숙면을 방해하죠.\n\n1프로 유아이불은\n수십 번의 테스트와 사용성 검토를 거쳐\n\n아이 몸에 가장 편안하게 감기는 최적의 두께감만 남겼습니다.\n덮는 순간 느껴지는 포",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:85951",
+    "chars": "그 차이를 직접 경험해보세요.",
+    "size": 70.0,
+    "family": "Cafe24 Shiningstar",
+    "weight": 400,
+    "color": "#EEBC88"
+   },
+   {
+    "id": "1:85953",
+    "chars": "1PRO baby blanket",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85956",
+    "chars": "이불 속 충전재는 보통 온스(oz)라는 무게 단위로 표시돼요.\n숫자가 높을수록 더 도톰하고 포근한 이불이 만들어지죠.\n\n하지만 같은 온스라도 압축 방식이나 봉제, 커버 두께에 따라\n실제 체감되는 두께감과 포근함은 다",
+    "size": 28.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   }
+  ],
+  "max_font": 72.60001373291016,
+  "char_total": 331,
+  "images": {
+   "count": 3,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:86101",
+  "product": "section4",
+  "label": "Section 4",
+  "quality": "bad",
+  "seq": 6,
+  "parent_frame": "1:86194",
+  "name": "영유아_섹션6",
+  "y": 17328,
+  "height": 5150,
+  "bg": {
+   "hex": "#FFF7E5",
+   "lum": 0.936,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:86104",
+    "chars": "ALL-IN-ONE",
+    "size": 72.60001373291016,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86105",
+    "chars": "올인원으로 편하게 준비하세요!",
+    "size": 42.35000228881836,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86110",
+    "chars": "낮잠이불 구성 안내",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86111",
+    "chars": "1프로 낮잠이불 세트는 실용적인 구성으로 준비되어 있어요.\n사용 환경에 맞춰 두 가지 옵션 중 선택하실 수 있습니다.",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86113",
+    "chars": "함께 드리는 전용 가방",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86114",
+    "chars": "모든 구성품은 전용 패키지 가방에 담아 배송됩니다.\n보관도 깔끔하게, 외출 시 휴대도 간편하게\n선물용으로도 만족도가 높아요.",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86116",
+    "chars": "※ 차렵 블랭킷은 부피 특성상 개별 포장되어 발송될 수 있습니다.",
+    "size": 28.0,
+    "family": "SUIT",
+    "weight": 600,
+    "color": "#9E8F7F"
+   },
+   {
+    "id": "1:86118",
+    "chars": "구성품 설명",
+    "size": 47.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86120",
+    "chars": "① 낮잠이불 패드 (양면 소재)",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 600,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86121",
+    "chars": "앞면: 포근한 모달코튼 뒷면: 미끄럼 방지 듀라론\n바닥에 깔고 자도 밀림 없이 안전하게 사용 가능",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86124",
+    "chars": "② 속 패드",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 600,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86125",
+    "chars": "분리 가능한 구조로 세탁이 간편\n통기성과 쿠션감을 동시에 고려한 속충전재 사용",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86128",
+    "chars": "③ 속 베개",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 600,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86129",
+    "chars": "머리에 닿는 촉감까지 부드럽게\n커버 분리 가능해 세탁도 쉬워요",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86132",
+    "chars": "④ 블랭킷(택 1)",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 600,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86133",
+    "chars": "차렵 / 모달 / 인견 중 선택 가능\n계절이나 아이 성향에 맞춰 맞춤 선택",
+    "size": 32.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:86135",
+    "chars": "1PRO baby blanket",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86136",
+    "chars": "with Bag",
+    "size": 30.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86143",
+    "chars": "풀세트 구성",
+    "size": 40.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86144",
+    "chars": "낮잠이불 패드 + 속 패드 + 베개 + 블랭킷(택1)",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 600,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86146",
+    "chars": "보온감과 활용도를 모두 챙긴 완성형 구성",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 600,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86150",
+    "chars": "기본 세트 구성",
+    "size": 40.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86151",
+    "chars": "낮잠이불 패드 + 속 패드 + 베개",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 600,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:86153",
+    "chars": "가볍게 사용하기 좋은 실속 구성",
+    "size": 35.0,
+    "family": "SUIT",
+    "weight": 600,
+    "color": "#543F29"
+   }
+  ],
+  "max_font": 72.60001373291016,
+  "char_total": 561,
+  "images": {
+   "count": 3,
+   "coverage": 0.17
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85957",
+  "product": "section4",
+  "label": "Section 4",
+  "quality": "bad",
+  "seq": 7,
+  "parent_frame": "1:86194",
+  "name": "영유아_섹션7",
+  "y": 22478,
+  "height": 2509,
+  "bg": {
+   "hex": "#FFF9F3",
+   "lum": 0.954,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85961",
+    "chars": "For the day of the child and the mother",
+    "size": 72.60001373291016,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85964",
+    "chars": "아이와 엄마의\n하루를 위해",
+    "size": 60.0,
+    "family": "SUIT",
+    "weight": 800,
+    "color": "#E5D4C3"
+   },
+   {
+    "id": "1:85968",
+    "chars": "우리는 단지 이불 하나를 만들지 않았습니다.\n하루 중 가장 오랜 시간을 함께하는 물건, 아이 피부에\n가장 먼저 닿는 이불. 그만큼 우리는 고민하고, 또 고민했습니다.\n\n너무 부드럽기만 하면 오래 못 쓰고,\n너무 튼튼",
+    "size": 28.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#938579"
+   },
+   {
+    "id": "1:85969",
+    "chars": "지금, 우리 아이에게 꼭 맞는\n첫 번째 이불을 만나보세요.",
+    "size": 70.0,
+    "family": "Cafe24 Shiningstar",
+    "weight": 400,
+    "color": "#938579"
+   }
+  ],
+  "max_font": 72.60001373291016,
+  "char_total": 205,
+  "images": {
+   "count": 1,
+   "coverage": 0.26
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85899",
+  "product": "section4",
+  "label": "Section 4",
+  "quality": "bad",
+  "seq": 8,
+  "parent_frame": "1:86194",
+  "name": "영유아_섹션8",
+  "y": 24987,
+  "height": 1826,
+  "bg": {
+   "hex": "#F6EADF",
+   "lum": 0.836,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85901",
+    "chars": "FAQ",
+    "size": 44.0,
+    "family": "Cafe24 ClassicType OTF",
+    "weight": 400,
+    "color": "#543F29"
+   },
+   {
+    "id": "1:85906",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85907",
+    "chars": "세탁은 어떻게 하나요?",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85908",
+    "chars": "A",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85909",
+    "chars": "30도 이하의 미지근한 물과 중성세제를 사용해 주세요.\n손세탁이 가장 오래가는 방법이지만, 세탁망에 넣고 울코스로 돌리면 세탁기 사용도 가능합니다.",
+    "size": 24.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85912",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85913",
+    "chars": "건조기 사용해도 되나요?",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85914",
+    "chars": "A",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85915",
+    "chars": "저온 건조는 가능하지만, 자연건조를 추천드립니다.\n건조기를 자주 사용하면 이불 속 충전재가 뭉칠 수 있어요.",
+    "size": 24.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85918",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85919",
+    "chars": " 털 빠짐이나 보풀은 없나요?",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85920",
+    "chars": "A",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85921",
+    "chars": "순면 100수 원단과 마이크로 솜 충전재로 제작되어\n세탁 후에도 털 빠짐이나 보풀 걱정 없이 사용하실 수 있어요.",
+    "size": 24.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85924",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85925",
+    "chars": "아기가 써도 정말 안전한가요?",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85926",
+    "chars": "A",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85927",
+    "chars": "네! 무형광 순면 원단만을 사용하고,\nKC 인증까지 완료된 안전한 소재로 제작됐습니다.",
+    "size": 24.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85930",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85931",
+    "chars": "사계절 내내 사용할 수 있나요?",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85932",
+    "chars": "A",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85933",
+    "chars": "네, 계절에 따라 다양하게 활용 가능합니다.\n여름엔 에어컨 바람막이로, 겨울엔 속이불로 포근하게 덮여요.",
+    "size": 24.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85936",
+    "chars": "Q",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85937",
+    "chars": "어느 연령대까지 사용 가능한가요?",
+    "size": 30.0,
+    "family": "SUIT",
+    "weight": 700,
+    "color": "#E4A16E"
+   },
+   {
+    "id": "1:85938",
+    "chars": "A",
+    "size": 32.0,
+    "family": "Gmarket Sans",
+    "weight": 400,
+    "color": "#383635"
+   },
+   {
+    "id": "1:85939",
+    "chars": "신생아부터 5~6세 아이까지 사용하기 좋은 사이즈예요.\n집에서는 이불로, 외출 시엔 담요로 활용하기 딱이에요.",
+    "size": 24.0,
+    "family": "SUIT",
+    "weight": 500,
+    "color": "#383635"
+   }
+  ],
+  "max_font": 44.0,
+  "char_total": 479,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "faq",
+  "layout": "faq-list",
+  "notes": "[아기 이불] FAQ — 페이지 종료"
+ },
+ {
+  "block_id": "1:85461",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 1,
+  "parent_frame": "1:85457",
+  "name": "CK_tc00240030151 1",
+  "y": -532,
+  "height": 0,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85463",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 2,
+  "parent_frame": "1:85457",
+  "name": "Rectangle 346600784",
+  "y": 266,
+  "height": 940,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85462",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 3,
+  "parent_frame": "1:85457",
+  "name": "Firefly 마트에 놓여있는 토마토 742778 1",
+  "y": 288,
+  "height": 1434,
+  "bg": {
+   "hex": "#000000",
+   "lum": 0.0,
+   "class": "D",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85464",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 4,
+  "parent_frame": "1:85457",
+  "name": "왜 토마토는",
+  "y": 476,
+  "height": 255,
+  "bg": {
+   "hex": "#EE0000",
+   "lum": 0.181,
+   "class": "M",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85464",
+    "chars": "왜 토마토는",
+    "size": 170.0,
+    "family": "iceJaram",
+    "weight": 400,
+    "color": "#EE0000"
+   }
+  ],
+  "max_font": 170.0,
+  "char_total": 6,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85465",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 5,
+  "parent_frame": "1:85457",
+  "name": "마트에서 사면 맛이 없을까?",
+  "y": 706,
+  "height": 71,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85465",
+    "chars": "마트에서 사면 맛이 없을까?",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 15,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85466",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 6,
+  "parent_frame": "1:85457",
+  "name": "Group 1707481909",
+  "y": 897,
+  "height": 309,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85469",
+    "chars": "익기 전 수확",
+    "size": 37.80000305175781,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85470",
+    "chars": "유통 중\n익히는 시스템",
+    "size": 37.80000305175781,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 37.80000305175781,
+  "char_total": 19,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85472",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 7,
+  "parent_frame": "1:85457",
+  "name": "Frame 1707482630",
+  "y": 1211,
+  "height": 337,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85475",
+    "chars": "껍질은 단단하지만,",
+    "size": 64.79999542236328,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85476",
+    "chars": "속은 푸석하고 맛이 없다.",
+    "size": 64.79999542236328,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 64.79999542236328,
+  "char_total": 24,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85477",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 8,
+  "parent_frame": "1:85457",
+  "name": "Union",
+  "y": 1641,
+  "height": 433,
+  "bg": {
+   "hex": "#F2F2F4",
+   "lum": 0.889,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85480",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 9,
+  "parent_frame": "1:85457",
+  "name": "Group 1707481912",
+  "y": 1847,
+  "height": 114,
+  "bg": {
+   "hex": "#EE0000",
+   "lum": 0.181,
+   "class": "M",
+   "src": "child:1:85481"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85489",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 10,
+  "parent_frame": "1:85457",
+  "name": "1프로 토마토는 다릅니다.",
+  "y": 1863,
+  "height": 83,
+  "bg": {
+   "hex": "#EE0000",
+   "lum": 0.181,
+   "class": "M",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85489",
+    "chars": "1프로 토마토는 다릅니다.",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#EE0000"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 14,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85458",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 11,
+  "parent_frame": "1:85457",
+  "name": "ed-o-neil-AvvdZlhDowA-unsplash 1",
+  "y": 1905,
+  "height": 838,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85490",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 12,
+  "parent_frame": "1:85457",
+  "name": "Group 1707481913",
+  "y": 2694,
+  "height": 243,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "child:1:85491"
+  },
+  "texts": [
+   {
+    "id": "1:85495",
+    "chars": "색이 아니라, 맛으로 땁니다.",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85498",
+    "chars": "충분히 달고, 충분히 익었을 때만 수확합니다.",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 40.0,
+  "char_total": 41,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85459",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 13,
+  "parent_frame": "1:85457",
+  "name": "Rectangle 346600796",
+  "y": 3018,
+  "height": 582,
+  "bg": {
+   "hex": "#FCEDED",
+   "lum": 0.874,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85518",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 14,
+  "parent_frame": "1:85457",
+  "name": "Frame 1707482419",
+  "y": 3097,
+  "height": 80,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85521",
+    "chars": "전북 고창 해풍지에서",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 40.0,
+  "char_total": 11,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85522",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 15,
+  "parent_frame": "1:85457",
+  "name": "Group 1707481914",
+  "y": 3234,
+  "height": 309,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85525",
+    "chars": "하루 단위로 수확",
+    "size": 37.80000305175781,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#EE0000"
+   },
+   {
+    "id": "1:85526",
+    "chars": "바로 산지 직송",
+    "size": 37.80000305175781,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#EE0000"
+   }
+  ],
+  "max_font": 37.80000305175781,
+  "char_total": 17,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85501",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 16,
+  "parent_frame": "1:85457",
+  "name": "Rectangle 346600795",
+  "y": 3400,
+  "height": 354,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85460",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 17,
+  "parent_frame": "1:85457",
+  "name": "Rectangle 346600791",
+  "y": 3401,
+  "height": 1234,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85500",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 18,
+  "parent_frame": "1:85457",
+  "name": "Rectangle 346600794",
+  "y": 4281,
+  "height": 354,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85502",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 19,
+  "parent_frame": "1:85457",
+  "name": "Frame 1707482634",
+  "y": 4459,
+  "height": 458,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85506",
+    "chars": "평균 당도 9브릭스 이상",
+    "size": 44.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85511",
+    "chars": "껍질 얇고 과즙 가득, 톡 깨지는 식감",
+    "size": 44.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85516",
+    "chars": "물러지지 않고, 마지막까지 신선하게",
+    "size": 44.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 44.0,
+  "char_total": 53,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85499",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 20,
+  "parent_frame": "1:85457",
+  "name": "Rectangle 346600792",
+  "y": 4635,
+  "height": 1229,
+  "bg": {
+   "hex": "#FCEDED",
+   "lum": 0.873,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85528",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 21,
+  "parent_frame": "1:85457",
+  "name": "Rectangle 346600797",
+  "y": 5000,
+  "height": 300,
+  "bg": {
+   "hex": "#EE0000",
+   "lum": 0.181,
+   "class": "M",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85529",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 22,
+  "parent_frame": "1:85457",
+  "name": "Rectangle 346600798",
+  "y": 5010,
+  "height": 2,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85530",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 23,
+  "parent_frame": "1:85457",
+  "name": "마트 토마토에서 못 느꼈던 ‘제맛’ 1프로 토마토로 느껴보세요.",
+  "y": 5080,
+  "height": 140,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [
+   {
+    "id": "1:85530",
+    "chars": "마트 토마토에서 못 느꼈던 ‘제맛’\n1프로 토마토로 느껴보세요.",
+    "size": 50.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 50.0,
+  "char_total": 35,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85533",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 24,
+  "parent_frame": "1:85532",
+  "name": "CK_tc00240030151 1",
+  "y": 4549,
+  "height": 0,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85534",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 25,
+  "parent_frame": "1:85532",
+  "name": "mockup-graphics-KPOwqvdZ34o-unsplash 1",
+  "y": 5196,
+  "height": 1072,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85584",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 26,
+  "parent_frame": "1:85532",
+  "name": "Group 1707481920",
+  "y": 5575,
+  "height": 98,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85590",
+    "chars": "?",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 1,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85591",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 27,
+  "parent_frame": "1:85532",
+  "name": "Group 1707481919",
+  "y": 5696,
+  "height": 310,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85592",
+    "chars": "왜 1프로\n토마토여야 하나요?",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85594",
+    "chars": "일반 토마토 vs 1프로 토마토\n맛·신선도·품질관리에서부터 다릅니다.",
+    "size": 35.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 54,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85535",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 28,
+  "parent_frame": "1:85532",
+  "name": "Frame 1707482639",
+  "y": 6120,
+  "height": 1174,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85538",
+    "chars": "항목",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#212121"
+   },
+   {
+    "id": "1:85540",
+    "chars": "수확 기준",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85542",
+    "chars": "식감",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85544",
+    "chars": "포장",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85546",
+    "chars": "품질 관리",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85548",
+    "chars": "신선도",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85550",
+    "chars": "재배 환경",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85554",
+    "chars": "일반 토마토",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#212121"
+   },
+   {
+    "id": "1:85556",
+    "chars": "겉색만 보고\n조기 수확",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85558",
+    "chars": "푸석하거나 단단함",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85560",
+    "chars": "일반 박스포장",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85562",
+    "chars": "선별 불균형,\n당도 편차 큼",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85564",
+    "chars": "유통 중\n무르거나 상함",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85566",
+    "chars": "노지 or 단순 온실",
+    "size": 26.254798889160156,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#7D7D7D"
+   },
+   {
+    "id": "1:85570",
+    "chars": "1프로 토마토",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#EE0000"
+   },
+   {
+    "id": "1:85572",
+    "chars": "당도+숙성도 기준\n정밀 선별",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#404040"
+   },
+   {
+    "id": "1:85574",
+    "chars": "얇은 껍질, 과즙 가득,\n톡 터지는 식감",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#404040"
+   },
+   {
+    "id": "1:85576",
+    "chars": "신선도 유지\n냉장 코팅박스",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#404040"
+   },
+   {
+    "id": "1:85578",
+    "chars": "Brix(브릭스) 기준\n고당도 선별",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#404040"
+   },
+   {
+    "id": "1:85580",
+    "chars": "산지 당일 수확\n→ 바로 발송",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#404040"
+   },
+   {
+    "id": "1:85582",
+    "chars": "전북 고창 해풍\n스마트팜",
+    "size": 32.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#404040"
+   }
+  ],
+  "max_font": 32.0,
+  "char_total": 202,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85598",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 29,
+  "parent_frame": "1:85532",
+  "name": "Frame 1707482643",
+  "y": 7419,
+  "height": 868,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85600",
+    "chars": "같은 토마토여도",
+    "size": 140.0,
+    "family": "iceJaram",
+    "weight": 400,
+    "color": "#EE0000"
+   },
+   {
+    "id": "1:85601",
+    "chars": "먹어보면 다르다는 걸 느끼게 됩니다.",
+    "size": 45.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85605",
+    "chars": "1프로 토마토는",
+    "size": 49.5,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#9E9E9E"
+   },
+   {
+    "id": "1:85609",
+    "chars": "수확 시점부터, 포장, 배송까지",
+    "size": 60.0,
+    "family": "Pretendard",
+    "weight": 800,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85610",
+    "chars": "모든 과정에서 신선함을\n지키기 위해 설계했습니다.",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 140.0,
+  "char_total": 80,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85595",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 30,
+  "parent_frame": "1:85532",
+  "name": "Group 1707481921",
+  "y": 7829,
+  "height": 855,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85685",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 31,
+  "parent_frame": "1:85683",
+  "name": "CK_tc00240030151 1",
+  "y": 7784,
+  "height": 0,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85686",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 32,
+  "parent_frame": "1:85683",
+  "name": "Group 1707481920",
+  "y": 8810,
+  "height": 98,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85692",
+    "chars": "?",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 1,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85693",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 33,
+  "parent_frame": "1:85683",
+  "name": "Group 1707481919",
+  "y": 8955,
+  "height": 243,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85694",
+    "chars": "1프로 토마토, 뭐가 다를까요?",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85696",
+    "chars": "단순히 “맛있는 토마토”가 아닙니다.\n맛은 기본, 여기에 재배, 품질, 유통까지 다릅니다.",
+    "size": 35.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 67,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85697",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 34,
+  "parent_frame": "1:85683",
+  "name": "Group 1707481928",
+  "y": 9298,
+  "height": 1879,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85713",
+    "chars": "고창 해풍 스마트팜에서 자란",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85714",
+    "chars": "진짜 토마토 맛",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#EE0000"
+   },
+   {
+    "id": "1:85715",
+    "chars": "비옥한 토양 + 해풍 맞은 토마토는\n과육이 단단하고, 당도는 더 높게 자랍니다.\n1프로 토마토는 산지 인증 스마트팜에서\n비파괴 센서로 관리되며 자라납니다.",
+    "size": 29.924999237060547,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85719",
+    "chars": "크기·등급까지",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85720",
+    "chars": "직접 고를 수 있는 정밀 선별",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#EE0000"
+   },
+   {
+    "id": "1:85721",
+    "chars": "기계가 아닌 사람 손으로 선별합니다.\n소과/중과/대과로 나눠 원하는 크기만 골라 담아 드려요.",
+    "size": 29.924999237060547,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85726",
+    "chars": "오늘 따서, 오늘 포장",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85727",
+    "chars": "직배송으로 식탁까지 신선하게",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#EE0000"
+   },
+   {
+    "id": "1:85728",
+    "chars": "아침에 수확 → 오후 포장 → 저녁 출하\n냉장 코팅 박스로 출고되며, 토마토의\n숨 쉬는 신선함이 그대로 도착합니다.",
+    "size": 29.924999237060547,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85733",
+    "chars": "수확 기준부터 다릅니다",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85734",
+    "chars": "겉만 보고 수확? NO!",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#EE0000"
+   },
+   {
+    "id": "1:85735",
+    "chars": "1프로은 색만 보고 수확하지 않습니다.\n당도(Brix) 기준 8도 이상만 수확하여\n한입 베어 물었을 때, 톡! 터지는 과즙과\n달콤함을 그대로 담았습니다.",
+    "size": 29.924999237060547,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   }
+  ],
+  "max_font": 40.0,
+  "char_total": 385,
+  "images": {
+   "count": 4,
+   "coverage": 0.28
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85684",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 35,
+  "parent_frame": "1:85683",
+  "name": "7-1-FSN4BIuruE0-unsplash 1",
+  "y": 11019,
+  "height": 437,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85739",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 36,
+  "parent_frame": "1:85737",
+  "name": "CK_tc00240030151 1",
+  "y": 10490,
+  "height": 0,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85738",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 37,
+  "parent_frame": "1:85737",
+  "name": "CK_tica1160003651 1",
+  "y": 10845,
+  "height": 2441,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85740",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 38,
+  "parent_frame": "1:85737",
+  "name": "Group 1707481929",
+  "y": 11540,
+  "height": 114,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85750",
+    "chars": "이런 분들께 추천드려요",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#3D3D3D"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 12,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85752",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 39,
+  "parent_frame": "1:85737",
+  "name": "Group 1707481930",
+  "y": 11708,
+  "height": 1169,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85754",
+    "chars": "아이 간식으로 믿고\n줄 수 있는 과일을 찾는 부모님",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85755",
+    "chars": "달콤하지만 인위적이지 않은 당도, 껍질이 얇고 부드러워 아이도 거부감 없이 잘 먹어요.",
+    "size": 29.924999237060547,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85758",
+    "chars": "샐러드 하나에도\n재료 퀄리티 따지는 분",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85759",
+    "chars": "토마토 하나로도 샐러드 퀄리티는 달라집니다.\n아삭하고 탄탄한 식감으로 식단 플레이트의 중심을 만들어줘요.",
+    "size": 29.924999237060547,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85762",
+    "chars": "냉장고에서 오래 두고\n먹을 수 있는 과일 찾는 1인 가구",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85763",
+    "chars": "보관 중 쉽게 물러지지 않아\n일주일 넘게도 싱싱하게 유지되는 실속템!",
+    "size": 29.924999237060547,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85766",
+    "chars": "토마토는 싫은데 1프로 토마토는\n맛있다는 말, 들어보신 분",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   },
+   {
+    "id": "1:85767",
+    "chars": "토마토 특유의 식감, 맛이 부담스러웠던 분도",
+    "size": 29.924999237060547,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#232323"
+   }
+  ],
+  "max_font": 40.0,
+  "char_total": 280,
+  "images": {
+   "count": 4,
+   "coverage": 0.28
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85751",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 40,
+  "parent_frame": "1:85737",
+  "name": "Rectangle 346600798",
+  "y": 16022,
+  "height": 11,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85774",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 41,
+  "parent_frame": "1:85773",
+  "name": "CK_tc00240030151 1",
+  "y": 12145,
+  "height": 0,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85775",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 42,
+  "parent_frame": "1:85773",
+  "name": "Group 1707481920",
+  "y": 13171,
+  "height": 98,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85781",
+    "chars": "!",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 1,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85782",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 43,
+  "parent_frame": "1:85773",
+  "name": "Group 1707481919",
+  "y": 13316,
+  "height": 83,
+  "bg": {
+   "hex": "#000000",
+   "lum": 0.0,
+   "class": "D",
+   "src": "child:1:85783"
+  },
+  "texts": [
+   {
+    "id": "1:85783",
+    "chars": "1프로 토마토, 활용 레시피 3가지",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 19,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85785",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 44,
+  "parent_frame": "1:85773",
+  "name": "Frame 1707482650",
+  "y": 13498,
+  "height": 4868,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85794",
+    "chars": "1프로 토마토 구이",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85795",
+    "chars": "촉촉하고 달큰한 토마토구이",
+    "size": 55.0,
+    "family": "iceJaram",
+    "weight": 400,
+    "color": "#EE0000"
+   },
+   {
+    "id": "1:85796",
+    "chars": "1프로 토마토 2~3개\n올리브오일 1큰술\n소금 약간",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85798",
+    "chars": "토마토는 깨끗이 씻은 뒤 물기를 닦고 반으로 잘라 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85799",
+    "chars": "자른 단면 위에 올리브오일을 살짝 뿌리고, 소금을 약간만 톡톡 뿌려 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85800",
+    "chars": "예열한 에어프라이어에 넣고 180도로 10분간 구워 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85801",
+    "chars": "겉은 살짝 바삭하고 속은 촉촉한 구운 토마토 완성! 스테이크나 고기 요리 곁들임으로도 좋아요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85802",
+    "chars": "재료",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85803",
+    "chars": "만드는 법",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85806",
+    "chars": "Grilled tomatoes",
+    "size": 60.0,
+    "family": "iceJaram",
+    "weight": 400,
+    "color": "#EBEBEB"
+   },
+   {
+    "id": "1:85815",
+    "chars": "토마토 계란볶음",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85816",
+    "chars": "부드럽고 고소한 토마토 계란볶음",
+    "size": 55.0,
+    "family": "iceJaram",
+    "weight": 400,
+    "color": "#EE0000"
+   },
+   {
+    "id": "1:85817",
+    "chars": "1프로 토마토 1개\n달걀 2개",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85818",
+    "chars": "소금, 설탕 약간\n식용유 1큰술",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85820",
+    "chars": "토마토는 큼직하게 깍둑썰기해 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85821",
+    "chars": "볼에 달걀을 풀고, 소금과 설탕을 약간 넣어 간을 맞춰 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85822",
+    "chars": "팬에 식용유를 두르고 중불에서 토마토를 먼저 1~2분 볶아 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85823",
+    "chars": "그 위에 풀어둔 달걀을 부어 스크램블 하듯 부드럽게 볶아 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85824",
+    "chars": "토마토와 달걀이 잘 어우러지면 완성! 밥반찬으로도, 식사 대용으로도 딱이에요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85825",
+    "chars": "재료",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85826",
+    "chars": "만드는 법",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85829",
+    "chars": "Stir-fried tomato eggs",
+    "size": 60.0,
+    "family": "iceJaram",
+    "weight": 400,
+    "color": "#EBEBEB"
+   },
+   {
+    "id": "1:85838",
+    "chars": "생토마토 파스타",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "1:85839",
+    "chars": "상큼하고 가벼운 생토마토 파스타",
+    "size": 55.0,
+    "family": "iceJaram",
+    "weight": 400,
+    "color": "#EE0000"
+   },
+   {
+    "id": "1:85840",
+    "chars": "1프로 토마토 2개\n마늘 2쪽\n바질잎 3~4장 (없으면 생략 가능)\n파스타 면 1인분\n올리브오일, 소금, 후추",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85841",
+    "chars": "재료",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85843",
+    "chars": "토마토는 끓는 물에 10초 정도 데친 후 껍질을 벗기고 잘게 다져 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85844",
+    "chars": "팬에 올리브오일을 두르고 슬라이스한 마늘을 볶아 향을 내 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85845",
+    "chars": "다진 토마토를 넣고 중불에서 5분 정도 볶아 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85846",
+    "chars": "면은 소금물에 삶아 체에 받쳐 물기를 빼 주세요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85847",
+    "chars": "소스에 면을 넣고 잘 섞은 뒤 바질을 올리고, 후추로 마무리하면 끝! 촉촉하면서도 산뜻한, 진짜 토마토 맛을 느낄 수 있어요.",
+    "size": 34.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85848",
+    "chars": "만드는 법",
+    "size": 36.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85851",
+    "chars": "Tomato pasta",
+    "size": 60.0,
+    "family": "iceJaram",
+    "weight": 400,
+    "color": "#EBEBEB"
+   }
+  ],
+  "max_font": 60.0,
+  "char_total": 800,
+  "images": {
+   "count": 3,
+   "coverage": 0.18
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85448",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 45,
+  "parent_frame": "1:85446",
+  "name": "CK_tc00240030151 1",
+  "y": 17563,
+  "height": 0,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85447",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 46,
+  "parent_frame": "1:85446",
+  "name": "CK_tc04360000698 1",
+  "y": 17751,
+  "height": 2761,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85449",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 47,
+  "parent_frame": "1:85446",
+  "name": "Frame 1707482653",
+  "y": 18600,
+  "height": 1372,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85452",
+    "chars": "1프로 토마토가 자라는 곳,\n경북 상주의 햇살 아래에서",
+    "size": 50.0,
+    "family": "Suseong Batang",
+    "weight": 400,
+    "color": "#314126"
+   },
+   {
+    "id": "1:85454",
+    "chars": "경북 상주, 전국 최고 일조량 지역\n맑고 깨끗한 물, 일교차 큰 기후, 풍부한 햇살.\n자연 그대로의 조건 속에서 토마토는 가장 맛있게 자랍니다.\n20년 경력 농부의 정성이 깃든 토마토",
+    "size": 33.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7C8972"
+   },
+   {
+    "id": "1:85455",
+    "chars": "좋은 토마토는, 좋은 환경과\n꾸준한 관리에서 나옵니다.",
+    "size": 55.0,
+    "family": "iceJaram",
+    "weight": 400,
+    "color": "#314126"
+   },
+   {
+    "id": "1:85456",
+    "chars": "20년 넘게 토마토만을 키워온 1프로 농가.\n토양 관리부터 수분·온도 조절까지, 작물의 리듬에 맞춘\n스마트팜 방식으로 당도와 신선도를 균일하게 유지합니다.\n\n매일 직접 수확, 손질, 포장까지 기계보다 정성스럽게.\n매",
+    "size": 33.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#7C8972"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 282,
+  "images": {
+   "count": 1,
+   "coverage": 0.03
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85615",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 48,
+  "parent_frame": "1:85611",
+  "name": "CK_tc00240030151 1",
+  "y": 19215,
+  "height": 0,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85616",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 49,
+  "parent_frame": "1:85611",
+  "name": "Group 1707481935",
+  "y": 20308,
+  "height": 91,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85626",
+    "chars": "주문 전 꼭 확인하세요!",
+    "size": 44.0,
+    "family": "Pretendard",
+    "weight": 700,
+    "color": "#EE0000"
+   }
+  ],
+  "max_font": 44.0,
+  "char_total": 13,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85647",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 50,
+  "parent_frame": "1:85611",
+  "name": "Group 1707481939",
+  "y": 20529,
+  "height": 166,
+  "bg": {
+   "hex": "#000000",
+   "lum": 0.0,
+   "class": "D",
+   "src": "child:1:85648"
+  },
+  "texts": [
+   {
+    "id": "1:85648",
+    "chars": "1프로 토마토,\n어떻게 보관하면 좋을까요?",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 23,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "usage-guide",
+  "layout": "icon-checklist",
+  "notes": "[토마토] '어떻게 보관하면 좋을까요?' 헤더+실온/냉장/냉동 체크 3행+토마토 사진 — '표가 깔끔함' 칭찬 지점 (프레임 1:85611)"
+ },
+ {
+  "block_id": "1:85627",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 51,
+  "parent_frame": "1:85611",
+  "name": "Group 1707481913",
+  "y": 20749,
+  "height": 892,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "child:1:85628"
+  },
+  "texts": [
+   {
+    "id": "1:85633",
+    "chars": "실온 보관",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85634",
+    "chars": "선선하고 통풍이 잘 되는 곳에서 2~3일 이내 섭취를 권장드려요. (단, 여름철엔 실온 보관을 피해주세요)",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85639",
+    "chars": "냉장 보관",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85640",
+    "chars": "세척하지 않은 상태로 신문지나 키친타월에 감싸 냉장고 채소 칸에 보관해주세요. → 7~10일 이내 섭취 시 가장 맛있게 즐기실 수 있습니다.",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85645",
+    "chars": "냉동 보관 ",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85646",
+    "chars": "오래 두고 드실 경우, 깨끗이 씻은 후 껍질째 냉동 보관도 가능합니다.  → 해동 후 소스나 주스로 활용하면 좋습니다.",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 40.0,
+  "char_total": 219,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85650",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 52,
+  "parent_frame": "1:85611",
+  "name": "Group 1707481940",
+  "y": 21729,
+  "height": 184,
+  "bg": {
+   "hex": "#000000",
+   "lum": 0.0,
+   "class": "D",
+   "src": "child:1:85652"
+  },
+  "texts": [
+   {
+    "id": "1:85652",
+    "chars": "유통기한\n수확 당일 포장되어 발송되며, 받으신 날로부터\n약 7~10일 이내 섭취 권장드립니다.",
+    "size": 35.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 35.0,
+  "char_total": 52,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85614",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 53,
+  "parent_frame": "1:85611",
+  "name": "Rectangle 346600813",
+  "y": 21821,
+  "height": 345,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85612",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 54,
+  "parent_frame": "1:85611",
+  "name": "ed-o-neil-AvvdZlhDowA-unsplash 1",
+  "y": 21823,
+  "height": 813,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85613",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 55,
+  "parent_frame": "1:85611",
+  "name": "Rectangle 346600814",
+  "y": 22636,
+  "height": 2513,
+  "bg": {
+   "hex": "#F2F3F5",
+   "lum": 0.896,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85656",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 56,
+  "parent_frame": "1:85653",
+  "name": "CK_tc00240030151 1",
+  "y": 19215,
+  "height": 0,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85655",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 57,
+  "parent_frame": "1:85653",
+  "name": "Rectangle 346600813",
+  "y": 21821,
+  "height": 345,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85654",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 58,
+  "parent_frame": "1:85653",
+  "name": "Rectangle 346600814",
+  "y": 22636,
+  "height": 2513,
+  "bg": {
+   "hex": "#F2F3F5",
+   "lum": 0.896,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85677",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 59,
+  "parent_frame": "1:85653",
+  "name": "Group 1707481942",
+  "y": 22752,
+  "height": 167,
+  "bg": {
+   "hex": "#000000",
+   "lum": 0.0,
+   "class": "D",
+   "src": "child:1:85678"
+  },
+  "texts": [
+   {
+    "id": "1:85678",
+    "chars": "주문 전, 크기 선택 TIP\n꼭 확인하세요!",
+    "size": 55.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 55.0,
+  "char_total": 24,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": "usage-guide",
+  "layout": "icon-checklist",
+  "notes": "[토마토] '크기 선택 TIP' 대과/중과/소과 체크 3행+토마토 사진 — 1:85647과 거의 동일 골격, '섹션 8과 9 반복' 지적 부합 (프레임 1:85653)"
+ },
+ {
+  "block_id": "1:85680",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 60,
+  "parent_frame": "1:85653",
+  "name": "Untitled (6) 1",
+  "y": 22896,
+  "height": 270,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85657",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 61,
+  "parent_frame": "1:85653",
+  "name": "Group 1707481941",
+  "y": 22974,
+  "height": 946,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "child:1:85658"
+  },
+  "texts": [
+   {
+    "id": "1:85663",
+    "chars": "대과",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85664",
+    "chars": "묵직하고 큼직한 사이즈 \n샐러드, 통조림, 통구이 등 활용도 높아요 단단하고 과육이 많아 썰어 먹기 좋아요",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85669",
+    "chars": "중과",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85670",
+    "chars": "손에 쏙 들어오는 표준형\n샐러드, 볶음, 피클 등 가장 활용도 높은 사이즈 껍질과 과육 비율이 적당해서 요리하기 편해요",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85675",
+    "chars": "소과",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#000000"
+   },
+   {
+    "id": "1:85676",
+    "chars": "작고 귀여운 실속형\n통째로 먹기 좋아 주스용, 간식용에 딱 껍질이 얇고 과즙이 많아 한입에 톡!",
+    "size": 30.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 40.0,
+  "char_total": 184,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85681",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 62,
+  "parent_frame": "1:85653",
+  "name": "Untitled (6) 2",
+  "y": 23235,
+  "height": 231,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85682",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 63,
+  "parent_frame": "1:85653",
+  "name": "Untitled (6) 3",
+  "y": 23571,
+  "height": 195,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85422",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 64,
+  "parent_frame": "1:85420",
+  "name": "CK_tc00240030151 1",
+  "y": 23164,
+  "height": 0,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85438",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 65,
+  "parent_frame": "1:85420",
+  "name": "Frame 1707482419",
+  "y": 24214,
+  "height": 80,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [
+   {
+    "id": "1:85441",
+    "chars": "배송 안내",
+    "size": 40.0,
+    "family": "Pretendard",
+    "weight": 600,
+    "color": "#FFFFFF"
+   }
+  ],
+  "max_font": 40.0,
+  "char_total": 5,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85445",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 66,
+  "parent_frame": "1:85420",
+  "name": "Untitled-6 1",
+  "y": 24237,
+  "height": 205,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 1,
+   "coverage": 1.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85426",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 67,
+  "parent_frame": "1:85420",
+  "name": "Group 1707481945",
+  "y": 24388,
+  "height": 266,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "child:1:85427"
+  },
+  "texts": [
+   {
+    "id": "1:85429",
+    "chars": "산지 직송\n경북 상주 스마트팜에서 수확한 당일 \n바로 포장되어 배송됩니다.",
+    "size": 44.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 44.0,
+  "char_total": 41,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85430",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 68,
+  "parent_frame": "1:85420",
+  "name": "Group 1707481944",
+  "y": 24670,
+  "height": 207,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "child:1:85431"
+  },
+  "texts": [
+   {
+    "id": "1:85433",
+    "chars": "택배사\nCJ대한통운  지역에 따라 1~2일 소요",
+    "size": 44.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 44.0,
+  "char_total": 26,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85434",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 69,
+  "parent_frame": "1:85420",
+  "name": "Group 1707481943",
+  "y": 24893,
+  "height": 402,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "child:1:85435"
+  },
+  "texts": [
+   {
+    "id": "1:85437",
+    "chars": "배송일정\n월~금 오후 2시 이전 결제 시 → 당일 수확 & 당일 발송 \n금요일 2시 이후 결제 시 → 월요일 순차 발송",
+    "size": 44.0,
+    "family": "Pretendard",
+    "weight": 500,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 44.0,
+  "char_total": 66,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85442",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 70,
+  "parent_frame": "1:85420",
+  "name": "Group 1707481940",
+  "y": 25371,
+  "height": 238,
+  "bg": {
+   "hex": "#000000",
+   "lum": 0.0,
+   "class": "D",
+   "src": "child:1:85444"
+  },
+  "texts": [
+   {
+    "id": "1:85444",
+    "chars": "CHECK\n※ 신선도를 위해 주말 및 공휴일에는 출고되지 않아요.\n※ 농산물 특성상 모양·크기 편차가 있을 수 있는 점 양해 부탁드립니다.\n필요 시 고객센터 안내도 덧붙여드릴게요!",
+    "size": 35.0,
+    "family": "Pretendard",
+    "weight": 400,
+    "color": "#000000"
+   }
+  ],
+  "max_font": 35.0,
+  "char_total": 100,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85421",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 71,
+  "parent_frame": "1:85420",
+  "name": "Rectangle 346600796",
+  "y": 26714,
+  "height": 582,
+  "bg": {
+   "hex": "#FCEDED",
+   "lum": 0.874,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85425",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 72,
+  "parent_frame": "1:85420",
+  "name": "Rectangle 346600795",
+  "y": 27096,
+  "height": 354,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85424",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 73,
+  "parent_frame": "1:85420",
+  "name": "Rectangle 346600794",
+  "y": 27977,
+  "height": 354,
+  "bg": {
+   "hex": "#FFFFFF",
+   "lum": 1.0,
+   "class": "L",
+   "src": "default-white"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
+  "block_id": "1:85423",
+  "product": "tomato",
+  "label": "토마토",
+  "quality": "bad",
+  "seq": 74,
+  "parent_frame": "1:85420",
+  "name": "Rectangle 346600792",
+  "y": 28331,
+  "height": 1229,
+  "bg": {
+   "hex": "#FCEDED",
+   "lum": 0.873,
+   "class": "L",
+   "src": "self"
+  },
+  "texts": [],
+  "max_font": null,
+  "char_total": 0,
+  "images": {
+   "count": 0,
+   "coverage": 0.0
+  },
+  "scene_type": null,
+  "layout": null,
+  "notes": null
+ },
+ {
   "block_id": "1:84518",
   "product": "cleanse",
   "label": "클렌즈",
