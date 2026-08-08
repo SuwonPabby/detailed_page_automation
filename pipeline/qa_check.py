@@ -146,10 +146,48 @@ def role_of(t, sizes):
     return "body"
 
 
+def area_lum(blk):
+    """면적 가중 합성 명도.
+
+    프레임 fill만 보면 '흰 배경 + 화면의 65%를 덮는 다크 사진 슬롯' 블록이
+    L로 분류된다. 실제 렌더 픽셀은 D다. 라운드3에서 3블록이 이렇게 오분류됐다.
+    자식이 부모를 60% 이상 덮으면 부모 fill을 무시한다.
+    """
+    bb = blk.get("absoluteBoundingBox") or {}
+    total = (bb.get("width") or 0) * (bb.get("height") or 0)
+    if not total:
+        return solid_of(blk)
+    base = solid_of(blk)
+    acc, covered = 0.0, 0.0
+    for n, _, chain in walk(blk):
+        if n is blk or n["type"] == "TEXT":
+            continue
+        v = solid_of(n)
+        nb = n.get("absoluteBoundingBox") or {}
+        a = (nb.get("width") or 0) * (nb.get("height") or 0)
+        if v is None or not a:
+            continue
+        # 블록 직계에 가까운 큰 면적만 (중첩 이중계산 방지)
+        if len(chain) > 3 or a / total < 0.12:
+            continue
+        a = min(a, total)
+        acc += v * a
+        covered += a
+    covered = min(covered, total)
+    if base is None:
+        return acc / covered if covered else None
+    return acc + base * (total - covered) if total else base
+
+
 def analyze_block(blk):
     """블록 1개 → 측정치"""
     nodes = walk(blk)
-    bg = solid_of(blk)
+    bg = area_lum(blk)
+    if bg is not None and bg > 1:
+        bg = bg / ((blk.get("absoluteBoundingBox") or {}).get("width", 1)
+                   * (blk.get("absoluteBoundingBox") or {}).get("height", 1))
+    if bg is None:
+        bg = solid_of(blk)
     # 배경을 못 읽으면 가장 큰 자식 프레임에서 상속
     if bg is None:
         for n, _, _ in nodes[1:]:
@@ -211,7 +249,7 @@ ROLE_EXEMPT = {
     "띠_":    {"A-1", "A-2", "C-5"},
     "브릿지_": {"A-1", "C-5"},
     "하단고지": {"A-1", "A-2", "C-5"},
-    "옵션":    {"A-2"},          # 풀블리드 컬러 패널 — 레퍼런스도 낙차가 낮다
+    "옵션":    {"A-1", "A-2"},   # 풀블리드 컬러 패널 — 레퍼런스 1:1905도 제품명이 헤드라인이다
     "FAQ":    {"C-5"},
 }
 
@@ -312,6 +350,28 @@ def check_clip(node, out=None, clippers=()):
     return out
 
 
+def check_collisions(root):
+    """TEXT × TEXT 겹침 — 같은 문자열이 두 번 찍혀 유령 글자로 보이는 사고를 잡는다."""
+    items = []
+    for n, _, _ in walk(root):
+        if n["type"] != "TEXT":
+            continue
+        bb = n.get("absoluteBoundingBox")
+        if bb:
+            items.append((n, bb))
+    hits = []
+    for i in range(len(items)):
+        for j in range(i + 1, len(items)):
+            a, ab = items[i]
+            b, bb = items[j]
+            ix = min(ab["x"] + ab["width"], bb["x"] + bb["width"]) - max(ab["x"], bb["x"])
+            iy = min(ab["y"] + ab["height"], bb["y"] + bb["height"]) - max(ab["y"], bb["y"])
+            if ix > 2 and iy > 2:
+                hits.append((a.get("characters", "")[:14], b.get("characters", "")[:14],
+                             round(ix), round(iy)))
+    return hits
+
+
 def check(blocks, page_h, root=None):
     """공리 판정. → (findings, stats)"""
     f = []           # (severity, axiom, where, message)
@@ -326,6 +386,14 @@ def check(blocks, page_h, root=None):
             f.append(("FAIL" if hard else "WARN", "CLIP",
                       ", ".join(f"{c['node']}({int(c['loss']*100)}% 소실)" for c in clipped[:6]),
                       f"클립 이탈 {len(clipped)}건 — 렌더에 잘린 조각으로 남는다"))
+
+    # ── 텍스트 충돌 (Q5) ──
+    if root is not None:
+        col = check_collisions(root)
+        if col:
+            f.append(("FAIL", "COLLIDE",
+                      ", ".join(f"{a}×{b}({w}×{h}px)" for a, b, w, h in col[:5]),
+                      f"텍스트 겹침 {len(col)}건 — 렌더에 유령 글자로 남는다"))
 
     # ── compliance RED (법적 게이트, craft보다 상위) ──
     comp = check_compliance(blocks)
@@ -423,9 +491,13 @@ def check(blocks, page_h, root=None):
 
     # ── B-3 다크 블록 수 ──
     nd = seq.count("D")
-    if not (DARK_MIN <= nd <= DARK_MAX):
-        f.append(("FAIL" if nd < DARK_MIN else "WARN", "B-3", f"D={nd}",
-                  f"다크 블록 {nd}개 (권장 {DARK_MIN}~{DARK_MAX}). "
+    # 절대개수가 아니라 비율로 판정한다. 코퍼스는 서사블록 6~23(중앙값 14)에
+    # 다크 2~6이므로 절대치는 페이지 길이에 종속된다. 실측 비율 범위 0.10~0.40.
+    ratio = nd / max(1, len(blocks))
+    if ratio < 0.10 or ratio > 0.40:
+        f.append(("FAIL" if ratio < 0.10 else "WARN", "B-3",
+                  f"D={nd}/{len(blocks)} ({ratio:.0%})",
+                  f"다크 블록 비율 {ratio:.0%} (실측 범위 10~40%). "
                   f"Bad 5종 중 4종이 0개"))
 
     # ── C-1 인접 블록 높이·구성 동일 (레이아웃 반복 근사) ──
