@@ -26,3 +26,6 @@ build/
 .DS_Store
 .vscode/
 .idea/
+
+# 분석 원본 캐시 (재취득 가능, 수 MB)
+data/raw/

@@ -1,0 +1,16 @@
+{
+  "1:4":   {"scene_type": "hook", "layout": "hero-question + callout-box", "bg_override": "D+L", "notes": "복합 블록: 상단 어두운 질감 풀블리드에 세로 스택 대형 타이포로 문제 제기('살은 빠졌는데 생기도 잃었다!?') → 하단 밝은 배경에서 원인 설명 + 보더 콜아웃 박스. 첫 블록이 제품이 아니라 소비자 문제로 시작"},
+  "1:25":  {"scene_type": "solution-frame", "layout": "step-list", "notes": "좌정렬 헤딩 + STEP1/STEP2 필 배지 스텝 행. 우측에 다음 블록의 오렌지 이미지가 살짝 걸쳐 시선 유도"},
+  "1:46":  {"scene_type": "product-reveal", "layout": "fullbleed-product", "notes": "오렌지 풀블리드 + 부유하는 구체 그래픽 + 스틱 제품 첫 등장. 헤드라인은 흰색/노랑 2색 강조"},
+  "1:58":  {"scene_type": "usp", "layout": "numbered-point + compare-2up + evidence-callout", "bg_override": "L→M", "notes": "POINT 1(히알루론산). 원형 넘버 배지 → 헤드라인 → 바르는 보습 vs 글로우샷 2단 비교 이미지 → 하단 임상 근거 콜아웃(식약처, p<0.05 인용). 배경 위→아래 밝음→오렌지 그라데이션"},
+  "1:90":  {"scene_type": "transition", "layout": "bridge-strip", "bg_override": "L", "notes": "513px 짧은 전환 스트립 '이제 지방을 뺄 차례' — 수분(1~2부)→지방(3~5부) 서사 전환점. 양옆에 붉은 실루엣"},
+  "1:97":  {"scene_type": "usp", "layout": "numbered-point + evidence-chart", "notes": "POINT 2(가르시니아). 흑백 세밀화 일러스트 + 보더 콜아웃 + 막대 차트 카드 2장(체중 변화, 출처 인용). 차트는 흰 라운드 카드에 격리"},
+  "1:211": {"scene_type": "usp", "layout": "numbered-point + process-seq", "notes": "POINT 3(글루코만난). 1-2-3 넘버 행 + 각 행 우측 원형 이미지 — 섭취→물 흡수→팽창 과정 시퀀스"},
+  "1:251": {"scene_type": "usp", "layout": "numbered-point + radial-diagram + evidence-chart", "notes": "POINT 4(난소화성 식이섬유). 3원 벤 다이어그램(포만감/장건강/식후혈당) + 라인 차트 근거 카드"},
+  "1:320": {"scene_type": "usp", "layout": "numbered-point + radial-diagram", "notes": "POINT 5(석류향/당류ZERO). 중앙 석류 이미지 + 궤도형 라벨 5개 + 하단 제품 재등장. 오렌지 그라데이션 풀블리드"},
+  "1:356": {"scene_type": "trust-cert", "layout": "package-trust", "bg_override": "D", "notes": "어두운 브라운 배경 + 패키지 박스/스틱 연출 + GMP·건강기능식품 인증 배지 2개. 요약 카피 '먹을수록 건강한 이너뷰티'"},
+  "1:371": {"scene_type": "benefit-recap", "layout": "headline + callout-box + product-beauty", "notes": "베네핏 재확인('빼는 내내 생기 그대로') + 보더 콜아웃 + 하단 제품 뷰티샷. 컨셉 키워드(활기찬/건강한)를 감성적으로 마무리"},
+  "1:394": {"scene_type": "target-audience", "layout": "icon-checklist", "bg_override": "M", "notes": "오렌지 풀블리드 위 흰 카드에 넘버 체크리스트 4행 — '이런 분께 추천'. 필 배지로 복용법 한 줄"},
+  "1:427": {"scene_type": "usage-guide", "layout": "timeline-plan", "bg_override": "M→L", "notes": "2주 플랜 — 3·7·14일 타임라인 그래픽 + 3열 단계 표. 상단 오렌지→하단 라이트"},
+  "1:487": {"scene_type": "faq", "layout": "faq-list", "notes": "Q1~Q6 질문-답변 리스트. Q 볼드 + A 본문, 행 구분선. 마지막 블록"}
+}
