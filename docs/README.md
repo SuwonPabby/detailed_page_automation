@@ -17,6 +17,7 @@ Claude 외 다른 에이전트도 이 폴더만 읽고 작업을 시작할 수 �
 | 8 | [analysis/layout-catalog.md](./analysis/layout-catalog.md) | 레이아웃 패턴 38종 + anti-pattern | 장면별 레이아웃 고를 때 |
 | 9 | [analysis/design-tokens.md](./analysis/design-tokens.md) | 실측 폰트 스케일·팔레트·배경 리듬 + 생성 규칙 | 스타일 적용할 때 |
 | 10 | ⭐ **[analysis/craft-axioms.md](./analysis/craft-axioms.md)** | "사람이 만든 것처럼 보이는" 조건의 공리계 + 실격 공리 F1~F10 + 판정 루브릭 | **페이지를 생성·검수할 때 (필수)** |
+| 11 | 🔴 **[compliance.md](./compliance.md)** | 표시·광고 법적 하드 게이트 (식약처 고시·공정위 예규 1차 출처). craft보다 상위 | **카피를 확정할 때 (필수)** |
 
 ## 자동화 진입점
 

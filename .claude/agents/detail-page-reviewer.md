@@ -20,6 +20,7 @@ model: opus
 
 ## 반드시 먼저 읽을 것
 
+0. 🔴 `docs/compliance.md` — **법적 하드 게이트. craft보다 상위다.** RED 표현이 1건이라도 있으면 점수와 무관하게 **FAIL**. 판정표를 출력에 반드시 포함하라.
 1. `docs/analysis/craft-axioms.md` — **판정 근거가 되는 공리계.** 이것 없이 판정하지 마라.
 2. `docs/design-principles.md` — QA 원문 기반 A~F 판정 기준
 3. `docs/analysis/design-tokens.md` §7 — 정량 기준
