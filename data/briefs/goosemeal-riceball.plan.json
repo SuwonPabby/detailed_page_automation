@@ -1,0 +1,52 @@
+{
+ "product": "바로끼니 식물성 저당 주먹밥 (구스밀, 디자인23)",
+ "source_brief": "data/briefs/goosemeal-riceball.json",
+ "design_system": {
+  "note": "디자인 시스템 입력이 별도 제공되지 않아 컨셉 sheet + 코퍼스 구스밀 팔레트(design-tokens.md §3)에서 도출",
+  "dominant": "#005027",
+  "dark_bgs": {"hook": "#0B1F14", "truffle": "#14120D", "closing": "#01331A"},
+  "accent": "#F4C347",
+  "neutral": "#F7F5EF",
+  "text": "#1F1F1C",
+  "fonts": {"headline": "Noto Sans KR Black", "sub": "Noto Sans KR Bold", "body": "Noto Sans KR Regular/Medium", "impact": "Black Han Sans"},
+  "type_scale": {"impact": 150, "headline": 88, "sub": 44, "body": 30, "footnote": 24, "table": 22},
+  "concept_keywords": ["참지 않는 저당", "식물성", "트러플 프리미엄", "통념 폭로(Pain)·warm"]
+ },
+ "copy_decisions": [
+  {"scene": 6, "decision": "'속세맛' 유지 — L열 방어 판정(핵심 후킹 키워드)"},
+  {"scene": 11, "decision": "추천 대상은 규제 순화본 사용 — '다이어트·혈당·비건' 금지(H14), '당은 줄이고 싶은'·'식물성' 우회"},
+  {"scene": 12, "decision": "타사 비교 유지 — 익명 '타사' 표기는 방어 판정"},
+  {"scene": 15, "decision": "'화이트 트러플 오일' 표기 회피 — 라벨 미입증(향미유). '트러플 향' + 단서 각주"},
+  {"scene": 18, "decision": "갈비살 함량 표기 ⚠ 수치 불일치: M1표 38% / 수정2 33.85·33.49% / FAQ 37.81% → 본문은 '밥의 2배', 각주에 수정2 수용값 표기 후 확정 필요"},
+  {"scene": 23, "decision": "특허 문구 조정 — '특허 조직대두단백' + 각주에 특허번호·라벨명(식물단백가공품)"},
+  {"scene": 25, "decision": "'계란보다 높은' → '달걀 한 개만큼' 안전선 수용"},
+  {"scene": 30, "decision": "'12가지' 카피 불일치(K39: 합계 13종) → 13가지로 정정"},
+  {"scene": 34, "decision": "즉석밥·김밥 비교 유지 — 방어 판정(일반 카테고리 비교). ⚠ K46 불고기 245kcal·3g vs S0 250kcal·4g 불일치 → S0 사용, 확정 필요"},
+  {"scene": 38, "decision": "삶은 계란 삭제 수용 — 라면·떡볶이·짜장라면·냉모밀·샐러드"}
+ ],
+ "bg_rhythm": "A D L M L L M D L M L M L L L L M L D L L A  (D 3회: 훅·트러플·클로징 / 연속 L 최대 4)",
+ "blocks": [
+  {"seq": "00", "scene_type": "cta-offer", "layout": "shipping-banner", "bg": "accent", "h": 140, "copy": "11시 이내 주문 시 당일 출고 (평일 기준)"},
+  {"seq": "01", "scene_type": "hook", "layout": "hero-question", "bg": "D:hook", "h": 1350, "copy": "overline 참지 않는 저당 / head 속세맛 다이어트, 윤형빈의 식물성 저당 주먹밥 / sub 건강까지 잡았다! / asset 히어로+트러플향 단면"},
+  {"seq": "02", "scene_type": "benefit-recap", "layout": "icon-checklist + spec-cards", "bg": "L", "h": 1750, "copy": "특장점 5 (기획안 1~5) + [S0] 맛별 스펙"},
+  {"seq": "03", "scene_type": "trust-cert", "layout": "stat-pills + photo", "bg": "M", "h": 1100, "copy": "누적 00,000원(수치 확정 대기) / 맛없으면 못 쌓았을 숫자예요 / asset 윤형빈+라인업"},
+  {"seq": "04", "scene_type": "target-audience", "layout": "icon-checklist", "bg": "L", "h": 1350, "copy": "이런 분께 추천합니다 — 순화 5항목"},
+  {"seq": "05", "scene_type": "usp", "layout": "numbered-point + big-stat + vs-table[S4]", "bg": "L", "h": 1700, "copy": "POINT1 속세맛 그대로, 당류는 DOWN / 당류 2g 대형 숫자"},
+  {"seq": "06", "scene_type": "transition", "layout": "bridge-strip", "bg": "M:dingy", "h": 520, "copy": "문제는, 데우는 순간 퍼지는 쿰쿰한 냉동식품 냄새"},
+  {"seq": "07", "scene_type": "usp", "layout": "numbered-point + vs-table[S5]", "bg": "D:truffle", "h": 1550, "copy": "POINT2 먹기 전부터 군침 가득, 트러플 향 (+향미유 단서 각주)"},
+  {"seq": "08", "scene_type": "usp", "layout": "numbered-point + evidence-chart[M1]", "bg": "L", "h": 1550, "copy": "POINT3 밥보다 많은 갈비살 / 비율 바 그래픽"},
+  {"seq": "09", "scene_type": "comparison", "layout": "compare-2up[M2]", "bg": "M", "h": 1250, "copy": "토핑 38%(밥의 2배) vs 타사 10%(밥 위주) — 3배"},
+  {"seq": "10", "scene_type": "usp", "layout": "numbered-point + photo + document-proof", "bg": "L", "h": 1450, "copy": "POINT4 고기 결 그대로, 살아있는 식감 / 특허 배지+각주"},
+  {"seq": "11", "scene_type": "usp", "layout": "stat-strip", "bg": "M:yellow-tint", "h": 620, "copy": "단백질은 달걀 한 개만큼 / 제육 6g·불고기 5g 각주"},
+  {"seq": "12", "scene_type": "usp", "layout": "numbered-point + process-seq", "bg": "L", "h": 1350, "copy": "POINT5 방금 지은 밥처럼 겉은 쫀득, 속은 촉촉 / 스팀→고온→직화 3단계"},
+  {"seq": "13", "scene_type": "ingredient-spec", "layout": "ingredient-list + badge-cloud", "bg": "L:paper", "h": 1600, "copy": "13가지 원재료 [S7b] + 영양소 배지"},
+  {"seq": "14", "scene_type": "product-lineup", "layout": "option-cards", "bg": "L", "h": 1350, "copy": "불고기맛 250kcal·당4g / 제육맛 235kcal·당2g"},
+  {"seq": "15", "scene_type": "comparison", "layout": "evidence-chart[S8]", "bg": "L", "h": 1250, "copy": "칼로리 비교: 우리 1개 vs 즉석밥 315 vs 김밥 485"},
+  {"seq": "16", "scene_type": "tip", "layout": "photo-card-row", "bg": "M", "h": 950, "copy": "찰떡궁합 요리 — 라면·떡볶이·짜장라면·냉모밀·샐러드"},
+  {"seq": "17", "scene_type": "usage-guide", "layout": "spec-table[S11]", "bg": "L", "h": 1350, "copy": "HOW TO COOK — 에어프라이어/전자레인지/오븐"},
+  {"seq": "18", "scene_type": "benefit-recap", "layout": "fullbleed-product", "bg": "D:closing", "h": 1250, "copy": "식물성 간편식, 맛있게 즐겨보세요 / 라인업 asset"},
+  {"seq": "19", "scene_type": "faq", "layout": "faq-list", "bg": "L", "h": 1700, "copy": "핵심 6문항 (Q1·Q2·Q3·Q4·Q6·Q12 요약)"},
+  {"seq": "20", "scene_type": "notice", "layout": "spec-table[S13]", "bg": "L:gray", "h": 1150, "copy": "알레르기·교차·아마씨·보관"},
+  {"seq": "21", "scene_type": "cta-offer", "layout": "coupon-banner", "bg": "accent", "h": 170, "copy": "포토리뷰 작성 시 3,000원 제공 — 매월 선착순 5명"}
+ ]
+}

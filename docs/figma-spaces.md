@@ -102,8 +102,9 @@ SECTION  (제품명, 폭 1500px)          ← 페이지의 최상위 단위
 | file key | 이름 | 상태 |
 |---|---|---|
 | `PXrqYstoidmMfr2Ju6RMfP` | `_MCP_write_test` | 쓰기 검증용. 내용은 삭제 완료(빈 파일), **파일 껍데기는 UI에서 수동 삭제 필요** |
+| `e4Nto2oOgqwbCcrI6Y4Btb` | `바로끼니_식물성저당주먹밥_디자인23` | **첫 baseline 산출물** (2026-08-09, 블록 22개) — [pipeline/README.md](../pipeline/README.md) |
 
-프로젝트는 원래 비어 있었고, 위 파일이 첫 번째였습니다.
+프로젝트는 원래 비어 있었고, 테스트 파일이 첫 번째였습니다.
 
 ### ⚠️ 파일 자체는 API로 삭제할 수 없습니다
 
