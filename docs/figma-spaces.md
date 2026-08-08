@@ -77,25 +77,63 @@ SECTION  (제품명, 폭 1500px)          ← 페이지의 최상위 단위
 
 ## 공간 B — Figma 프로젝트 `detailed_page_automation` (쓰기 대상)
 
-**생성된 Figma 컴포넌트가 실제로 쌓여야 하는 유일한 공간입니다.**
+**생성된 Figma 산출물이 쌓여야 하는 유일한 공간입니다.** 2026-08-08 쓰기 검증 완료.
 
 | 항목 | 값 |
 |---|---|
 | 종류 | Figma **프로젝트** (파일이 아님) |
-| 프로젝트 ID / URL | ⚠️ **미확정** |
+| **projectId** | **`636598794`** |
+| 소속 팀 | `euijin lee's team` — planKey `team::1633815531118805138` |
+| 계정 | `appevory@gmail.com` · **Full seat / pro** |
 | 권한 | ✅ 쓰기 |
 
-### 왜 아직 못 찾았나
+### 같은 팀의 다른 프로젝트 (⛔ 쓰기 금지)
 
-Figma REST API에는 **사용자의 팀 목록을 조회하거나 프로젝트를 이름으로 검색하는 엔드포인트가 없습니다.**
-`GET /v1/teams/:team_id/projects`는 `team_id`를 이미 알고 있어야 하고, `team_id`를 얻는 API 경로가 없습니다.
+혼동 방지를 위해 기록합니다. 아래는 **절대 쓰지 않습니다.**
 
-**필요한 것:** 브라우저에서 해당 프로젝트를 연 뒤 주소창의 URL
-→ `https://www.figma.com/files/team/{team_id}/project/{project_id}/detailed_page_automation`
+| projectId | 이름 |
+|---|---|
+| 597088086 | `Team project` |
+| 601372486 | `evory` |
+| 597090360 | `lecture` |
 
-### 쓰기 방법에 대한 제약
+개인 **Drafts 폴더**도 금지입니다 — `create_new_file`이 `projectId` 없이 호출되면 여기로 떨어지므로 주의. → [rules.md §1](./rules.md#1-쓰기-경계-가장-중요)
 
-REST API로는 프레임/컴포넌트를 만들 수 없습니다. **Plugin API 기반 브리지가 필요합니다.** 상세는 → [rules.md §3](./rules.md#3-figma-api-능력-경계-아키텍처-결정-사항)
+### 현재 내용
+
+| file key | 이름 | 상태 |
+|---|---|---|
+| `PXrqYstoidmMfr2Ju6RMfP` | `_MCP_write_test` | 쓰기 검증용. 내용은 삭제 완료(빈 파일), **파일 껍데기는 UI에서 수동 삭제 필요** |
+
+프로젝트는 원래 비어 있었고, 위 파일이 첫 번째였습니다.
+
+### ⚠️ 파일 자체는 API로 삭제할 수 없습니다
+
+Figma에는 **파일을 삭제하는 API가 없습니다.** OpenAPI 스펙의 DELETE 엔드포인트는 comment와 dev_resource 두 종류뿐이고, MCP 서버에도 파일 삭제 도구가 없습니다.
+
+| 작업 | 가능 여부 |
+|---|---|
+| 파일 **내용**(노드) 삭제 | ✅ `use_figma` → `node.remove()` |
+| 파일 **자체** 삭제 | ❌ API 불가 → Figma UI에서 우클릭 → Delete |
+
+**함의:** 에이전트는 파일을 만들 수는 있어도 되돌릴 수 없습니다. 시행착오로 파일을 남발하면 사용자가 일일이 수동으로 지워야 하므로, **파일 생성은 신중하게** 하고 반복 작업은 기존 파일 안에서 페이지/프레임 단위로 처리하세요.
+
+### projectId를 알아낸 경로
+
+REST API에는 팀 목록 조회나 프로젝트 이름 검색 엔드포인트가 **없습니다.** 하지만 MCP `whoami`가 planKey(`team::{team_id}`)를 반환하므로, 거기서 team_id를 뽑으면 REST가 열립니다.
+
+```
+mcp__figma__whoami  →  team::1633815531118805138
+     ↓
+GET /v1/teams/1633815531118805138/projects   → detailed_page_automation = 636598794
+GET /v1/projects/636598794/files             → 파일 목록
+```
+
+### 쓰기 방법
+
+REST API로는 프레임/컴포넌트를 만들 수 없습니다(404). canvas 쓰기는 **Figma 공식 원격 MCP 서버**(`https://mcp.figma.com/mcp`)를 씁니다 — 2026년 2월 Claude Code 파트너십으로 출시된 write 기능. 상세는 → [rules.md §3](./rules.md#3-figma-api-능력-경계-아키텍처-결정-사항)
+
+즉 이 프로젝트는 **읽기는 REST, 쓰기는 MCP**로 경로가 갈립니다.
 
 ## 유용한 REST 호출 예시
 
