@@ -16,6 +16,15 @@ Claude 외 다른 에이전트도 이 폴더만 읽고 작업을 시작할 수 �
 | 7 | [analysis/scene-taxonomy.md](./analysis/scene-taxonomy.md) | 장면 유형 어휘 + 서사 시퀀스 | 기획안을 장면으로 분해할 때 |
 | 8 | [analysis/layout-catalog.md](./analysis/layout-catalog.md) | 레이아웃 패턴 38종 + anti-pattern | 장면별 레이아웃 고를 때 |
 | 9 | [analysis/design-tokens.md](./analysis/design-tokens.md) | 실측 폰트 스케일·팔레트·배경 리듬 + 생성 규칙 | 스타일 적용할 때 |
+| 10 | ⭐ **[analysis/craft-axioms.md](./analysis/craft-axioms.md)** | "사람이 만든 것처럼 보이는" 조건의 공리계 + 실격 공리 F1~F10 + 판정 루브릭 | **페이지를 생성·검수할 때 (필수)** |
+
+## 자동화 진입점
+
+| 경로 | 무엇 |
+|---|---|
+| `.claude/skills/detail-page/SKILL.md` | 기획안 → Figma 전 과정 스킬 (파싱→플랜→빌드→검수 루프) |
+| `.claude/agents/detail-page-reviewer.md` | 공리계로 채점하는 검수자 에이전트 (80점+실격0 통과) |
+| `pipeline/parse_brief.py` | 기획안 xlsx → brief.json |
 
 ## 한 줄 요약
 

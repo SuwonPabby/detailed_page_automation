@@ -123,6 +123,8 @@ curl -s -H "X-Figma-Token: $TOKEN" \
 - 생성 순서는 디자이너의 사고 순서를 따릅니다: **장면 파악 → 레이아웃 선택 → 정보 배치 → 그다음에 디자인 시스템 적용.** 레이아웃이 먼저, 스타일이 나중입니다.
 - 장면 분해는 [analysis/scene-taxonomy.md](./analysis/scene-taxonomy.md)의 통제 어휘로, **레이아웃은 [analysis/layout-catalog.md](./analysis/layout-catalog.md)의 패턴에서 선택**합니다. 카탈로그를 벗어난 레이아웃을 쓸 때는 근거를 기록하세요. **인접 블록에 같은 패턴 금지.**
 - 정량 기준(폰트 스케일·팔레트·배경 명도 리듬)은 [analysis/design-tokens.md](./analysis/design-tokens.md) §7의 생성 규칙을 따릅니다.
+- ⭐ **구조가 맞아도 공예(craft)가 없으면 와이어프레임입니다.** [analysis/craft-axioms.md](./analysis/craft-axioms.md)의 **실격 공리 F1~F10**을 하나라도 위반하면 산출물은 실격입니다. 생성 시 이 문서를 열어두고 작업하세요.
+- **자기 산출물을 스스로 통과 판정하지 않습니다.** 검수는 `detail-page-reviewer` 에이전트가 맡고, 통과 기준은 **80/100 + 실격 0건**입니다.
 
 ## 6. 미해결 (확정 필요)
 

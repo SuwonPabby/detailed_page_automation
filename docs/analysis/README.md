@@ -14,6 +14,8 @@
 | 2. 장면별 레이아웃 선택 | [layout-catalog.md](./layout-catalog.md) → 후보 패턴의 예시 노드를 **그 자리에서 스크린샷** |
 | 3. 정보 배치 | 카탈로그의 결합 규칙 + 예시 스크린샷 |
 | 4. 디자인 시스템 적용 | [design-tokens.md](./design-tokens.md) + ../fonts.md (치환 정책 포함) |
+| **5. 공예(craft) — 생성 내내 열어둠** | ⭐ [craft-axioms.md](./craft-axioms.md) — 실격 공리 F1~F10, 강조 3종, 겹침의 가독성 계약, designed placeholder |
+| 6. 검수 | craft-axioms §7 루브릭 → `.claude/agents/detail-page-reviewer.md` |
 | 특정 제품 통째로 참고 | [products/](./products/) (14제품 블록 표), ../../data/blocks.json |
 
 ## 온디맨드 스크린샷 규약
