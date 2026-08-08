@@ -11,6 +11,7 @@ Claude 외 다른 에이전트도 이 폴더만 읽고 작업을 시작할 수 �
 | 2 | [project-overview.md](./project-overview.md) | 프로젝트 목표, 기존 워크플로우, Level 1/2 자동화 범위 | 맥락 파악 |
 | 3 | [figma-spaces.md](./figma-spaces.md) | 두 Figma 공간의 구조와 노드 ID 인벤토리 | Figma를 다룰 때 |
 | 4 | [design-principles.md](./design-principles.md) | Good/Bad 레퍼런스에서 추출한 디자인 판단 기준 | 페이지를 생성/평가할 때 |
+| 5 | [fonts.md](./fonts.md) | 검증된 한글 폰트 목록과 권장 조합 | 텍스트를 만들 때 |
 
 ## 한 줄 요약
 
