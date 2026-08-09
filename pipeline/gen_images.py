@@ -7,12 +7,14 @@
 MCP 전용이므로 에이전트가 수행한다. 이 스크립트는 생성까지만 담당하고
 업로드 매핑(json)을 남긴다.
 
-Provider 선정 근거 (2026-08-09 조사, docs/agent-graph.md 참조):
-  - 기본:  gemini  — Nano Banana Pro(히어로) + 3.1 Flash(배경/질감), 단일 키
-  - 전환:  flux    — FLUX.2 Pro $0.03/1MP, 음식 질감이 기대 이하일 때
+Provider 선정 (2026-08-09 사용자 확정):
+  - ⭐ 주력: **Higgsfield** — 공식 MCP(https://mcp.higgsfield.ai/mcp)로 구독
+    크레딧을 에이전트가 직접 소모하는 유일한 경로. 사용자 결정으로 1순위.
+    이미지 생성은 이 스크립트가 아니라 **에이전트가 Higgsfield MCP 도구로** 수행.
+    (선행 조건: `claude mcp login higgsfield` 인증 + 새 세션에서 도구 로드)
+  - 폴백: gemini(Nano Banana Pro/3.1 Flash), flux(FLUX.2 Pro) — Higgsfield
+    불가·크레딧 소진 시에만. 이 스크립트의 API 경로는 폴백 전용.
   - GPT Image 2: 구독으로 API 불가 확정(별도 종량제), 우회는 ToS 위반 → 탈락
-  - Higgsfield: 공식 MCP로 구독 크레딧 소모 가능(유일한 구독-에이전틱 경로)이나
-    단가 불투명·음식 검증 없음 → 아트디렉션 탐색 보조로만
 
 법적 하드 게이트 (docs/compliance.md §5-1):
   1. 제품 실물컷은 AI 생성 금지 — 배경·질감·일반 재료 플랫레이만 (--role 강제)
