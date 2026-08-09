@@ -21,7 +21,7 @@ description: 기획안 xlsx로부터 Figma에 한국 이커머스 상세페이�
 |---|---|---|
 | 기획안 xlsx | ✅ | 진행 불가 |
 | 디자인 시스템(폰트/색/키워드) | ⬜ | 기획안 `컨셉` sheet + 레퍼런스 팔레트에서 도출 (§4) |
-| asset 폴더 | ⬜ | designed placeholder로 자리만 확보 (§3 §5) |
+| asset 폴더 | ⬜ | designed placeholder로 자리만 확보 (§3 §5). **에셋은 3계층** — T0 절차생성/T1 AI생성/T2 주입필수(증거) → `docs/assets.md` |
 | 출력 Figma 링크 | ⬜ | 프로젝트에 새 파일 생성 |
 
 ## 2. 4단계 파이프라인
