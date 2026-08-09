@@ -29,3 +29,6 @@ build/
 
 # 분석 원본 캐시 (재취득 가능, 수 MB)
 data/raw/
+
+# 생성 텍스처 (재생성 가능)
+data/assets/
