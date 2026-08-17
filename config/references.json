@@ -1,0 +1,25 @@
+{
+ "_owner": "human — 사람 관할 config. AI는 읽기만, 수정 제안은 백로그로",
+ "file_key": "jjgud5OkeXKA4weyP3FEND",
+ "name": "Full_design",
+ "access": "read-only",
+ "note": "Good/Bad 지정 상세는 docs/figma-spaces.md",
+ "good": [
+  "glowshot",
+  "kkuljam",
+  "goosemeal",
+  "olivit",
+  "cleanse-juice",
+  "iljin-wire",
+  "milbat",
+  "cleanse",
+  "fileconv"
+ ],
+ "bad": [
+  "sangha-soup",
+  "block-soup",
+  "tomato",
+  "section4",
+  "potato"
+ ]
+}

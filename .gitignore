@@ -32,3 +32,6 @@ data/raw/
 
 # 생성 텍스처 (재생성 가능)
 data/assets/
+
+#ignore_files
+ignore_files

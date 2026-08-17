@@ -41,6 +41,13 @@ FIGMA_API = "https://api.figma.com/v1"
 
 # 제품 실물을 지칭하는 슬롯은 AI 생성 대상에서 제외한다 (compliance §5-1 규칙 1)
 PRODUCT_HINTS = ("제품컷", "실물", "라인업", "단면", "패키지", "인물", "모델")
+
+# 모든 T1 생성 프롬프트에 강제되는 하우스 포토그래피 접미사 — "AI 티" 원천 차단.
+# Higgsfield MCP 경로(에이전트 직접 생성)에서도 동일 문구를 쓴다 (SKILL.md §2-2.5).
+PHOTO_SUFFIX = (
+    " Shot on 85mm lens, Kodak Portra 400 film look, natural window light "
+    "from one side, shallow depth of field, subtle film grain, natural tonal "
+    "variation, slight real-world imperfections, candid off-center composition.")
 BLOCKED_CATEGORIES = ("신선식품", "농산물", "축산물", "수산물", "유아", "건강기능식품", "건기식")
 
 
@@ -167,6 +174,9 @@ def main():
             f"Commercial food-brand background visual for a Korean e-commerce "
             f"detail page. {s['desc']}. No text, no letters, no people, no logos. "
             f"Natural light, realistic textures, muted deep-green brand mood.")
+        # 하우스 포토그래피 접미사 (P1 방어 — agent-architecture.md §1 3단계):
+        # 필름 질감·조명 방향·의도적 불완전성. 과잉완성어(8k/masterpiece)는 쓰지 않는다.
+        prompt += PHOTO_SUFFIX
         tier = "hero" if max(s.get("w", 0), s.get("h", 0)) >= 700 else "bg"
         png = PROVIDERS[a.provider](prompt, s.get("w"), s.get("h"), tier)
         fn = os.path.join(outdir, f"slot_{i:02d}.png")   # ASCII 파일명 (한글은 mojibake)

@@ -53,6 +53,22 @@ def api(path, tok):
     return json.load(urllib.request.urlopen(req))
 
 
+def hue_deg(c):
+    """RGB(0-1) → hue(0-360). 무채색은 None."""
+    r, g, b = c.get("r", 0), c.get("g", 0), c.get("b", 0)
+    mx, mn = max(r, g, b), min(r, g, b)
+    if mx - mn < 0.03:
+        return None
+    d = mx - mn
+    if mx == r:
+        h = ((g - b) / d) % 6
+    elif mx == g:
+        h = (b - r) / d + 2
+    else:
+        h = (r - g) / d + 4
+    return h * 60
+
+
 def lum(c):
     """WCAG relative luminance. c = {r,g,b} 0-1"""
     def ch(v):
@@ -234,7 +250,73 @@ def analyze_block(blk):
         "texts": texts,
         "chars": sum(t["chars"] for t in texts),
         "n_img": sum(1 for n, _, _ in nodes if n.get("name", "").startswith("IMG_")),
+        "pad_top": blk.get("paddingTop", 0) or 0,
+        "pad_bottom": blk.get("paddingBottom", 0) or 0,
+        # §3.1 표면 실측 — 서브트리에 IMAGE/GRADIENT fill이 하나라도 있는가
+        "has_rich_fill": any(
+            isinstance(f, dict) and f.get("visible", True)
+            and (f.get("type") == "IMAGE" or str(f.get("type", "")).startswith("GRADIENT"))
+            for n, _, _ in nodes for f in (n.get("fills") or [])),
     }
+    # ── AI-tell 신호 수집 (research-anti-ai-design.md §5 이관분) ──
+    slop_grad, colored_fx, radii = [], [], set()
+    for n, _, _ in nodes:
+        for fl in (n.get("fills") or []):
+            if isinstance(fl, dict) and str(fl.get("type", "")).startswith("GRADIENT"):
+                hues = [hue_deg(s["color"]) for s in fl.get("gradientStops", [])
+                        if s.get("color")]
+                hues = [h for h in hues if h is not None]
+                # 인디고→퍼플 (hue 230–290 양 스톱) — "2026 가장 시끄러운 AI tell"
+                if hues and all(230 <= h <= 290 for h in hues):
+                    slop_grad.append(n.get("name", "?"))
+        for ef in (n.get("effects") or []):
+            if isinstance(ef, dict) and ef.get("visible", True) \
+               and ef.get("type") in ("DROP_SHADOW", "LAYER_BLUR_GLOW", "INNER_SHADOW"):
+                c = ef.get("color") or {}
+                if hue_deg(c) is not None and c.get("a", 1) > 0.25:
+                    colored_fx.append(n.get("name", "?"))
+        cr = n.get("cornerRadius")
+        if isinstance(cr, (int, float)) and cr > 0:
+            radii.add(round(cr))
+        for v in (n.get("rectangleCornerRadii") or []):
+            if v and v > 0:
+                radii.add(round(v))
+    rec["slop_gradients"] = slop_grad
+    rec["colored_shadows"] = colored_fx
+    rec["radii"] = radii
+    # ── 상한 공리 신호 수집 (craft-axioms §9 — gap-v6-vs-designer 이관) ──
+    # U1: 세그먼트 최대 폰트 (base + styleOverrideTable의 fontSize까지)
+    seg_max = 0
+    rot_count = 0
+    for n, _, _ in nodes:
+        if n["type"] == "TEXT":
+            st = n.get("style") or {}
+            if st.get("fontSize"):
+                seg_max = max(seg_max, st["fontSize"])
+            for ov in (n.get("styleOverrideTable") or {}).values():
+                if isinstance(ov, dict) and ov.get("fontSize"):
+                    seg_max = max(seg_max, ov["fontSize"])
+        else:
+            # U4: 장식 요소 미세 회전 (±5~45°). REST rotation은 라디안/도 혼재 방어
+            r = abs(n.get("rotation") or 0)
+            deg = r * 57.29578 if r <= 6.3 else r
+            if 5 <= deg <= 45:
+                rot_count += 1
+    rec["seg_max_font"] = round(seg_max, 1)
+    rec["rot_count"] = rot_count
+    # §2.7 강조 집중 — 헤드라인(최대 폰트 텍스트)에 강조가 있는가
+    # 강조 = characterStyleOverrides 존재(인라인 색·웨이트 전환) 또는 마커/배지/태그 노드 보유
+    head_emph = False
+    max_sz = 0
+    for n, _, chain in nodes:
+        if n["type"] == "TEXT":
+            sz = (n.get("style") or {}).get("fontSize") or 0
+            if sz > max_sz:
+                max_sz = sz
+                head_emph = bool(n.get("characterStyleOverrides")) or \
+                    any(a.get("name", "").startswith(("마커", "배지", "태그", "테이프"))
+                        for a in chain)
+    rec["headline_emphasized"] = head_emph
     # 위계비 = 최대 폰트 / 나머지 텍스트 크기 중앙값
     rest = sorted(sizes)[:-1] if len(sizes) > 1 else []
     rec["hier"] = round(rec["max_font"] / statistics.median(rest), 2) if rest else None
@@ -279,12 +361,30 @@ RED_RE = re.compile(r"(공진|공신|경옥)\s*(탕|전|주|고|산|환|단|차|
 # 조건부 — 병기 문구가 없으면 위반
 COND_TOKENS = {"천연": "합성첨가물 무함유 입증", "100%": "단일 원재료 + 첨가물 병기",
                "무설탕": "표시기준 무당류 충족", "무가당": "설탕무첨가 기준 충족"}
-NUM_NEAR = [
-    ("갈비살 함량(%)", re.compile(r"(?:갈비살|토핑)\s*(\d+(?:\.\d+)?)\s*%")),
-    ("곡물·씨드 종수", re.compile(r"(?:곡물[·・]?씨드|씨드)\s*(\d+)\s*(?:종|가지)")),
-    ("원재료 종수",   re.compile(r"(?:원재료|재료)\s*(\d+)\s*(?:종|가지)")),
-    ("뿌리채소 종수", re.compile(r"뿌리채소\s*(\d+)\s*(?:종|가지)")),
-]
+
+# ── 비교강조표시(감소 주장) ─ 「식품등의 표시기준」
+# 실전 이관 근거(v6 4라운드): 검수자가 05의 "확 줄였어요"를 RED로 잡아 고쳤으나
+# 룰로 승격되지 않아 02의 "낮췄어요"가 살아남았다. 사람이 잡은 것을 체커로 내린다.
+# 종결형(평서·과거)만 잡는다 — "당은 줄이고 싶은 분"처럼 소비자 의향 프레이밍은 통과.
+COMPARE_CLAIM_RE = re.compile(
+    r"(줄이|줄였|낮추|낮췄|덜하|덜한|감소|저감|다운|down)"
+    r"[^.。\n]{0,10}?(었|였|습니다|어요|았어요|해요|됐|됨)")
+COMPARE_EXEMPT_RE = re.compile(r"(싶|원하|찾|바라)")   # 의향 표현은 주장이 아니다
+# 제품 사실 기반 수치 정합 패턴 — **하드코딩 금지** (독립성 원칙: 제품의 사실은 plan으로,
+# 일반 규칙만 체커로). plan.json의 `fact_checks: [{"label","pattern"}]`에서 로드된다.
+# 과거: 구스밀의 "갈비살 함량"·"뿌리채소 종수"가 여기 박혀 있었다 — 테스트 입력 침투 사례.
+NUM_NEAR = []
+
+
+def load_fact_checks(plan):
+    """plan.json fact_checks → NUM_NEAR 형식으로 컴파일."""
+    out = []
+    for fc in (plan or {}).get("fact_checks", []):
+        try:
+            out.append((fc["label"], re.compile(fc["pattern"])))
+        except (KeyError, re.error):
+            pass
+    return out
 
 
 def check_compliance(blocks):
@@ -302,23 +402,29 @@ def check_compliance(blocks):
             for tok, need in COND_TOKENS.items():
                 if tok in s:
                     out.append(("AMBER", b["name"], tok, f"조건부 — {need} 확인 필요"))
+            m = COMPARE_CLAIM_RE.search(s)
+            if m and not COMPARE_EXEMPT_RE.search(s):
+                out.append(("AMBER", b["name"], m.group(0),
+                            "비교강조표시 — 비교대상 식품 + 함량차 25% 이상 + 차이량 명시가 "
+                            "없으면 부당광고. 근거를 못 대면 주장을 사실 진술로 바꿔라"))
     return out
 
 
-def check_numbers(blocks):
+def check_numbers(blocks, patterns=None):
     """§6.2 수치 정합 — 같은 지시대상에 다른 값이 공존하면 신뢰가 무너진다.
 
     키워드 *바로 뒤* 값만 취한다. 문장 전체에서 숫자를 긁으면
     "곡물·씨드 7종 + 뿌리채소 6종"이 한 그룹으로 묶여 오탐이 난다.
     타사 비교값은 당연히 달라야 하므로 제외한다.
     """
+    patterns = NUM_NEAR if patterns is None else patterns
     groups = {}
     for b in blocks:
         for t in b["texts"]:
             s = t["text"]
             if "타사" in s or "경쟁" in s:
                 continue
-            for key, rx in NUM_NEAR:
+            for key, rx in patterns:
                 for m in rx.finditer(s):
                     groups.setdefault(key, set()).add(m.group(1))
     return {k: sorted(v) for k, v in groups.items() if len(v) > 1}
@@ -377,10 +483,24 @@ def check_collisions(root):
     return hits
 
 
-def check(blocks, page_h, root=None):
+def check(blocks, page_h, root=None, plan_ctx=None, k=1.0):
     """공리 판정. → (findings, stats)"""
     f = []           # (severity, axiom, where, message)
     seq = "".join(b["bg_class"] for b in blocks)
+
+    # plan 제공 시 scene_type 기반 면제 — 이름 규약 미준수 실행에서도 면제가 성립
+    SCENE_EXEMPT = {"cta-offer": {"A-1", "A-2", "C-5", "A-3"},
+                    "notice": {"A-1", "A-2", "C-5"},
+                    "transition": {"A-1", "C-5"}}
+    scene_by_prefix = (plan_ctx or {}).get("scene_by_seq", {})
+
+    def _exempt(name, axiom):
+        if exempt(name, axiom):
+            return True
+        for seq, st in scene_by_prefix.items():
+            if name.startswith(seq) and axiom in SCENE_EXEMPT.get(st, ()):
+                return True
+        return False
 
     # ── 클립 이탈 (Q1) ──
     if root is not None:
@@ -414,14 +534,14 @@ def check(blocks, page_h, root=None):
                   f"조건부 표현 {len(ambers)}건 — 병기 문구 확인"))
 
     # ── 수치 정합 (Q4) ──
-    nums = check_numbers(blocks)
+    nums = check_numbers(blocks, (plan_ctx or {}).get("fact_checks"))
     if nums:
         f.append(("FAIL", "§6.2",
                   "; ".join(f"{k}={'/'.join(v)}" for k, v in nums.items()),
                   "같은 지시대상에 서로 다른 값이 공존 — 한 값으로 고정하라"))
 
     # ── A-1 헤드라인 하한 ──
-    weak = [b for b in blocks if b["max_font"] and b["max_font"] < HEADLINE_MIN
+    weak = [b for b in blocks if b["max_font"] and b["max_font"] < HEADLINE_MIN * k
             and b["chars"] > 40 and not exempt(b["name"], "A-1")]
     if weak:
         f.append(("WARN", "A-1", ",".join(b["name"] for b in weak[:5]),
@@ -439,14 +559,14 @@ def check(blocks, page_h, root=None):
 
     # ── A-3 / A-4 본문·각주 하한 (모바일 환산) ──
     tiny = [(b["name"], t) for b in blocks for t in b["texts"]
-            if t["size"] < FOOTNOTE_MIN]
+            if t["size"] < FOOTNOTE_MIN * k]
     if tiny:
         f.append(("FAIL", "A-4",
                   ",".join(f"{n}:{t['size']}px" for n, t in tiny[:5]),
                   f"각주 하한 {FOOTNOTE_MIN}px 미만 {len(tiny)}건 "
                   f"(모바일 환산 {FOOTNOTE_MIN*MOBILE_SCALE:.1f} CSS px 미만 = 판독 불가)"))
     subfloor = [(b["name"], t) for b in blocks for t in b["texts"]
-                if t["role"] == "body" and t["size"] < BODY_FLOOR]
+                if t["role"] == "body" and t["size"] < BODY_FLOOR * k]
     if subfloor:
         f.append(("WARN", "A-3",
                   ",".join(f"{n}:{t['size']}px" for n, t in subfloor[:5]),
@@ -516,6 +636,104 @@ def check(blocks, page_h, root=None):
                   "클라이맥스", "결론", "클로징", "ZERO")
     stray = [b["name"] for b in narr if b["bg_class"] == "D"
              and not any(r in b["name"] for r in DARK_ROLES)]
+    # ── §3.1 표면 다양성 — 완전 평면 단색 블록 비율 (결정론 이관) ──
+    # 실전 이관 근거(v6): 규칙은 craft-axioms §3.1에 있었지만 체커에 없어 아무도 안 지켰고,
+    # 검수자 판정도 라운드마다 흔들렸다(3R "41% 통과" ↔ 4R "질감 0 실패"). 기준을 코드로 고정한다.
+    # 배너·법정 고지는 평면이 정상이므로 모집단에서 제외.
+    SURFACE_EXEMPT = ("배너", "고지", "notice")
+    pop = [b for b in blocks if not any(k in b["name"] for k in SURFACE_EXEMPT)]
+    if len(pop) >= 6:
+        flat_blocks = [b["name"] for b in pop if not b.get("has_rich_fill")]
+        flat_ratio = len(flat_blocks) / len(pop)
+        if flat_ratio > 0.60:
+            f.append(("FAIL", "§3.1",
+                      f"완전 평면 단색 {len(flat_blocks)}/{len(pop)} ({flat_ratio:.0%}): "
+                      + ",".join(flat_blocks[:6]),
+                      "단색 과다 — 다양성·창의성 부족. 표면 비율은 디자인 시스템에서 "
+                      "선언하고(texture/gradient/photo), gen_textures.py 레이어드 필을 활용하라"))
+        elif flat_ratio > 0.45:
+            f.append(("WARN", "§3.1",
+                      f"완전 평면 단색 {flat_ratio:.0%} — 60% 상한에 근접",
+                      "사진 없는 블록에 텍스처·그라디언트를 검토하라"))
+
+    # ── 상한 공리 판정 (craft-axioms §9 — 이관 근거: gap-v6-vs-designer G8·G20·G23) ──
+    # "하한이 목표가 되는" 구조를 깨기 위한 것 — 위반은 실격이 아니라 정체 신호(WARN 중심).
+    narr_u = [b for b in blocks if not exempt(b["name"], "A-1")]
+    decl = sum(1 for b in blocks if b.get("seg_max_font", 0) >= 130 * k)
+    if decl < 2:
+        top = max((b.get("seg_max_font", 0) for b in blocks), default=0)
+        f.append(("WARN", "U1",
+                  f"130px+ 선언 타이포 {decl}회 (페이지 최대 {top}px)",
+                  "스케일 밴드 미달 — 디자이너 벤치마크는 110px+ 22회(최대 168). "
+                  "페이지당 130px+ 선언 2회 이상 (§9 U1)"))
+    rot_total = sum(b.get("rot_count", 0) for b in blocks)
+    if rot_total < 3:
+        f.append(("WARN", "U4",
+                  f"미세 회전(±5~45°) 요소 {rot_total}개" + (" — 회전 0의 페이지" if rot_total == 0 else ""),
+                  "회전 예산 미달 — 테이프·스티커급 미세 회전 3~5개/페이지 (§9 U4, 디자이너 27개)"))
+    hs = [b["h"] for b in narr_u if b["h"]]
+    if len(hs) >= 6:
+        u7 = statistics.pstdev(hs) / statistics.mean(hs)
+        if u7 < 0.35:
+            f.append(("FAIL", "U7", f"서사 블록 높이 σ/μ {u7:.2f}",
+                      "블록 물리량 낙차 붕괴 — 어떤 장면도 커지지 못했다 (§9 U7, 디자이너 0.70)"))
+        elif u7 < 0.45:
+            f.append(("WARN", "U7", f"서사 블록 높이 σ/μ {u7:.2f}",
+                      "낙차 부족 — 클라이맥스 블록에 물리량을 배분하라 (§9 U7 기준 0.5)"))
+    # 각주 마이크로 스타일 (G22): 장문 각주는 지면을 점유한다
+    fat_notes = [(b["name"], t["chars"]) for b in blocks for t in b["texts"]
+                 if str(t.get("text", "")).lstrip()[:1] == "※" and t["chars"] > 60]
+    if len(fat_notes) > 3:
+        f.append(("WARN", "G22",
+                  ",".join(f"{n}({c}자)" for n, c in fat_notes[:4]),
+                  f"장문 각주 {len(fat_notes)}건 — 각주는 1줄 마이크로 타입(사진 구석)으로. "
+                  f"다중행 패널은 본문 대접이다 (gap-v6 G22)"))
+
+    # ── EM-1 무강조 헤드라인 (§2.7 — 사용자 규칙 이관: 제목은 무조건 강조) ──
+    plain_heads = [b["name"] for b in blocks
+                   if b.get("max_font", 0) >= 40 and not b.get("headline_emphasized")
+                   and not _exempt(b["name"], "A-1")]
+    if len(plain_heads) > max(2, len(blocks) * 0.25):
+        f.append(("WARN", "EM-1",
+                  f"무강조 헤드라인 {len(plain_heads)}개: " + ",".join(plain_heads[:5]),
+                  "제목은 무조건 강조한다(§2.7) — 인라인 색전환·마커·배지 중 1. "
+                  "하위 강조는 1개만, 제목 강조와 ≥100px 간격 (검수자 판정)"))
+
+    # ── AI-tell 판정 (research-anti-ai-design.md §5 — 2025-26 외부 리서치 이관) ──
+    sg = [(b["name"], n) for b in blocks for n in b.get("slop_gradients", [])]
+    if sg:
+        f.append(("FAIL", "AI-1",
+                  ",".join(f"{b}/{n}" for b, n in sg[:4]),
+                  "인디고→퍼플 그라디언트 — 2026년 가장 널리 알려진 AI tell (Tailwind "
+                  "indigo-500 계보). 팔레트는 제품·패키지에서 파생하라"))
+    cs = [(b["name"], n) for b in blocks for n in b.get("colored_shadows", [])]
+    if cs:
+        f.append(("FAIL", "AI-2",
+                  ",".join(f"{b}/{n}" for b, n in cs[:4]),
+                  "유채색 그림자/글로우 — 다크모드+컬러글로우 AI 디폴트. "
+                  "그림자는 중성 저불투명만"))
+    all_radii = set()
+    for b in blocks:
+        all_radii |= {r for r in b.get("radii", set()) if r < 400}  # pill(999) 제외
+    if len(all_radii) > 5:
+        f.append(("WARN", "AI-3",
+                  f"라운드 {len(all_radii)}종: {sorted(all_radii)[:8]}",
+                  "라운드 값 과다 — 역할별 계층(카드/표/태그/풀블리드) 3~4값으로 고정하라 (§3.4). "
+                  "반대로 전 요소 단일값도 tell이다"))
+
+    # ── F7 여백이 중요도의 함수인가 (결정론 이관) ──
+    # 실전 이관 근거(v6 4라운드): 검수자가 "padTop 104~118로 사실상 상수"를 실격으로 잡았다.
+    # 전부 노드 속성에서 계산되므로 사람이 볼 일이 아니다.
+    pads = [b["pad_top"] for b in blocks if b.get("pad_top")]
+    if len(pads) >= 6:
+        mean_p = statistics.mean(pads)
+        cv_p = statistics.pstdev(pads) / mean_p if mean_p else 0
+        if cv_p < 0.15:
+            f.append(("FAIL", "F7",
+                      f"padTop CV {cv_p:.1%} (평균 {mean_p:.0f}px, {len(pads)}블록)",
+                      "블록 여백이 사실상 상수 — 여백은 중요도의 함수여야 한다. "
+                      "클라이맥스 1.7배 / 호흡·고지 0.65배로 재배분하라"))
+
     if stray:
         f.append(("WARN", "§4.3", ", ".join(stray),
                   f"다크 블록 {len(stray)}개가 정해진 용도(훅·프리미엄·신뢰·클라이맥스·"
@@ -577,6 +795,7 @@ def main():
     ap.add_argument("file_key")
     ap.add_argument("node_id")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--plan", help="plan.json 경로 — U2 클라이맥스 물리량을 플랜과 대조 (§9 U2)")
     a = ap.parse_args()
 
     tok = token()
@@ -585,7 +804,50 @@ def main():
     blocks = [analyze_block(c) for c in root.get("children") or []]
     page_h = round((root.get("absoluteBoundingBox") or {}).get("height", 0))
 
-    findings, stats = check(blocks, page_h, root)
+    # 폭 정규화 — 폰트 임계값은 860px에서 캘리브레이션됨. 다른 폭 산출물(디자이너본 1500 등)에
+    # 절대 px를 적용하면 과적합 오탐 (독립성 원칙: 임계값은 캔버스 프로파일의 함수)
+    root_w = (root.get("absoluteBoundingBox") or {}).get("width") or 860
+    k = root_w / 860
+
+    # plan_ctx — 제품의 사실(fact_checks)·장면 구조(scene_by_seq)는 plan이 가져온다
+    plan = None
+    plan_ctx = None
+    if a.plan:
+        try:
+            plan = json.load(open(a.plan))
+            plan_ctx = {
+                "fact_checks": load_fact_checks(plan),
+                "scene_by_seq": {b["seq"]: b.get("scene_type", "")
+                                 for b in plan.get("blocks", []) if b.get("seq")},
+            }
+        except (OSError, json.JSONDecodeError):
+            plan = None
+
+    findings, stats = check(blocks, page_h, root, plan_ctx, k)
+
+    # ── U2 클라이맥스 물리량 — plan.json 대조 (§9 U2, gap-v6 G23·G24) ──
+    if plan:
+        try:
+            climax_seqs = [b["seq"] for b in plan.get("blocks", [])
+                           if b.get("emphasis") == "climax"]
+            if plan.get("claims") and not climax_seqs:
+                findings.append(("FAIL", "U2", "-",
+                                 "claims는 있는데 emphasis=climax 블록이 플랜에 없다"))
+            for seq in climax_seqs:
+                m = next((b for b in blocks if b["name"].startswith(seq)), None)
+                if not m:
+                    continue
+                hs = [b["h"] for b in blocks if b["h"]]
+                mean_h = statistics.mean(hs)
+                if m["h"] < max(hs):
+                    findings.append(("FAIL", "U2", f"{m['name']} {m['h']}px < 최장 {max(hs)}px",
+                                     "클라이맥스로 선언된 블록이 실측 최장이 아니다 — "
+                                     "물리량을 배분하라 (§9 U2)"))
+                elif m["h"] < mean_h * 1.8:
+                    findings.append(("WARN", "U2", f"{m['name']} {m['h']}px (평균×{m['h']/mean_h:.1f})",
+                                     "클라이맥스 높이가 평균×1.8 미달 (§9 U2)"))
+        except (OSError, json.JSONDecodeError) as e:
+            findings.append(("WARN", "U2", str(e)[:40], "plan.json을 읽지 못해 U2 미검증"))
 
     if a.json:
         print(json.dumps({"stats": stats, "findings": findings,

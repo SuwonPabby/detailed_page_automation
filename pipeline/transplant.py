@@ -18,7 +18,9 @@ import sys
 import urllib.request
 from pathlib import Path
 
-TPL_KEY = "LfTw57QmIV1daU3JlYlebV"
+# 템플릿 파일은 사람 관할 config에서 — 하드코딩 금지 (config/templates.json)
+import json as _json
+TPL_KEY = _json.load(open(Path(__file__).resolve().parent.parent / "config" / "templates.json"))["file_key"]
 ENV = Path.home() / "projects/detailed_page_automation/.env"
 
 

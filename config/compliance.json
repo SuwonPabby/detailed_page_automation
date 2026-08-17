@@ -1,0 +1,5 @@
+{
+ "_owner": "human — 사람 관할 config. AI는 읽기만, 수정 제안은 백로그로",
+ "doc": "docs/compliance.md",
+ "note": "법적 게이트 원문. RED 토큰 구현은 qa_check.py — 완화 변경은 사람만"
+}

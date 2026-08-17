@@ -72,3 +72,45 @@ const fonts = await figma.listAvailableFontsAsync();
 - **텍스트를 만지기 전에 반드시 `await figma.loadFontAsync(...)`.** 빠뜨리면 `Cannot write to node with unloaded font` 에러가 납니다. 기존 텍스트를 수정할 때는 하드코딩된 기본값이 아니라 `getStyledTextSegments(['fontName'])`로 **현재 폰트**를 읽어 로드하세요.
 - `NanumMyeongjo`는 한글 자간이 다른 폰트보다 넓게 잡힙니다. 조밀한 레이아웃에서는 자간 조정이 필요할 수 있습니다.
 - 이름에 `KR`이 들어가도 한글 폰트가 아닌 경우가 있습니다(`Orbitron`, `TASA Orbiter`, `Yeseva One` 등은 이름 매칭에 걸렸을 뿐 라틴 전용). **이름이 아니라 렌더링으로 판단하세요.**
+
+## 디스플레이 후보 확장 (2026-08-16 로드 검증 — v7 상한 공리 대응)
+
+`loadFontAsync` 실측. **장체(콘덴스드)는 Figma 클라우드 한글 풀에 없다** — 디자이너의
+Cafe24 PRO Slim·Gmarket Sans·SUIT 계열 전부 로드 불가 확인.
+
+**로드 가능 신규 20종** (Regular 단일 웨이트 위주): Gugi(기하학적 개성) · Song Myung(명조 디스플레이) ·
+Stylish · Yeon Sung · Bagel Fat One(라운드 팻) · Orbit · Moirai One · Diphylleia · Grandiflora One ·
+Dokdo/East Sea Dokdo·Kirang Haerang·Single Day·Poor Story·Gamja Flower·Cute Font·Hi Melody·
+Gaegu·Nanum Brush Script(손글씨 계열) · Black And White Picture
+**로드 불가**: Sunflower, Nanum Pen Script
+
+### 130px+ 선언 타이포 전략 (§9 U1 — 장체 부재 하에서)
+
+1. **1순위: `Gothic A1 Black` + 자간 −3~−4% + lineHeight 98%** — 9웨이트 패밀리라 같은 지면에서
+   위계 낙차 표현 가능. Black Han Sans보다 대형 급수에서 덜 뭉툭
+2. 컨셉이 팻/친근이면 `Bagel Fat One`, 기하/모던이면 `Gugi`, 프리미엄 명조면 `Song Myung` 검토
+3. ⚠️ 신규 20종은 로드만 검증됨 — 실사용 전 해당 급수(130px+)로 렌더 확인 필수 (두부·자간 문제)
+
+## 무드·타이밍 매핑 (2026-08-17 — 기계 소비용 원본은 config/fonts.json)
+
+사용자 정의 분류. **폰트 선택이 퀄리티를 크게 좌우한다** — 무드 선택 근거를 plan에 기록할 것.
+
+| 분류 | 무드 | 언제 쓰면 이쁜가 | 가용 서체 |
+|---|---|---|---|
+| **세리프 = 디폴트** | 기본 서사 | 본문·브랜드 스토리·차분한 설득 | Noto Serif KR(7w 주력) · NanumMyeongjo · Jeju Myeongjo · Gowun Batang · Hahmlet(9w) · Song Myung(헤드 강조) |
+| **산세리프 = 무드** | 고급·프리미엄·여성적·이국적 (힘빼기) | 프리미엄 연출 블록, 뷰티·여성 카테고리, 가벼운 서브카피 — **Light~DemiLight 웨이트가 핵심** | Noto Sans KR(Pretendard 대체) · IBM Plex Sans KR(이국) · Gothic A1(숫자 겸용) · NanumGothic(고지) · Jeju Gothic |
+| 손글씨·구어체 | 사람의 목소리 | 리뷰 인용·감탄 카피·테이프 문구. **페이지당 1~2회** | Nanum Brush Script |
+| 장체 임팩트 | 대형 선언 | 클라이맥스 선언(130px+) | (부재) → **Gothic A1 Black 자간-3% lh98%** |
+| 볼드·개성 | 힘·주장 | 훅·클라이맥스 헤드, 주력 1종만 | Black Han Sans · Gugi |
+| 귀여움 | 친근·B급 | 간식·키즈 톤 헤드·배지·말풍선 | Jua · Do Hyeon · Bagel Fat One |
+
+wishlist 10종(Pretendard·Cafe24 PRO Slim·Jalnan 2 등)은 Organization 플랜 업로드 대기 —
+대체 매핑은 config/fonts.json `wishlist` 참조. ⚠️ 표시 서체는 대형 급수 렌더 검증 후 사용.
+
+## ⭐ 정정 (2026-08-17): 커스텀 폰트는 개인 계정 업로드로 가능하다
+
+"조직 플랜 전용"은 조직 공유 폰트 얘기였고, **개인 계정 업로드(프로필 → Settings → Account →
+Your uploaded fonts)는 Pro 플랜에서 동작**한다. 업로드 폰트는 원격 MCP loadFontAsync와
+REST 서버 렌더 모두에서 정상 동작 확인 (Pretendard 9웨이트 + Gmarket Sans TTF 3웨이트 실측).
+⚠️ 반드시 MCP 인증 계정(appevory)으로 업로드. family명은 파일 내부명 기준
+(예: "Gmarket Sans TTF" — "G마켓 산스" 아님). 나머지 wishlist는 파일 수동 확보 후 같은 절차.

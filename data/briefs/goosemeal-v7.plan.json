@@ -1,0 +1,501 @@
+{
+ "product": "구스밀 바로끼니 식물성 저당 주먹밥 — v7 (타블로이드, 시스템 완전판)",
+ "source_brief": "data/briefs/goosemeal-v6.json",
+ "asset_manifest": "data/assets/goosemeal-v6.manifest.json",
+ "constraints": {
+  "user_advice": "물성 세계관 선택 위임(2026-08-17) → B 타블로이드 확정",
+  "compliance": "v6 확정 판정 승계(같은 제품 재실행 허용 범위): 감소주장 철회 어휘·법정 기준치 비교자·트러플 향 한정(불고기맛)·특허 표시 철회·라벨 수치. 신규 카피는 RED 게이트 통과 필수",
+  "craft": "하한 F1~F10 + AI-1~3 + EM-1(§2.7 강조 집중) + 상한 U1~U7",
+  "label_facts": {
+   "불고기맛": "110g 250kcal / 갈비살GFA민스 37.81%, 쌀 18.44%, 소스T 6.92%",
+   "제육맛": "110g 235kcal / 갈비살GFA민스 33.49%, 쌀 20.05%, 소스 9.02%, 아마씨 0.25%"
+  }
+ },
+ "design_system": {
+  "note": "§4 재도출(승계 아님). §4-0 방향탐색 3안 중 B 선택 — 근거: 컨셉 sheet '음식형-Pain 통념폭로 톤'에서 직접 파생",
+  "material_worldview": "통념을 폐기하는 호외(號外) — 신문 인쇄 그레인, 헤드라인 타이포, 판결 스탬프(-14° 회전), 옐로 하이라이트 바, 절취선. '저당은 맛없다'는 통념에 유죄를, 속세맛에 무죄를 선고하는 지면",
+  "dominant": "#141310",
+  "accent": "#F0C64A",
+  "accent2": "#D9541E",
+  "green_axis": "#3E7A4B (식물성·신선 존 전용 — 시즐 비트는 §4.8에 따라 밝은 종이 톤)",
+  "neutral": "#F4F2EC (잉크 틴트 웜 페이퍼)",
+  "text": "#25231E",
+  "dark_bgs": {
+   "hook": "#141310",
+   "bridge": "#1A1712",
+   "closing": "#171512"
+  },
+  "fonts": {
+   "note": "config/fonts.json 무드 매핑 준거. 주력 3: 선언·헤드=Black Han Sans / 본문=Pretendard(신규) / 숫자·라벨=Gothic A1. 한정: Gmarket Sans TTF Bold(신문 배지·오버라인), Gowun Batang(판결문·인용 세리프)",
+   "impact": "Black Han Sans 150px (자간-3%)",
+   "headline": "Black Han Sans 80~96",
+   "sub": "Pretendard Medium 30",
+   "body": "Pretendard Regular 28~30",
+   "num": "Gothic A1 Black",
+   "quote": "Gowun Batang"
+  },
+  "type_scale": {
+   "declaration": 150,
+   "impact": 110,
+   "headline": 88,
+   "sub": 30,
+   "body": 28,
+   "footnote": 19
+  },
+  "photo_grade": "웜 — R−G ≥ +10, 채도 ≥ 40. 시즐 블록은 밝은 배경",
+  "sub_palette": {
+   "불고기맛": "#7A2E1B",
+   "제육맛": "#D9541E",
+   "무대색": "#F0C64A 옐로 (클라이맥스 = 신문 하이라이트 면)"
+  },
+  "surface_system": {
+   "ratios": {
+    "photo": 0.27,
+    "solid": 0.42,
+    "texture": 0.21,
+    "gradient": 0.1
+   },
+   "texture_recipes": [
+    "grain_mono SOFT_LIGHT 0.5 — 다크(신문 인쇄)",
+    "hanji_hi MULTIPLY 0.9 — 밝은 종이",
+    "kraft_hi MULTIPLY 0.85 — 웜 종이"
+   ],
+   "note": "비율은 배너·고지 포함 전체 기준. 콘텐츠 블록만 보면 photo+texture가 과반 — 60% solid 상한과 §3.1은 별도 검사"
+  }
+ },
+ "claims": [
+  {
+   "rank": 1,
+   "claim": "저당 — 대체당(알룰로스)",
+   "scenes": [
+    6,
+    12
+   ],
+   "evidence": [
+    "선언타이포 140px",
+    "1일 기준치 차트(자사열 승격)",
+    "알룰로스 소재컷",
+    "패키지 저당 표기 실물"
+   ]
+  },
+  {
+   "rank": 2,
+   "claim": "갈비살 함량(원재료 1순위)",
+   "scenes": [
+    18,
+    25
+   ],
+   "evidence": [
+    "단면 시즐컷+리더선 앵커",
+    "비례 차트",
+    "라벨 각주"
+   ]
+  },
+  {
+   "rank": 3,
+   "claim": "트러플 향(불고기맛)",
+   "scenes": [
+    15
+   ],
+   "evidence": [
+    "프리미엄 풀블리드",
+    "향 한정 각주"
+   ]
+  },
+  {
+   "rank": 4,
+   "claim": "트리플 가열 식감",
+   "scenes": [
+    27
+   ],
+   "evidence": [
+    "3-STEP 실사",
+    "판단 라벨"
+   ]
+  },
+  {
+   "rank": 5,
+   "claim": "원재료 구성",
+   "scenes": [
+    30,
+    31
+   ],
+   "evidence": [
+    "배지 클라우드",
+    "플랫레이"
+   ]
+  }
+ ],
+ "copy_decisions": [
+  {
+   "scene": 0,
+   "decision": "v6 판정 전량 승계(goosemeal-v6.plan.json). 타블로이드 프레임 신규 카피('죄가 없다'류)는 통념에 대한 비유로 compliance 통과 — 자사·타사 비방 아님. red-team이 검증"
+  },
+  {
+   "scene": 18,
+   "decision": "R1 red-team: '쌀보다 많은 갈비살'→'쌀보다 많은 식물성 갈비살' — 대체식품 수식어 헤드라인 인접 필수(식품표시광고법 §8①4·5호)"
+  },
+  {
+   "scene": 27,
+   "decision": "R1 red-team: '고기 결 그대로'→'식물성인데, 고기 결 그대로' — 대체식품 명시를 헤드라인 안으로. '세 번 구운'은 기획안 scene27 원문(트리플 가열공정) 승계"
+  },
+  {
+   "scene": 40,
+   "decision": "R1: 조리표 판정열 최상급 1개로 축소 — 에어프라이어 '가장 맛있는'만 유지, 700W '간편', 1000W '최단 시간'→'빠른 조리', 오븐 '오븐 풍미'"
+  },
+  {
+   "scene": 6,
+   "decision": "R1 red-team: 당류 2g 스탬프에 '제육맛 기준' 2행 병기 — 낮은 값 단독 강조는 기만(축소) 소지"
+  },
+  {
+   "scene": 11,
+   "decision": "R1 reviewer §6.3: '다이어트 식'→'저당 간편식' — L열 판정문 없는 강도 상승 회수(디자이너본 표현 복원)"
+  }
+ ],
+ "open_issues_ack": true,
+ "fact_checks": [
+  {
+   "label": "갈비살 함량(%)",
+   "pattern": "(?:갈비살|토핑)\\s*(\\d+(?:\\.\\d+)?)\\s*%"
+  },
+  {
+   "label": "원재료 종수",
+   "pattern": "(?:원재료|재료)\\s*(\\d+)\\s*(?:종|가지)"
+  }
+ ],
+ "t2_missing": {
+  "리뷰 실물": "미제공 — review 생략(명시적). 타블로이드의 '증언' 프레임이 자리는 준비함",
+  "특허증": "미제공 — 표시 철회 유지",
+  "모델 provenance": "AI 의혹 미해결 — 원형 크롭 1회만"
+ },
+ "skipped_scenes": {
+  "21": "경쟁사 비교 근거 불가(승계)"
+ },
+ "bg_rhythm": "A D L L D L L M A L L M D L M L D L L A",
+ "blocks": [
+  {
+   "seq": "00",
+   "scenes": [],
+   "scene_type": "cta-offer",
+   "layout": "shipping-banner",
+   "bg": "accent",
+   "h": 120,
+   "surface": "solid",
+   "emphasis": "notice",
+   "asset_budget": "minimal",
+   "copy": "11시 이내 주문 시 당일 출고(평일) — 잉크 스탬프 아이콘"
+  },
+  {
+   "seq": "01",
+   "scenes": [
+    6
+   ],
+   "scene_type": "hook",
+   "layout": "tabloid-front",
+   "bg": "D:hook",
+   "h": 1550,
+   "surface": "texture",
+   "emphasis": "normal",
+   "asset_budget": "full",
+   "copy": "호외 1면: 옐로 마스트헤드 바('단독 — 저당이 맛없다는 통념, 오늘 폐기') → '속세맛은\\n죄가 없다' 150px(속세맛 옐로) → 부제 Pretendard('당은 빼고 맛은 유죄 판결 — 윤형빈의 식물성 저당 주먹밥') → 제품 풀블리드 + 당류2g 스탬프(-14°) + 모델 원형 + micro-CTA. §2.7: 제목강조=속세맛 옐로, 하위강조=스탬프 1개(간격>100px)",
+   "assets": [
+    "data/assets/goosemeal-v6/주먹밥연출/20220615_0061.jpg",
+    "모델 원형(provenance 대기)"
+   ],
+   "text_zone": "상단 620px"
+  },
+  {
+   "seq": "02",
+   "scenes": [
+    1,
+    2,
+    3
+   ],
+   "scene_type": "benefit-recap",
+   "layout": "verdict-3",
+   "bg": "L",
+   "h": 950,
+   "surface": "texture",
+   "emphasis": "normal",
+   "asset_budget": "standard",
+   "copy": "판결 요지 3행: 혐의('맛없다')→판결('무죄') 프레임으로 특장점 3 압축(저당·갈비살·트러플 향(불고기맛)). 판결문은 Gowun Batang, 도장 배지. 4·5특장점은 08·09에 위임"
+  },
+  {
+   "seq": "03",
+   "scenes": [
+    11
+   ],
+   "scene_type": "target-audience",
+   "layout": "witness-list",
+   "bg": "L",
+   "h": 800,
+   "surface": "solid",
+   "emphasis": "normal",
+   "asset_budget": "minimal",
+   "copy": "'이런 분들이 찾습니다' 4행 컬러바 리스트(v6 확정 카피)"
+  },
+  {
+   "seq": "04",
+   "scenes": [
+    14
+   ],
+   "scene_type": "transition",
+   "layout": "bridge-strip",
+   "bg": "D:bridge",
+   "h": 420,
+   "surface": "texture",
+   "emphasis": "breather",
+   "asset_budget": "minimal",
+   "copy": "데우는 순간, 향이 아쉬웠던 경험(v6 확정) — 신문 그레인 다크"
+  },
+  {
+   "seq": "04b",
+   "scenes": [
+    8
+   ],
+   "scene_type": "social-proof",
+   "layout": "review-zigzag",
+   "bg": "L",
+   "h": 1150,
+   "surface": "solid",
+   "emphasis": "normal",
+   "asset_budget": "minimal",
+   "copy": "독자 제보(증언) 프레임: 누적 [[00,000원]] 헤드라인(§5 designed placeholder — 기획자 입력 대기) + 증언 카드 2건 지그재그(흰↔다크 교차, 원형 썸네일이 카드 경계 관통). 후기 원문·판매액은 T2 — 생성 금지, [기획자 입력] 표기로 자리만. §2.7: 제목강조=인라인, 하위강조=placeholder 금액 1개"
+  },
+  {
+   "seq": "05",
+   "scenes": [
+    6,
+    12
+   ],
+   "scene_type": "usp-climax",
+   "layout": "front-page-act",
+   "bg": "Y",
+   "h": 2800,
+   "surface": "solid",
+   "emphasis": "climax",
+   "asset_budget": "hero",
+   "copy": "★클라이맥스 = 옐로 하이라이트 면(U6 동시 충족): '단맛은\\n대체당으로' 140px 잉크 블랙 → 1일 기준치 차트(자사열 승격+리더선, 흰 카드) → 알룰로스 소재컷 블리드 → 패키지 저당표기 실물 크롭. 증거 4종. §2.7: 제목강조=인라인, 하위강조=차트 1개",
+   "assets": [
+    "data/assets/goosemeal-v6/02_기본이미지/03_소재/알룰로오스_꿀시럽.png",
+    "data/assets/goosemeal-v6/02_기본이미지/사쉐/불고기_사쉐.png"
+   ],
+   "text_zone": "선언부 상단 700px"
+  },
+  {
+   "seq": "06",
+   "scenes": [
+    15
+   ],
+   "scene_type": "usp",
+   "layout": "fullbleed-premium",
+   "bg": "M",
+   "h": 1050,
+   "surface": "photo",
+   "emphasis": "normal",
+   "asset_budget": "full",
+   "copy": "트러플 향(불고기맛 한정, v6 카피·각주 승계) — 프리미엄 비트라 다크 허용(§4.8)",
+   "assets": [
+    "data/assets/goosemeal-v6/주먹밥연출/20220615_0029.jpg"
+   ]
+  },
+  {
+   "seq": "06b",
+   "scenes": [],
+   "scene_type": "cta-offer",
+   "layout": "mid-cta-strip",
+   "bg": "accent2",
+   "h": 280,
+   "surface": "solid",
+   "emphasis": "breather",
+   "asset_budget": "minimal",
+   "copy": "mid-CTA(40–60% 뎁스): '오늘 출고 마감 11시' + CTA pill"
+  },
+  {
+   "seq": "07",
+   "scenes": [
+    18,
+    25
+   ],
+   "scene_type": "usp",
+   "layout": "anchor-evidence",
+   "bg": "L",
+   "h": 1450,
+   "surface": "photo",
+   "emphasis": "normal",
+   "asset_budget": "full",
+   "copy": "쌀보다 많은 갈비살 — 단면컷+37%/18% 리더선 앵커(본문 반올림·라벨값 각주), 갈비살 누끼 인터락(-8°)",
+   "assets": [
+    "data/assets/goosemeal-v6/주먹밥연출/20220615_0062.jpg",
+    "data/assets/goosemeal-v6/재료컷/누끼/갈비살.png"
+   ]
+  },
+  {
+   "seq": "08",
+   "scenes": [
+    4,
+    23,
+    27
+   ],
+   "scene_type": "usp",
+   "layout": "process-seq",
+   "bg": "L",
+   "h": 1050,
+   "surface": "solid",
+   "emphasis": "normal",
+   "asset_budget": "standard",
+   "copy": "세 번 구운 식감 3-STEP + 판단 라벨('가장 고소한/쫀득한/촉촉한') 동일 맛 라인 컷",
+   "assets": [
+    "data/assets/goosemeal-v6/구스밀 주먹밥_스틸컷/오븐 (1).png 외"
+   ]
+  },
+  {
+   "seq": "09",
+   "scenes": [
+    5,
+    30,
+    31
+   ],
+   "scene_type": "ingredient-spec",
+   "layout": "badge-flatlay",
+   "bg": "M",
+   "h": 900,
+   "surface": "photo",
+   "emphasis": "normal",
+   "asset_budget": "standard",
+   "copy": "원재료 13종 배지(5/4/4) + 플랫레이 단일분면 크롭",
+   "assets": [
+    "data/assets/goosemeal-v6/재료컷/_montage_재료.png"
+   ]
+  },
+  {
+   "seq": "10",
+   "scenes": [
+    32,
+    33
+   ],
+   "scene_type": "product-lineup",
+   "layout": "fullbleed-2stack",
+   "bg": "G",
+   "h": 1850,
+   "surface": "gradient",
+   "emphasis": "normal",
+   "asset_budget": "hero",
+   "copy": "옵션 2단 풀블리드: 사진 860 + 맛별 색 패널(불고기 #7A2E1B/제육 #D9541E) + 코너 번호탭 + 옐로 스펙 pill",
+   "assets": [
+    "data/assets/goosemeal-v6/02_기본이미지/썸네일/불고기_썸네일.png",
+    "data/assets/goosemeal-v6/02_기본이미지/썸네일/제육_썸네일.png"
+   ]
+  },
+  {
+   "seq": "11",
+   "scenes": [
+    34
+   ],
+   "scene_type": "notice",
+   "layout": "kcal-info",
+   "bg": "L",
+   "h": 750,
+   "surface": "solid",
+   "emphasis": "normal",
+   "asset_budget": "minimal",
+   "copy": "열량 안내 + 1일 기준치(v6 확정)"
+  },
+  {
+   "seq": "12",
+   "scenes": [
+    38
+   ],
+   "scene_type": "tip",
+   "layout": "photo-card-stack",
+   "bg": "M",
+   "h": 980,
+   "surface": "photo",
+   "emphasis": "normal",
+   "asset_budget": "standard",
+   "copy": "찰떡 궁합(v6 승계, 스크림 45%)",
+   "assets": [
+    "data/assets/goosemeal-v6/뷰티이미지/20220615_0003.jpg",
+    "data/assets/goosemeal-v6/뷰티이미지/20220615_0022.jpg"
+   ]
+  },
+  {
+   "seq": "13",
+   "scenes": [
+    40
+   ],
+   "scene_type": "usage-guide",
+   "layout": "step-list",
+   "bg": "L",
+   "h": 1050,
+   "surface": "texture",
+   "emphasis": "normal",
+   "asset_budget": "minimal",
+   "copy": "조리법 표+판단 라벨 행 — 종이 질감"
+  },
+  {
+   "seq": "14",
+   "scenes": [
+    42
+   ],
+   "scene_type": "closing",
+   "layout": "fullbleed-product",
+   "bg": "D:closing",
+   "h": 1050,
+   "surface": "photo",
+   "emphasis": "normal",
+   "asset_budget": "full",
+   "copy": "결론 CTA — 선언 132px, 스크림 상단 45% 투명(§4.8)",
+   "assets": [
+    "data/assets/goosemeal-v6/주먹밥연출/20220615_0053.jpg"
+   ]
+  },
+  {
+   "seq": "15",
+   "scenes": [
+    44
+   ],
+   "scene_type": "notice",
+   "layout": "icon-list",
+   "bg": "L",
+   "h": 620,
+   "surface": "solid",
+   "emphasis": "notice",
+   "asset_budget": "minimal",
+   "copy": "구매 전 확인 — 2열 아이콘 리스트"
+  },
+  {
+   "seq": "16",
+   "scenes": [],
+   "scene_type": "notice",
+   "layout": "spec-table",
+   "bg": "L",
+   "h": 1300,
+   "surface": "solid",
+   "emphasis": "notice",
+   "asset_budget": "minimal",
+   "copy": "상품정보 제공고시(v6 승계 — [기획자 입력]+광고 고지)"
+  },
+  {
+   "seq": "17",
+   "scenes": [],
+   "scene_type": "cta-offer",
+   "layout": "coupon-banner",
+   "bg": "accent2",
+   "h": 120,
+   "surface": "solid",
+   "emphasis": "notice",
+   "asset_budget": "minimal",
+   "copy": "포토리뷰 3,000원(v6 승계)"
+  }
+ ],
+ "bg_rhythm_note": "명도 기준 표기(게이트 알파벳 ADLM). 05는 L이지만 옐로 무대(Y), 10은 D 그라디언트 — 표면은 blocks[].surface가 원본 / 04b(실적·증언)=L: 웜페이퍼 위 흰↔다크 카드 교차",
+ "rounds": [
+  {
+   "round": 1,
+   "reviewer": "FAIL 62/100 — F8 실격(03·11), 사회적증거 0, 모티프 미실장(투명 세로선 20), 05 차트 대비 1.44:1·막대 과대표현, 07 태그 지시성 0, 아이브로우 4회(상한1), 강조 인라인 단일도구 의존",
+   "red_team": "위반 8 — 07·08 대체식품 수식 탈락, 13 최상급 중복, 01 당류 2g 인접고지 없음, F8 4블록(03·11·15·16). 무죄/혐의 프레임 자체는 무혐의",
+   "fix_scope": "compliance 4 + F8 4 + 04b 신설 + 모티프 실장 + 05 차트 재작 + 07 리더선 다이어그램 + 텍스트박스 붕괴 5 + 마스트헤드 이탈 + 02 정렬 + 강조어휘 확장(마커) + 아이브로우 1회로 축소 + 부분볼드"
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+{
+ "_owner": "human — 사람 관할 config. AI는 읽기만, 수정 제안은 백로그로",
+ "canvas_width": 860,
+ "slice_max_px": 5000,
+ "note": "smartstore 기준. qa_check 폰트 임계값은 canvas_width 기준으로 캘리브레이션됨"
+}

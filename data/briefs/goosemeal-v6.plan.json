@@ -1,0 +1,617 @@
+{
+ "product": "구스밀 바로끼니 식물성 저당 주먹밥 (디자인23 기획안 v6)",
+ "source_brief": "data/briefs/goosemeal-v6.json",
+ "asset_manifest": "data/assets/goosemeal-v6.manifest.json",
+ "constraints": {
+  "user_advice": "추가 지침 없음 (사용자 명시: '특별히 조언은 없어')",
+  "compliance": [
+   "슈퍼푸드/Superfood 절대 금지(식약처 고시 2024-23호) — 원재료명 나열로 대체",
+   "혈당 조절·질병 개선 오인 표현 금지 → '당은 줄이고 싶은 분'",
+   "'계란보다 높은' 비교 금지 → '달걀 한 개만큼' 안전선(장면25 L열 수용)",
+   "트러플은 '향'으로만 표기 + 함량 단서조항(장면3 L열 수용). '화이트 트러플 오일' 단정 금지",
+   "제품 실물·인물·라벨은 AI 생성 절대 금지(T2) — 제공 원본만 사용",
+   "AI 생성은 배경 질감·분위기까지만"
+  ],
+  "craft": "docs/analysis/craft-axioms.md 실격공리 F1~F10 + 인접 블록 동일 패턴 금지",
+  "label_facts": {
+   "불고기맛": "110g 250kcal / 채식 양념갈비살GFA민스 37.81%, 쌀 18.44%, 불고기맛소스T 6.92%",
+   "제육맛": "110g 235kcal / 채식 매콤갈비살GFA민스 33.49%, 쌀 20.05%, 제육볶음소스 9.02%, 아마씨 0.25%",
+   "보관": "-18℃ 이하 냉동보관, 재냉동 금지, 가열 후 섭취"
+  }
+ },
+ "design_system": {
+  "note": "패키지 실물(올리브그린+크림+딥그린) + 컨셉 시트(악당='저당은 맛없다'는 통념, 음식형-Pain, warm)에서 도출",
+  "dominant": "#1F4A2C",
+  "dark_bgs": {
+   "hook": "#12261A",
+   "bridge": "#1A1712",
+   "option": "#0F2417",
+   "closing": "#14301E"
+  },
+  "accent": "#E0A93B",
+  "accent2": "#D9541E",
+  "neutral": "#F4F6F0",
+  "text": "#1E241C",
+  "fonts": {
+   "impact": "Black Han Sans",
+   "headline": "Noto Sans KR Black",
+   "sub": "Noto Sans KR Bold",
+   "body": "Noto Sans KR Regular/Medium",
+   "num": "Gothic A1"
+  },
+  "type_scale": {
+   "impact": 150,
+   "headline": 88,
+   "sub": 48,
+   "body": 30,
+   "footnote": 23,
+   "table": 22
+  },
+  "concept_keywords": [
+   "참지 않는 저당",
+   "식물성",
+   "트러플 향",
+   "통념 폭로(Pain)·warm"
+  ],
+  "surface_system": {
+   "note": "2026-08-15 시스템 보강으로 소급 선언. 근거: research-detail-page.md §2(컷 배합 관행 — photo 다수·solid 소수), craft-axioms §3.1",
+   "ratios": {
+    "solid": 0.55,
+    "photo": 0.25,
+    "texture": 0.15,
+    "gradient": 0.05
+   },
+   "texture_recipes": [
+    "05: hanji_hi (MULTIPLY 0.90, TILE 0.75) — 밝은 오프화이트",
+    "14: kraft_hi (MULTIPLY 0.85, TILE 0.75) — 정보 칩 스트립",
+    "06: grain_mono (SOFT_LIGHT 0.55) — 다크",
+    "교훈(B6): 타일은 mean>220 + σ>5 필수. 어두운 저대비 타일은 불투명 조절로 못 살린다 — gen_textures.py _paper_hi에 자기검증 assert 내장"
+   ]
+  }
+ },
+ "copy_decisions": [
+  {
+   "scene": 6,
+   "decision": "'속세맛' 원안 유지 — L열 🛡방어 판정(후킹 핵심 키워드)"
+  },
+  {
+   "scene": 11,
+   "decision": "'혈당 조절' 삭제 → '당은 줄이고 싶은 분' — L열 거절(규제) 반영"
+  },
+  {
+   "scene": 12,
+   "decision": "타사 비교 유지 — L열 방어(익명 '타사' 표기는 비교광고 규제 무관)"
+  },
+  {
+   "scene": 21,
+   "decision": "⚠ 카피 원안 '토핑 30%' vs 라벨 실측 37.81%([M2] 38%) 불일치 → 라벨 기준 38%로 표기. 기획자 확정 필요"
+  },
+  {
+   "scene": 25,
+   "decision": "⚠ 단백질 [M1] 6g vs 장면25 L열 '불고기 7g' 불일치 → 수치 병기 회피, '달걀 한 개만큼'만 사용. 각주 수치는 확정 후 기입"
+  },
+  {
+   "scene": 15,
+   "decision": "⚠ '화이트 트러플 오일' → '트러플 향'으로 조정(L열 장면3 수용). 라벨상 트러플 원료 미표기(소스명 '불고기맛소스T')이므로 함량 단서조항 필요 — 기획자 확정 필요"
+  },
+  {
+   "scene": 5,
+   "decision": "⚠ '슈퍼곡물·슈퍼씨드' → 원재료명 나열로 대체(찰현미·귀리·찹쌀·퀴노아·치아씨·햄프씨드·아마씨). '슈퍼푸드'는 RED 절대금지이며 파생어도 기획자 확인 대상(compliance.md §3-2)"
+  },
+  {
+   "scene": 30,
+   "decision": "⚠ 원재료 종수 불일치 — 카피 '12가지'(곡물3+씨드3+뿌리채소6) vs [S7b] 곡물4+씨드3+야채6=13종. 종수 표기 대신 원재료명 나열로 우회. 기획자 확정 필요"
+  },
+  {
+   "scene": 34,
+   "decision": "즉석밥·김밥 비교 유지 — L열 방어(실명 없는 일반 카테고리 비교)"
+  },
+  {
+   "scene": 38,
+   "decision": "삶은 계란 삭제 수용 — 라면·떡볶이·짜장라면·냉모밀·샐러드"
+  },
+  {
+   "scene": 2,
+   "decision": "갈비살 함량은 현행 라벨 37.81%(불고기)·33.49%(제육) 사용. L열의 33.85%는 구 라벨 값"
+  }
+ ],
+ "bg_rhythm": "A D L L L D D M L M L M L M L D L D L A  (D 4: 훅·브릿지·프리미엄·옵션·클로징 계열 / 최장 L런 3)",
+ "skipped_scenes": {
+  "8": "실적_맛증거 — 기획안에 누적 판매액이 [[00,000원]] 미기입 상태. 더미 수치가 광고 주장의 주인공이 되는 구조라 블록 삭제. 수치 확정 시 리뷰 카드(레퍼런스 1:1939) 형태로 재삽입 권장",
+  "21": "본론_토핑경쟁 — '경쟁사 대비 3배'는 조사대상·기관·시점을 채울 수 없어 부당광고 소지. 근거 확보 시 재삽입"
+ },
+ "blocks": [
+  {
+   "seq": "00",
+   "scenes": [],
+   "scene_type": "cta-offer",
+   "layout": "shipping-banner",
+   "bg": "accent",
+   "h": 130,
+   "copy": "11시 이내 주문 시 당일 출고 (평일 기준)",
+   "note": "상단 띠배너 · 시계 아이콘",
+   "surface": "solid"
+  },
+  {
+   "seq": "01",
+   "scenes": [
+    6
+   ],
+   "scene_type": "hook",
+   "layout": "hero-question",
+   "bg": "D:hook",
+   "h": 1380,
+   "copy": "overline 참지 않는 저당 / head 속세맛 다이어트,\\n윤형빈의 식물성 저당 주먹밥 / sub 건강까지 잡았다!",
+   "assets": [
+    "data/assets/goosemeal-v6/0.윤형빈 이미지/윤형빈_1.png",
+    "data/assets/goosemeal-v6/주먹밥연출/20220615_0061.jpg"
+   ],
+   "text_zone": "상단 60~520px 스크림 위 카피, 하단 우측에 인물 누끼",
+   "note": "클라이맥스 1",
+   "surface": "photo"
+  },
+  {
+   "seq": "02",
+   "scenes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "scene_type": "benefit-recap",
+   "layout": "icon-checklist",
+   "bg": "L",
+   "h": 1620,
+   "copy": "특장점 5: 당은 낮추고 단맛은 그대로 / 밥보다 많은 식물성 갈비살 / 트러플 향으로 고급스러운 풍미 / 겉은 쫀득 속은 촉촉한 식감 / 찰현미·귀리·찹쌀·퀴노아·치아씨·햄프씨드·아마씨",
+   "assets": [
+    "data/assets/goosemeal-v6/재료컷/누끼/갈비살.png",
+    "data/assets/goosemeal-v6/재료컷/누끼/곡물.png",
+    "data/assets/goosemeal-v6/재료컷/누끼/씨드.png",
+    "data/assets/goosemeal-v6/재료컷/누끼/야채.png"
+   ],
+   "surface": "solid"
+  },
+  {
+   "seq": "04",
+   "scenes": [
+    11
+   ],
+   "scene_type": "target-audience",
+   "layout": "numbered-list",
+   "bg": "L",
+   "h": 1080,
+   "copy": "01 맛있는 다이어트 식을 찾는 분 / 02 소화 잘 되는 식물성 간편식 찾는 분 / 03 간식 대신 든든한 한 끼를 원하는 분 / 04 당은 줄이고 싶은 분",
+   "assets": [
+    "data/assets/goosemeal-v6/뷰티이미지/20220615_0021.jpg"
+   ],
+   "surface": "solid"
+  },
+  {
+   "seq": "05",
+   "scenes": [
+    12
+   ],
+   "scene_type": "comparison",
+   "layout": "vs-table",
+   "bg": "L",
+   "h": 1240,
+   "copy": "속세맛 그대로, 당류는 DOWN / 대체당(알룰로스)으로 당류를 확 줄였어요 / 제육 2g·불고기 4g vs 타사 6g / 66% 절감",
+   "assets": [
+    "data/assets/goosemeal-v6/02_기본이미지/03_소재/알룰로오스_꿀시럽.png"
+   ],
+   "surface": "texture"
+  },
+  {
+   "seq": "06",
+   "scenes": [
+    14
+   ],
+   "scene_type": "transition",
+   "layout": "bridge-strip",
+   "bg": "D:bridge",
+   "h": 620,
+   "copy": "문제는, 데우는 순간 퍼지는\\n쿰쿰한 냉동식품 냄새",
+   "note": "악당 제시 · 짧은 전환 스트립",
+   "surface": "texture"
+  },
+  {
+   "seq": "07",
+   "scenes": [
+    15
+   ],
+   "scene_type": "usp",
+   "layout": "fullbleed-product",
+   "bg": "M",
+   "h": 1420,
+   "copy": "먹기 전부터 군침 가득, 트러플 향 / 레스토랑에서 느꼈던 고급스러운 풍미가 한 입 가득 / 각주: 트러플 향 함량 단서조항",
+   "assets": [
+    "data/assets/goosemeal-v6/주먹밥연출/20220615_0029.jpg"
+   ],
+   "text_zone": "좌측 60~480px 텍스트 존 — 배경 우측에 제품 배치",
+   "surface": "photo"
+  },
+  {
+   "seq": "08",
+   "scenes": [
+    18
+   ],
+   "scene_type": "usp",
+   "layout": "compare-2up",
+   "bg": "L",
+   "h": 1320,
+   "copy": "밥보다 많은 갈비살 / 한 입 베어물면 토핑이 한 가득 (밥의 2배) / 갈비살 37.81% vs 쌀 18.44%",
+   "assets": [
+    "data/assets/goosemeal-v6/주먹밥연출/20220615_0030.jpg",
+    "data/assets/goosemeal-v6/재료컷/누끼/갈비살.png"
+   ],
+   "surface": "solid"
+  },
+  {
+   "seq": "10",
+   "scenes": [
+    23
+   ],
+   "scene_type": "usp",
+   "layout": "numbered-point",
+   "bg": "L",
+   "h": 1280,
+   "copy": "고기 결 그대로, 살아있는 식감 / 바로끼니의 기술력으로 씹는 맛 그대로 재현 / 특허 조직대두단백(라벨명: 식물단백가공품)",
+   "assets": [
+    "data/assets/goosemeal-v6/재료컷/대체육_갈비살_육즙_v1.png"
+   ],
+   "surface": "photo"
+  },
+  {
+   "seq": "11",
+   "scenes": [
+    25
+   ],
+   "scene_type": "usp",
+   "layout": "stat-pills",
+   "bg": "L",
+   "h": 980,
+   "copy": "달걀 한 개만큼 단백질 / 식물성 갈비살 가득 담으니",
+   "assets": [
+    "data/assets/goosemeal-v6/재료컷/누끼/갈비살.png"
+   ],
+   "surface": "solid"
+  },
+  {
+   "seq": "12",
+   "scenes": [
+    27
+   ],
+   "scene_type": "usp",
+   "layout": "process-seq",
+   "bg": "L",
+   "h": 1240,
+   "copy": "방금 지은 밥처럼 겉은 쫀득, 속은 촉촉 / 세 번 구운 트리플 가열공정",
+   "assets": [
+    "data/assets/goosemeal-v6/구스밀 주먹밥_스틸컷/오븐 (1).png",
+    "data/assets/goosemeal-v6/구스밀 주먹밥_스틸컷/오븐 (4).png"
+   ],
+   "surface": "solid"
+  },
+  {
+   "seq": "13",
+   "scenes": [
+    30
+   ],
+   "scene_type": "ingredient-spec",
+   "layout": "ingredient-list",
+   "bg": "M",
+   "h": 1560,
+   "copy": "원재료가 만든 영양 간편식 / 찰현미·귀리·찹쌀·퀴노아 · 치아씨·햄프씨드·아마씨 · 부추·당근·연근·우엉·대파·양파 / 국산쌀 사용",
+   "assets": [
+    "data/assets/goosemeal-v6/재료컷/누끼/곡물.png",
+    "data/assets/goosemeal-v6/재료컷/누끼/씨드.png",
+    "data/assets/goosemeal-v6/재료컷/누끼/야채.png"
+   ],
+   "surface": "solid"
+  },
+  {
+   "seq": "14",
+   "scenes": [
+    31
+   ],
+   "scene_type": "ingredient-spec",
+   "layout": "badge-cloud",
+   "bg": "L",
+   "h": 900,
+   "copy": "영양 간편식 / 영양소 배지 나열",
+   "assets": [
+    "data/assets/goosemeal-v6/재료컷/_montage_재료.png"
+   ],
+   "surface": "texture"
+  },
+  {
+   "seq": "15",
+   "scenes": [
+    32,
+    33
+   ],
+   "scene_type": "product-lineup",
+   "layout": "option-cards",
+   "bg": "D:option",
+   "h": 1520,
+   "copy": "식물성 저당 불고기맛 주먹밥 (110g·250kcal·당류4g) / 식물성 저당 제육맛 주먹밥 (110g·235kcal·당류2g)",
+   "assets": [
+    "data/assets/goosemeal-v6/02_기본이미지/썸네일/불고기_썸네일.png",
+    "data/assets/goosemeal-v6/02_기본이미지/썸네일/제육_썸네일.png",
+    "data/assets/goosemeal-v6/02_기본이미지/사쉐/불고기_사쉐.png",
+    "data/assets/goosemeal-v6/02_기본이미지/사쉐/제육_사쉐.png"
+   ],
+   "note": "클라이맥스 2 · 풀블리드 다크",
+   "surface": "gradient"
+  },
+  {
+   "seq": "16",
+   "scenes": [
+    34
+   ],
+   "scene_type": "comparison",
+   "layout": "vs-table",
+   "bg": "L",
+   "h": 1120,
+   "copy": "맛과 영양 다 챙기는 간편한 한끼 / 1개 110g 기준 / 우리 250·235kcal vs 즉석밥 한 공기 약 315kcal vs 김밥 한 줄 약 485kcal",
+   "assets": [
+    "data/assets/goosemeal-v6/구스밀 주먹밥_스틸컷/불고기06.png"
+   ],
+   "surface": "solid"
+  },
+  {
+   "seq": "17",
+   "scenes": [
+    38
+   ],
+   "scene_type": "tip",
+   "layout": "photo-card-stack",
+   "bg": "M",
+   "h": 1420,
+   "copy": "찰떡 궁합 요리 / 라면 · 떡볶이 · 짜장라면 · 냉모밀 · 샐러드",
+   "assets": [
+    "data/assets/goosemeal-v6/뷰티이미지/20220615_0003.jpg",
+    "data/assets/goosemeal-v6/뷰티이미지/20220615_0022.jpg"
+   ],
+   "surface": "photo"
+  },
+  {
+   "seq": "18",
+   "scenes": [
+    40
+   ],
+   "scene_type": "usage-guide",
+   "layout": "step-list",
+   "bg": "L",
+   "h": 1280,
+   "copy": "HOW TO COOK / 에어프라이어 140℃ 약10~12분(예열3분) / 전자레인지 700W 2~2:30 · 1000W 1:30~2 / 오븐 180℃ 10분",
+   "assets": [
+    "data/assets/goosemeal-v6/구스밀 주먹밥_스틸컷/오븐 (5).png"
+   ],
+   "surface": "solid"
+  },
+  {
+   "seq": "19",
+   "scenes": [
+    42
+   ],
+   "scene_type": "closing",
+   "layout": "fullbleed-product",
+   "bg": "D:closing",
+   "h": 1180,
+   "copy": "식물성 간편식, 맛있게 즐겨보세요 / 당은 줄이고 맛은 챙기고 싶다면",
+   "assets": [
+    "data/assets/goosemeal-v6/주먹밥연출/20220615_0053.jpg"
+   ],
+   "text_zone": "중앙 하단 텍스트 존 — 상단은 제품 연출",
+   "surface": "photo"
+  },
+  {
+   "seq": "20",
+   "scenes": [
+    44
+   ],
+   "scene_type": "notice",
+   "layout": "spec-table",
+   "bg": "L",
+   "h": 1080,
+   "copy": "필수 표시 / 알레르기: 불고기 대두·밀·우유, 제육 대두·밀 / 교차오염 시설 고지 / 아마씨 일일16g·1회4g 초과 주의 / -18℃ 냉동보관·재냉동 금지·가열 후 섭취",
+   "assets": [
+    "data/assets/goosemeal-v6/02_기본이미지/_라벨크롭/불고기_정면라벨.png"
+   ],
+   "surface": "solid"
+  },
+  {
+   "seq": "21",
+   "scenes": [],
+   "scene_type": "cta-offer",
+   "layout": "coupon-banner",
+   "bg": "accent2",
+   "h": 130,
+   "copy": "포토리뷰 작성 시 3,000원 제공 (매월 선착순 5명)",
+   "note": "하단 띠배너 · 카메라 아이콘",
+   "surface": "solid"
+  }
+ ],
+ "open_issues_ack": true,
+ "open_issues_resolution": {
+  "principle": "루프 규율 3 — 수치가 충돌하면 수치를 고르지 말고 주장을 바꾼다. 5건 모두 '충돌하는 값 중 택일'이 아니라 '해당 주장을 회피/라벨근거화'로 해소했다. 기획자 최종 확정 대상으로 보고한다.",
+  "items": [
+   {
+    "id": "토핑 30% vs 37.81%",
+    "resolution": "라벨(법적 표시사항) 37.81% 기준 '38%' 사용. [M2] 사이드테이블도 38%라 카피 원안만 상이 → 카피 오기로 판단",
+    "needs_confirm": true
+   },
+   {
+    "id": "단백질 6g vs 7g",
+    "resolution": "수치 병기 회피. '달걀 한 개만큼'만 표기하고 g 수치는 본문에서 제외",
+    "needs_confirm": true
+   },
+   {
+    "id": "원재료 12종 vs 13종",
+    "resolution": "종수 표기 자체를 제거하고 원재료명 나열로 대체 — compliance.md 권고와 동일 방향",
+    "needs_confirm": true
+   },
+   {
+    "id": "슈퍼곡물·슈퍼씨드",
+    "resolution": "'슈퍼푸드'는 RED 절대금지. 파생어도 사용하지 않고 원재료명 나열(찰현미·귀리·찹쌀·퀴노아·치아씨·햄프씨드·아마씨)",
+    "needs_confirm": true
+   },
+   {
+    "id": "트러플 라벨 미입증",
+    "resolution": "'트러플 향'으로만 표기(장면3 L열 수용 판정). '화이트 트러플 오일' 단정 삭제 + 각주 단서조항",
+    "needs_confirm": true
+   },
+   {
+    "id": "누적 판매액 [[00,000원]]",
+    "resolution": "기획안 자체가 미기입 → 브랜드 팔레트 designed placeholder로 자리만 확보(F3 회피). 기획자 입력 필요",
+    "needs_confirm": true
+   }
+  ]
+ },
+ "build_result": {
+  "figma_file": "e4Nto2oOgqwbCcrI6Y4Btb",
+  "page": "v6 — 실사에셋",
+  "root_node": "88:2",
+  "blocks": 21,
+  "height_px": 21457,
+  "assets_used": "사용자 제공 실사 26종 (원본 134장 중) · AI 생성 0장",
+  "qa_check": "PASS (FAIL 0 / WARN 3) — 강화된 체커 기준",
+  "added_block": "20b_정보고시 — export_text.py가 필수 표시항목 11종 누락을 지적하여 신설. 라벨 확인분은 기입, 미확인분은 [기획자 입력] 표기"
+ },
+ "round_1_fixes": {
+  "red_team_violations_found": 20,
+  "reviewer_score": "59/100 FAIL (F8 실격)",
+  "applied": [
+   "F8 실격 해소 — 색면 경계 5곳에 지그재그 절취선 + 장식 0이던 10블록에 골드선 모티프(관통 반복으로 §3.3 동시 해소)",
+   "트러플: 원물 연출 사진 2곳 교체(09·15), 각주를 '원물 미함유' 취지로 정직화, 02 헤드라인 '트러플'→'트러플 향'",
+   "배타성 '여기뿐이에요' → '셋 다 챙겼어요'",
+   "기능성 '소화 잘 되는' 삭제",
+   "11 단백질 자기부정 각주 제거 + '달걀 한 개만큼' 비교 삭제",
+   "14 '하루의 균형' → '한 끼를 채우는 구성', 배지 '국산쌀' → '쌀'(원산지 단정 제거)",
+   "09 수치 38% → 37.81%(라벨값, 반올림 상향 금지)",
+   "비교광고 근거 각주 3곳에 조사대상·기관·시점 [기획자 입력] 명시",
+   "특허번호 자리 명시 + 법정 고지 문구 잘림 해소",
+   "03 실적 블록 삭제(더미 00,000원)",
+   "05 저당 블록의 꿀 사진 → 패키지 실물컷(고당 원재료 오인 제거)",
+   "14 편집용 컨택트시트(십자 거터 노출) 무대 제거",
+   "01 훅 모델 전신 누끼(원근 파탄) → 원형 상반신 크롭 + 제품과 겹침",
+   "임팩트 타이포 도입 — 01 '속세맛' 150px, 19 '당은 줄이고' 132px",
+   "02 넘버 배지 5행 통일(오버레이 배지 3개 추가)",
+   "08 흰 카드 해체 — 09와 인접 골격 중복 해소",
+   "17 스크림 0.86까지 강화 + 카드 간격 24"
+  ]
+ },
+ "round_2_fixes": {
+  "reviewer": "59/100 FAIL (실격 0 — F8 해소 확인, compliance RED 3건이 FAIL 사유)",
+  "red_team": "위반 14건",
+  "critical_catches": [
+   "05에 넣은 패키지 사진이 구 라벨(33.85%/20.47%/아마씨 0.26%) — 같은 페이지 20 라벨크롭(37.81%/18.44%)과 충돌. 사진 제거",
+   "08 막대 스케일 왜곡 — 37.81%를 트랙의 75.7%로 그림. 280/136으로 실비율 정정",
+   "16 각주 클립 이탈 (x=-11, w=882 > 860). 수리",
+   "광고 영역 [기획자 입력] 7건 노출 — 정보고시(허용)와 달리 광고 주장은 근거 없이 게시 불가"
+  ],
+  "applied": [
+   "09_토핑경쟁 블록 삭제 — 근거 불가 비교 + 08과 골격 중복 동시 해소",
+   "05 타사 비교 카드·'당류 66% 절감' 철회 → 자사 라벨값 단독 사실로",
+   "16 즉석밥·김밥 비교 행 철회 → 자사 열량만",
+   "10 '특허' 표시 철회(번호 미확보) → '조직대두단백 공법 적용'",
+   "11 빈 단백질 셀 제거",
+   "10 대체육 사진 캡션을 '식물성 원료로 만든 갈비살(조리예)'로 — 육류 오인 방지",
+   "06 '쿰쿰한 냉동식품 냄새' 철회 — 자사도 냉동식품(카테고리 자기비방)",
+   "02·07 트러플 향 주장을 불고기맛 한정으로 명시",
+   "마커 하이라이트 2곳 도입(01·12) — 페이지 전체 0개였던 §2.2 도구",
+   "헤드라인 6개 상향(median 68→74)",
+   "12 하단 스크림 신설, 17 중간 스톱 0.55"
+  ]
+ },
+ "round_3_fixes": {
+  "reviewer": "49/100 FAIL (RED 1: '확 줄였어요' 잔존 / 리듬 축 후퇴 / 체크 입도 세분화로 점수 하락)",
+  "red_team": "위반 11건 (이전 지적은 대부분 해소 확인)",
+  "key_insight": "검수자 처방 — 근거를 못 쓰면 장면을 껍데기로 남기지 말고, 실증이 필요 없는 법정 비교자(1일 영양성분 기준치)를 쓰라",
+  "applied": [
+   "05 → 05_당류안내: 감소 주장 완전 철회 + 1일 영양성분 기준치(당류 100g) 대비 2%/4% 도입",
+   "16 → 16_열량안내: 1일 기준치(2,000kcal) 대비 12.5/11.8% 행 추가",
+   "11 → 11_식물성원료: 단백질 소구 철회(수치 부재), 미완성 문장 수정",
+   "08: 막대차트 흰 카드 격리 복원 + 쌀 막대 대비 확보, '밥의 2배'→'쌀의 약 2배'(라벨 항목명 일치)",
+   "02: '불고기맛' 자동 줄바꿈 절단 → 직접 줄바꿈",
+   "12: STEP 카드 라운드 6/18/6 → 12 통일 (회귀 수정)",
+   "01: 마커를 테두리 배지 → 골드 지면 컨테이너 + 어두운 글자",
+   "13_재료: 흰 카드 3장 → 3단계 그린 pill 클라우드 13종 + 대형 실물컷 (레퍼런스 1:1385 이식)",
+   "04_추천대상: 원형 넘버 배지 → 좌측 컬러 바 (02와 어휘 분리). 2×2 그리드는 클립 이탈로 롤백",
+   "20: 인쇄 원고(트림선 노출) 이미지 제거",
+   "연출컷 고지 2곳 → 11곳"
+  ]
+ },
+ "round_4_final": {
+  "reviewer": "62/100 FAIL (1R 59 → 2R 59 → 3R 49 → 4R 62). 실격 F7 적발 → 해소",
+  "red_team": "위반 15건",
+  "applied": [
+   "02 감소 주장 잔존분 철회(05만 고치고 방치했던 동일 결함)",
+   "02 '밥보다'→'쌀보다', 08 항목명 '쌀(밥)'→'쌀' (라벨 항목명 일치)",
+   "11 '동물성 원료 대신' 철회 — 하단고지 '우유 함유'와 페이지 내부 모순",
+   "11 최상급 '가장 많이' → '원재료 1순위' + 기준 각주",
+   "05 배지 '2g/100g' 중의성 해소 → '제품 1개 2g'",
+   "07·19 잘린 각주 수리(블록 직속 이동 + 하단 패딩 확보)",
+   "02·11·15 이미지 고지 추가 (총 14곳)",
+   "21 대가성 광고 고지 → 20b 정보고시로 이동",
+   "F7 실격 해소 — 여백을 중요도의 함수로 재배분(padTop CV 3.4% → 33.6%)",
+   "13↔14 pill 클라우드 인접 중복 해소(14를 4칸 사각 칩 스트립으로)"
+  ],
+  "transferred_to_checker": [
+   "비교강조표시(감소 주장) 정규식 — qa_check.py COMPARE_CLAIM_RE. 역검증 7/7 통과",
+   "F7 여백 상수 검사 — padTop CV < 15% → FAIL. 역검증 통과"
+  ],
+  "final_qa": "PASS (FAIL 0 / WARN 3)",
+  "backlog": "docs/analysis/backlog-v6.md — 10건(A~J). 최우선은 H(에셋 provenance 필드 부재로 AI 고지 게이트가 돌지 않음)"
+ },
+ "needs_user_decision": [
+  "01 훅 인물컷이 AI 생성물인지 — red-team이 4라운드 연속 아티팩트 지적. AI면 고지 문구 법적 필수이며, 헤드라인의 실명(윤형빈) 귀속과도 충돌",
+  "07·19·12·16·17·18 사진의 제품 외형이 실제 판매 제품(삼각 주먹밥 2종)과 불일치 — 구버전/타제품 컷 여부 확인",
+  "누적 판매액(장면 8) 수치 — 미기입이라 블록 삭제됨",
+  "비교광고 근거(즉석밥·김밥 열량 등) 조사 출처 — 없어서 비교 장면 철회됨",
+  "특허번호 — 없어서 '특허' 표시 철회됨",
+  "정보고시 8개 항목([기획자 입력] 표기 중)",
+  "트러플 소구 유지 여부 — 라벨에 원물 표기 없음"
+ ],
+ "round_5_system_upgrade": {
+  "surface_system": "디자인 시스템 단계로 편입(사용자 결정). gate_plan G검사 + qa_check §3.1 이관",
+  "textures_applied": "05 hanji(0.12) · 06 grain(0.14) · 14 kraft(0.10) — SOLID 베이스 유지",
+  "research": "docs/analysis/research-anti-ai-design.md + research-detail-page.md → craft-axioms §3.7/§3.8/§4.6~4.8, reviewer 렌즈, qa_check AI-1~3 이관",
+  "radius_normalized": "11종 → 역할별 4값(8/12/16/999), 47개 노드",
+  "red_team": "위반 4건 → 3건 즉시 수정(01 각주 플레이트, 04·19 '식물성 간편식'→라벨 제품명 인용, 15 칩 pill 복원, 05 패널 정렬). AI 고지는 provenance 확인 대기",
+  "adjudications": [
+   "19 '당은 줄이고...싶다면' — red-team은 감소 주장으로, 3R 검수자는 소비자 의향 프레이밍으로 판정. 의향 표현(~싶다면)은 제품 주장(우리가 줄였다)과 화행이 다르므로 유지. COMPARE_CLAIM_RE 면제 규칙과 일치",
+   "AI 고지 문구 — 에셋 provenance(촬영/AI) 미확정 상태에서 삽입하면 허위가 될 수 있어 사용자 확정 후 처리 (백로그 H와 연동)"
+  ],
+  "reviewer": "59/100 (신규 렌즈 5종 추가분 제외 동일자 환산 68 — 4R 62 대비 +6). 실격 0, compliance RED 0, 축별 후퇴 0, 회귀 0. AI 고지: 매니페스트 확인 결과 비해당(전량 실사) 판정",
+  "post_review_fixes": [
+   "텍스처 가시성: 불투명 상향(0.40) → 명도 이탈 재발 → 0.25/0.30 절충. 근본 해법은 타일 대비(백로그 B6)",
+   "각주 텍스트 박스 붕괴 10곳 수리(textAutoResize)",
+   "15 배경 그라디언트 클립 이탈(밴딩) 정합",
+   "모티프 골드선 3곳 색 통일",
+   "아이브로우 6→2 (2 삭제, 'PREMIUM AROMA'·'HOW TO COOK' 한글화 — 라틴 와이드트래킹 tell 제거)",
+   "무강조 헤드라인 7곳에 인라인 색 전환"
+  ],
+  "deferred_to_backlog": "15 클라이맥스 재구축, 19·17 스크림 재설계(식욕색), 02 리스트 3행 압축, 20↔20b 골격 분화, 무게중심 오프센터 — 검수자 A목록의 구조 재작업분은 다음 라운드/제품으로"
+ },
+ "fact_checks": [
+  {
+   "label": "갈비살 함량(%)",
+   "pattern": "(?:갈비살|토핑)\\s*(\\d+(?:\\.\\d+)?)\\s*%"
+  },
+  {
+   "label": "곡물·씨드 종수",
+   "pattern": "(?:곡물[·・]?씨드|씨드)\\s*(\\d+)\\s*(?:종|가지)"
+  },
+  {
+   "label": "원재료 종수",
+   "pattern": "(?:원재료|재료)\\s*(\\d+)\\s*(?:종|가지)"
+  },
+  {
+   "label": "뿌리채소 종수",
+   "pattern": "뿌리채소\\s*(\\d+)\\s*(?:종|가지)"
+  }
+ ]
+}

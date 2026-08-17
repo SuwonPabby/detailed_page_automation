@@ -105,6 +105,56 @@ def grain_scatter(path, size=640):
     img.save(path)
 
 
+def _paper_hi(path, size, base, fiber_color, n_fiber, blotch_color, n_blotch, seed, tint):
+    """명도 중립·고대비 종이 타일 (v6 실측 교훈 — backlog B6).
+
+    구 hanji_green은 mean 60·σ 1.0 — 어둡기만 하고 질감이 없어, MULTIPLY로 얹으면
+    블록 명도만 끌어내리고 육안 질감은 0이었다. 처방은 불투명 조절이 아니라 타일 자체:
+    **밝은 바탕(mean≈237) + 섬유·반점이 σ를 만든다** → MULTIPLY 0.85~0.9에서도
+    SOLID 명도 이탈이 작고(≈×0.94) 질감이 실제로 보인다.
+    """
+    import math
+    rnd = random.Random(seed)
+    img = Image.new("RGB", (size, size), base)
+    d = ImageDraw.Draw(img, "RGBA")
+    for _ in range(n_blotch):
+        x, y = rnd.uniform(0, size), rnd.uniform(0, size)
+        r = rnd.uniform(6, 26)
+        d.ellipse([x - r, y - r, x + r, y + r], fill=blotch_color + (rnd.randint(10, 26),))
+    img = img.filter(ImageFilter.GaussianBlur(3))
+    d = ImageDraw.Draw(img, "RGBA")
+    for _ in range(n_fiber):
+        x, y = rnd.uniform(0, size), rnd.uniform(0, size)
+        ang = rnd.uniform(0, math.pi)
+        L = rnd.uniform(8, 30)
+        pts = [(x, y)]
+        for _ in range(3):
+            ang += rnd.uniform(-0.5, 0.5)
+            x += math.cos(ang) * L / 3
+            y += math.sin(ang) * L / 3
+            pts.append((x, y))
+        d.line(pts, fill=fiber_color + (rnd.randint(26, 60),), width=1)
+    img = Image.blend(img, Image.new("RGB", (size, size), tint), 0.06)
+    img.save(path)
+    # 자기검증 (B6): 밝고(σ가 보일 만큼) 대비가 실재하는지
+    from PIL import ImageStat
+    st = ImageStat.Stat(img.convert("L"))
+    assert st.mean[0] > 220 and st.stddev[0] > 5, \
+        f"{path.name}: mean={st.mean[0]:.0f} σ={st.stddev[0]:.1f} — 명도중립·가시성 기준 미달"
+
+
+def hanji_hi(path, size=512):
+    """한지(그린 틴트) — 밝은 오프화이트 블록용. v6 05·14 검증."""
+    _paper_hi(path, size, (243, 245, 239), (110, 130, 105), 2600,
+              (170, 185, 160), 90, seed=SEED, tint=(210, 225, 205))
+
+
+def kraft_hi(path, size=512):
+    """크래프트지(웜 틴트) — 정보 스트립·웜 크림 블록용."""
+    _paper_hi(path, size, (242, 238, 228), (150, 125, 90), 2200,
+              (200, 180, 140), 110, seed=SEED * 2, tint=(225, 210, 180))
+
+
 def main():
     out = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent.parent / "data" / "assets" / "textures"
     out.mkdir(parents=True, exist_ok=True)
@@ -112,6 +162,8 @@ def main():
     kraft_paper(out / "kraft_paper.png")
     hanji_green(out / "hanji_green.png")
     grain_scatter(out / "grain_scatter.png")
+    hanji_hi(out / "hanji_hi.png")
+    kraft_hi(out / "kraft_hi.png")
     for p in sorted(out.glob("*.png")):
         print(p.name, p.stat().st_size, "bytes")
 
